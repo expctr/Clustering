@@ -1,0 +1,102 @@
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ExcelLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ExcelLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ExcelLib\obj\Debug\ExcelLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ExcelLib\obj\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ExcelLib\obj\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ExcelLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ExcelLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ExcelLib\obj\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ExcelLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ExcelLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ExcelLib\obj\Debug\ExcelLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ExcelLib\obj\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ExcelLib\obj\Debug\ExcelLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ExcelLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ExcelLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ExcelLib\obj\Debug\ExcelLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ExcelLib\obj\Debug\ExcelLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ExcelLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ExcelLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ExcelLib\obj\Debug\ExcelLib.csprojAssemblyReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ExcelLib\obj\Debug\ExcelLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ExcelLib\obj\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация\ExcelLib\bin\Debug\ExcelLib.dll
+D:\Ш\Кластеризация\ExcelLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+D:\Ш\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация\ExcelLib\obj\Debug\ExcelLib.dll
+D:\Ш\Кластеризация\ExcelLib\obj\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ExcelLib\bin\Debug\ExcelLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ExcelLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ExcelLib\obj\Debug\ExcelLib.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\ExcelLib\obj\Debug\ExcelLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ExcelLib\obj\Debug\ExcelLib.pdb
+D:\Шагурин\Кластеризация\ExcelLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Кластеризация\ExcelLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csprojResolveAssemblyReference.cache
+D:\Шагурин\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+D:\Шагурин\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Кластеризация\ExcelLib\obj\Debug\ExcelLib.dll
+D:\Шагурин\Кластеризация\ExcelLib\obj\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ExcelLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ExcelLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ExcelLib\obj\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ExcelLib\obj\Debug\ExcelLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ExcelLib\bin\Debug\ExcelLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ExcelLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csprojResolveAssemblyReference.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ExcelLib\obj\Debug\ExcelLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ExcelLib\obj\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ExcelLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ExcelLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ExcelLib\obj\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ExcelLib\obj\Debug\ExcelLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\bin\Debug\ExcelLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\bin\Debug\ExcelLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\obj\Debug\ExcelLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\obj\Debug\ExcelLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\bin\Debug\ExcelLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\bin\Debug\ExcelLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csprojAssemblyReference.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.ResolveComReference.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\obj\Debug\ExcelLib.csproj.CoreCompileInputs.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\obj\Debug\ExcelLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ExcelLib\obj\Debug\ExcelLib.pdb

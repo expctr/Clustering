@@ -1,0 +1,174 @@
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ItemLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ItemLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ItemLib\obj\Debug\ItemLib.csproj.CopyComplete
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ItemLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ItemLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ItemLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ItemLib\obj\Debug\ItemLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ItemLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ItemLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ItemLib\obj\Debug\ItemLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ItemLib\obj\Debug\ItemLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ItemLib\bin\Debug\ItemLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ItemLib\bin\Debug\ItemLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ItemLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ItemLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ItemLib\obj\Debug\ItemLib.csprojResolveAssemblyReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ItemLib\obj\Debug\ItemLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ItemLib\obj\Debug\ItemLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ItemLib\bin\Debug\ItemLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ItemLib\bin\Debug\ItemLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ItemLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ItemLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ItemLib\obj\Debug\ItemLib.csproj.CopyComplete
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ItemLib\obj\Debug\ItemLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ItemLib\obj\Debug\ItemLib.pdb
+D:\Ш\Кластеризация\ItemLib\bin\Debug\ItemLib.dll
+D:\Ш\Кластеризация\ItemLib\bin\Debug\ItemLib.pdb
+D:\Ш\Кластеризация\ItemLib\bin\Debug\ExcelLib.dll
+D:\Ш\Кластеризация\ItemLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация\ItemLib\obj\Debug\ItemLib.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация\ItemLib\obj\Debug\ItemLib.dll
+D:\Ш\Кластеризация\ItemLib\obj\Debug\ItemLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ItemLib\bin\Debug\ItemLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ItemLib\bin\Debug\ItemLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ItemLib\bin\Debug\ExcelLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ItemLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ItemLib\obj\Debug\ItemLib.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\ItemLib\obj\Debug\ItemLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ItemLib\obj\Debug\ItemLib.pdb
+D:\Шагурин\Кластеризация\ItemLib\bin\Debug\ItemLib.dll
+D:\Шагурин\Кластеризация\ItemLib\bin\Debug\ItemLib.pdb
+D:\Шагурин\Кластеризация\ItemLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Кластеризация\ItemLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Кластеризация\ItemLib\obj\Debug\ItemLib.csprojResolveAssemblyReference.cache
+D:\Шагурин\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Кластеризация\ItemLib\obj\Debug\ItemLib.dll
+D:\Шагурин\Кластеризация\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ItemLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ItemLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ItemLib\obj\Debug\ItemLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ItemLib\obj\Debug\ItemLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ItemLib\bin\Debug\ItemLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ItemLib\bin\Debug\ItemLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ItemLib\bin\Debug\ExcelLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ItemLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ItemLib\obj\Debug\ItemLib.csprojResolveAssemblyReference.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ItemLib\obj\Debug\ItemLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ItemLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ItemLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ItemLib\obj\Debug\ItemLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ItemLib\obj\Debug\ItemLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ItemLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ItemLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ExcelLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ExcelLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CopyComplete
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ItemLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ItemLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ExcelLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ExcelLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CopyComplete
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ItemLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ItemLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ExcelLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\bin\Debug\ExcelLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.csprojAssemblyReference.cache
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CoreCompileInputs.cache
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.csproj.CopyComplete
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ItemLib\obj\Debug\ItemLib.pdb

@@ -1,0 +1,519 @@
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.1\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.2\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.7\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\ClusteringLib\obj\Debug\ClusteringLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ClusteringLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ClusteringLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\AlgorithmLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ItemLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ItemLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\obj\Debug\ClusteringLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\ClusteringLib\obj\Debug\ClusteringLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\ClusteringLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\ClusteringLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\AlgorithmLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\ItemLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\ItemLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\obj\Debug\ClusteringLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\ClusteringLib\obj\Debug\ClusteringLib.pdb
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.dll
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.pdb
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.dll
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\ItemLib.dll
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.dll
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\ItemLib.pdb
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+D:\Ш\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
+D:\Ш\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\ClusteringLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\ClusteringLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\AlgorithmLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\ItemLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\ExcelLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\ItemLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\obj\Debug\ClusteringLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\ClusteringLib\obj\Debug\ClusteringLib.pdb
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.dll
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.pdb
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.dll
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\ItemLib.dll
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\ItemLib.pdb
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+D:\Шагурин\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+D:\Шагурин\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
+D:\Шагурин\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\ItemLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\ItemLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ItemLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ItemLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ItemLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ItemLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ItemLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ItemLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb

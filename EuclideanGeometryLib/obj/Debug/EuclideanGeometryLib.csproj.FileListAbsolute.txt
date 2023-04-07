@@ -1,0 +1,328 @@
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3 — копия (2)\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.7\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.1\Освоение Кластеризации v4.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.2\Освоение Кластеризации v4.2\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.3\Освоение Кластеризации v4.3\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.4.3.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.5\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojResolveAssemblyReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Ш\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+D:\Ш\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+D:\Ш\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+D:\Ш\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+D:\Ш\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+D:\Ш\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+D:\Ш\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojResolveAssemblyReference.cache
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+D:\Шагурин\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojResolveAssemblyReference.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\AlgorithmLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ItemLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\bin\Debug\ExcelLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csprojAssemblyReference.cache
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CoreCompileInputs.cache
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.csproj.CopyComplete
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\EuclideanGeometryLib\obj\Debug\EuclideanGeometryLib.pdb

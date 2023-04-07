@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Кластеризация", "Кластеризация\Кластеризация.csproj", "{05153309-8A2A-44CC-B48A-968FB180BDCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmLib", "AlgorithmLib\AlgorithmLib.csproj", "{1FB5F8F0-7B3B-48B5-B80E-49E589B1B34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusteringLib", "ClusteringLib\ClusteringLib.csproj", "{1D73A793-26C4-4B60-AC7F-0ECF81C4D4E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuclideanGeometryLib", "EuclideanGeometryLib\EuclideanGeometryLib.csproj", "{08A671F6-212E-47EE-B2F3-8DCBBAF65725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelLib", "ExcelLib\ExcelLib.csproj", "{4706FA73-DC65-414E-AC07-338002E01E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemLib", "ItemLib\ItemLib.csproj", "{069CF92E-6812-4B00-A380-E78508C8E398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomAlgoLib", "RandomAlgoLib\RandomAlgoLib.csproj", "{4C7BEAC6-E932-47F8-AA00-3098A2A89E75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05153309-8A2A-44CC-B48A-968FB180BDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05153309-8A2A-44CC-B48A-968FB180BDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05153309-8A2A-44CC-B48A-968FB180BDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05153309-8A2A-44CC-B48A-968FB180BDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB5F8F0-7B3B-48B5-B80E-49E589B1B34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB5F8F0-7B3B-48B5-B80E-49E589B1B34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB5F8F0-7B3B-48B5-B80E-49E589B1B34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB5F8F0-7B3B-48B5-B80E-49E589B1B34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D73A793-26C4-4B60-AC7F-0ECF81C4D4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D73A793-26C4-4B60-AC7F-0ECF81C4D4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D73A793-26C4-4B60-AC7F-0ECF81C4D4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D73A793-26C4-4B60-AC7F-0ECF81C4D4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A671F6-212E-47EE-B2F3-8DCBBAF65725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A671F6-212E-47EE-B2F3-8DCBBAF65725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A671F6-212E-47EE-B2F3-8DCBBAF65725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A671F6-212E-47EE-B2F3-8DCBBAF65725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4706FA73-DC65-414E-AC07-338002E01E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4706FA73-DC65-414E-AC07-338002E01E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4706FA73-DC65-414E-AC07-338002E01E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4706FA73-DC65-414E-AC07-338002E01E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069CF92E-6812-4B00-A380-E78508C8E398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069CF92E-6812-4B00-A380-E78508C8E398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069CF92E-6812-4B00-A380-E78508C8E398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069CF92E-6812-4B00-A380-E78508C8E398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7BEAC6-E932-47F8-AA00-3098A2A89E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7BEAC6-E932-47F8-AA00-3098A2A89E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7BEAC6-E932-47F8-AA00-3098A2A89E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7BEAC6-E932-47F8-AA00-3098A2A89E75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {443617BC-5AB9-449C-9F3B-D9D2BF9FCE43}
+	EndGlobalSection
+EndGlobal

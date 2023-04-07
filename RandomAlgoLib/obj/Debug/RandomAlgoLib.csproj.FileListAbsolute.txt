@@ -1,0 +1,102 @@
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v3.8\Освоение Кластеризации v3.8\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.0\Освоение Кластеризации v4.0\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Освоение Кластеризации v4.4 (1)\Освоение Кластеризации v4.4\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Освоение Кластеризации v4.4\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\Coding C#\Вспомогательные программы\Кластеризация\Освоение Кластеризации v4.6\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojResolveAssemblyReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8\Освоение Кластеризации v4.8\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojAssemblyReference.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+D:\Шагурин\Освоение Кластеризации v4.8.1\Освоение Кластеризации v4.8.1\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+D:\Ш\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+D:\Ш\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+D:\Ш\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+D:\Ш\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+D:\Шагурин\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+D:\Шагурин\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+D:\Шагурин\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojResolveAssemblyReference.cache
+D:\Шагурин\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+D:\Шагурин\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+D:\Шагурин\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojResolveAssemblyReference.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\bin\Debug\RandomAlgoLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csprojAssemblyReference.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.csproj.CoreCompileInputs.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\RandomAlgoLib\obj\Debug\RandomAlgoLib.pdb

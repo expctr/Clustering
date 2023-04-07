@@ -1,0 +1,411 @@
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe.config
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\Кластеризация.pdb
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.Cache
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.exe
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.pdb
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.dll
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.dll
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\ExcelLib.dll
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\ItemLib.dll
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.dll
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.pdb
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.pdb
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\ItemLib.pdb
+D:\Ш\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\Кластеризация.exe.config
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\Кластеризация.exe
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\Кластеризация.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\AlgorithmLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\ClusteringLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\ExcelLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\ItemLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\RandomAlgoLib.dll
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\AlgorithmLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\ClusteringLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\ExcelLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\ItemLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.csprojResolveAssemblyReference.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.Cache
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.exe
+D:\Ш\Кластеризация 1\Кластеризация 1\Кластеризация\obj\Debug\Кластеризация.pdb
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe.config
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\Кластеризация.pdb
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.dll
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.dll
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\ExcelLib.dll
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\ItemLib.dll
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.dll
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.pdb
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.pdb
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\ExcelLib.pdb
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\ItemLib.pdb
+D:\Шагурин\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csprojResolveAssemblyReference.cache
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.Cache
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.exe
+D:\Шагурин\Кластеризация\Кластеризация\obj\Debug\Кластеризация.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe.config
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\Кластеризация.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.exe
+C:\Users\student\Desktop\Посылка\Посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe.config
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\Кластеризация.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\ExcelLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\ItemLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.dll
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\ExcelLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\ItemLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csprojResolveAssemblyReference.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.Cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.exe
+D:\Ш\Новая посылка\Новая посылка\Кластеризация\Кластеризация\obj\Debug\Кластеризация.pdb
+D:\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe.config
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\Кластеризация.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.exe
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\Кластеризация\obj\Debug\Кластеризация.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe.config
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\Кластеризация.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\ExcelLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\ItemLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.dll
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\ExcelLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\ItemLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.exe
+C:\Users\student\Desktop\Ш\Кластеризация\Кластеризация\obj\Debug\Кластеризация.pdb
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe.config
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.pdb
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.dll
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.dll
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ExcelLib.dll
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ItemLib.dll
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.dll
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.pdb
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.pdb
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ExcelLib.pdb
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ItemLib.pdb
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csprojAssemblyReference.cache
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.cache
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CopyComplete
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.exe
+C:\Users\Иван\Desktop\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.exe
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe.config
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ExcelLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ItemLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.dll
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ExcelLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ItemLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CopyComplete
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe.config
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ExcelLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ItemLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.dll
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ExcelLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ItemLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csprojAssemblyReference.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CopyComplete
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.exe
+D:\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe.config
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.exe
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\Кластеризация.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ExcelLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ItemLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.dll
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\AlgorithmLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ClusteringLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\EuclideanGeometryLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ExcelLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\ItemLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\bin\Debug\RandomAlgoLib.pdb
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csprojAssemblyReference.cache
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AffinityPropagationOptionsForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.AglomerativeOptionsForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterInfoForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ClusterizationParameterOptionsForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DBSCANOptionsForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.DrawingForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FORELOptionsForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.FullGraphOptionsForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.GNGOptionsForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.InfoForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.KMeansOptionsForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MainForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.MSTOptionsForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.ObjectInfoForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.Properties.Resources.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.SOMOptionsForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.VisualizationForm.resources
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.GenerateResource.cache
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CoreCompileInputs.cache
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.csproj.CopyComplete
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.exe
+D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\Кластеризация\obj\Debug\Кластеризация.pdb
