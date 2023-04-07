@@ -12,29 +12,46 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class GrowingNeuralGassNetwork : ClusteringNodeClass<GNGNeuron>, IClustering
+    public class GrowingNeuralGassNetwork : IClustering
     {
         public double WinnerLearningSpeed, NeighbourLearningSpeed;
+
         public int MaxAge;
+
         public int ReplicationPeriod;
+
         public int MaxNumberOfNeurons;
+
         public double ERRMN, CERR;
+
         public double ConvergencePrecision;
+
         //public bool StopFlag { set; get; }
-        public override event ProgressDel ProgressChanged;
+
+        public event ProgressDel ProgressChanged;
+        public event DebugDel debugEvent;
+
         //public LearningMode learningMode { set; get; }
+
         List<List<GNGNeuron>> Components = new List<List<GNGNeuron>>();
+
+        private IClusteringNodeClass clusteringNodeClass;
+
+        private List<GNGNeuron> Nodes = new List<GNGNeuron>();
+
         public GrowingNeuralGassNetwork(double winnerLearningSpeed, double neighbourLearningSpeed,
             int maxAge, int replicationPeriod, int maxNumOfNeurons, double _ERRMN, double _CERR, double convergencePrecision,
             List<Item> items)
         {
+            clusteringNodeClass = new ClusteringNodeClass();
+
             if (items == null)
             {
-                Items = new List<Item>();
+                clusteringNodeClass.SetItems(new List<Item>()); // Items = new List<Item>();
             }
             else
             {
-                Items = new List<Item>(items);
+                clusteringNodeClass.SetItems(new List<Item>(items)); // Items = new List<Item>(items);
             }
             WinnerLearningSpeed = winnerLearningSpeed;
             NeighbourLearningSpeed = neighbourLearningSpeed;
@@ -44,10 +61,10 @@ namespace ClusteringLib
             ERRMN = _ERRMN;
             CERR = _CERR;
             ConvergencePrecision = convergencePrecision;
-            learningMode = (int)LearningMode.Start;
+            clusteringNodeClass.learningMode = (int)LearningMode.Start; // learningMode = (int)LearningMode.Start;
         }
 
-        public override void SetOptions(ClusteringOptions opt)
+        public void SetOptions(ClusteringOptions opt)
         {
             WinnerLearningSpeed = opt.LearningSpeed1;
             NeighbourLearningSpeed = opt.LearningSpeed2;
@@ -59,7 +76,7 @@ namespace ClusteringLib
             ConvergencePrecision = opt.ConvergencePrecision;
         }
 
-        public override ClusteringOptions GetOptions()
+        public ClusteringOptions GetOptions()
         {
             ClusteringOptions result = new ClusteringOptions();
             result.LearningSpeed1 = WinnerLearningSpeed;
@@ -126,17 +143,17 @@ namespace ClusteringLib
             Components.ForEach(x => result.Add(new List<GNGNeuron>(x)));
             return result;
         }
-        public override List<List<Item>> GetClusters()
+        public List<List<Item>> GetClusters()
         {
-            StopFlag = false;
-            if (Items == null || Items.Count == 0)
+            clusteringNodeClass.StopFlag = false; // StopFlag = false;
+            if (clusteringNodeClass.GetItems() == null || clusteringNodeClass.GetItems().Count == 0) // if (Items == null || Items.Count == 0)
             {
                 return new List<List<Item>>();
             }
-            if (Items.Count == 1)
+            if (clusteringNodeClass.GetItems().Count == 1) // if (Items.Count == 1)
             {
                 List<Item> cluster = new List<Item>();
-                cluster.Add(Items[0]);
+                cluster.Add(clusteringNodeClass.GetItems()[0]); // cluster.Add(Items[0]);
                 List<List<Item>> clusters = new List<List<Item>>();
                 clusters.Add(cluster);
                 return clusters;
@@ -144,7 +161,7 @@ namespace ClusteringLib
             Learn();
             CreateComponents();
             Dictionary<GNGNeuron, List<Item>> Domain = new Dictionary<GNGNeuron, List<Item>>();
-            Domain = CreateDomains();
+            Domain = clusteringNodeClass.CreateDomains(Nodes);
             List<List<Item>> result = new List<List<Item>>();
             foreach (var component in Components)
             {
@@ -155,24 +172,24 @@ namespace ClusteringLib
             result.RemoveAll(x => x.Count == 0);
             return result;
         }
-        protected override void Learn()
+        protected void Learn()
         {
-            if (Items.Count < 1) throw new Exception("Ошибка. Попытка кластеризовать пустое множество.");
-            if (learningMode == (int)LearningMode.Start)
+            if (clusteringNodeClass.GetItems().Count < 1) throw new Exception("Ошибка. Попытка кластеризовать пустое множество."); // if (Items.Count < 1)
+            if (clusteringNodeClass.learningMode == (int)LearningMode.Start) // if (learningMode == (int)LearningMode.Start)
             {
                 Nodes = new List<GNGNeuron>();
-                Nodes.Add(new GNGNeuron(Items[0].GetCoordinates));
-                Nodes.Add(new GNGNeuron(Items[0].GetCoordinates));
+                Nodes.Add(new GNGNeuron(clusteringNodeClass.GetItems()[0].GetCoordinates)); // Nodes.Add(new GNGNeuron(Items[0].GetCoordinates));
+                Nodes.Add(new GNGNeuron(clusteringNodeClass.GetItems()[0].GetCoordinates)); // Nodes.Add(new GNGNeuron(Items[0].GetCoordinates));
             }
             int it = 0;
             for (int EpochNum = 1; ; ++EpochNum)
             {
-                if (EpochNum > 1 && (StopFlag || Converged(ConvergencePrecision)))
+                if (EpochNum > 1 && (clusteringNodeClass.StopFlag || clusteringNodeClass.Converged(ConvergencePrecision, Nodes))) // if (EpochNum > 1 && (StopFlag || Converged(ConvergencePrecision)))
                 {
                     ProgressChanged(EpochNum - 1);
                     return;
                 }
-                List<Item> _items = RandomAlgo.RandomShuffleList(Items);
+                List<Item> _items = RandomAlgo.RandomShuffleList(clusteringNodeClass.GetItems()); // List<Item> _items = RandomAlgo.RandomShuffleList(Items);
                 foreach (var item in _items)
                 {
                     ++it;
@@ -217,7 +234,18 @@ namespace ClusteringLib
                 }
                 ProgressChanged(EpochNum);
             }
-        }//void Learn()
+        }
+
+        public void SetItems(List<Item> items)
+        {
+            clusteringNodeClass.SetItems(items);
+        }
+
+        public void Stop()
+        {
+            clusteringNodeClass.Stop();
+        }
+
         public int GetNumberOfNeurons
         {
             get
@@ -225,5 +253,8 @@ namespace ClusteringLib
                 return Nodes.Count();
             }
         }
+
+        public bool StopFlag { set { clusteringNodeClass.StopFlag = value; } get { return clusteringNodeClass.StopFlag; } }
+        public LearningMode learningMode { set { clusteringNodeClass.learningMode = value; } get { return clusteringNodeClass.learningMode; } }
     }
 }

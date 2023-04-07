@@ -12,42 +12,58 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class SelfOrganisingKohonenNetwork : ClusteringNodeClass<ClusteringNeuron>, IClustering
+    public class SelfOrganisingKohonenNetwork : IClustering
     {
         public double MaxDistance;
-        public double LearningSpeed;
-        public double ConvergencePrecision;
-        public override event ProgressDel ProgressChanged;
 
-        public void SetLearningMode(LearningMode _learningMode)
+        public double LearningSpeed;
+
+        public double ConvergencePrecision;
+
+        public event ProgressDel ProgressChanged;
+        public event DebugDel debugEvent;
+
+        private IClusteringNodeClass clusteringNodeClass;
+
+        private List<ClusteringNeuron> Nodes = new List<ClusteringNeuron>();
+
+        public bool StopFlag { set { clusteringNodeClass.StopFlag = value; } get { return clusteringNodeClass.StopFlag; } }
+        public LearningMode learningMode { set { clusteringNodeClass.learningMode = value; } get { return clusteringNodeClass.learningMode; } }
+
+        public void SetLearningMode(LearningMode learningMode)
         {
-            learningMode = _learningMode;
+            clusteringNodeClass.learningMode = learningMode;
         }
 
         public SelfOrganisingKohonenNetwork(double maxDistance, double learningSpeed,
             double convergencePrecision, List<Item> items) : base()
         {
+            clusteringNodeClass = new ClusteringNodeClass();
+
             if (items == null)
             {
-                Items = new List<Item>();
+                // Items = new List<Item>();
+                clusteringNodeClass.SetItems(new List<Item>());
             }
             else
             {
-                Items = new List<Item>(items);
+                // Items = new List<Item>(items);
+                clusteringNodeClass.SetItems(new List<Item>(items));
             }
             MaxDistance = maxDistance;
             LearningSpeed = learningSpeed;
             ConvergencePrecision = convergencePrecision;
-            learningMode = LearningMode.Start;
+            // learningMode = LearningMode.Start;
+            clusteringNodeClass.learningMode = LearningMode.Start;
         }
 
-        public override void SetOptions(ClusteringOptions opt)
+        public void SetOptions(ClusteringOptions opt)
         {
             MaxDistance = opt.MaxDistance;
             LearningSpeed = opt.LearningSpeed1;
             ConvergencePrecision = opt.ConvergencePrecision;
         }
-        public override ClusteringOptions GetOptions()
+        public ClusteringOptions GetOptions()
         {
             ClusteringOptions result = new ClusteringOptions();
             result.MaxDistance = MaxDistance;
@@ -55,29 +71,29 @@ namespace ClusteringLib
             result.ConvergencePrecision = ConvergencePrecision;
             return result;
         }
-        protected override void Learn() //Обучение (не латеральное)
+        protected void Learn() //Обучение (не латеральное)
         {
-            if (Items.Count == 0)
+            if (clusteringNodeClass.GetItems().Count == 0) // Items.Count == 0
                 throw new InvalidOperationException("Попытка кластеризовать пустое множество.");
-            if (learningMode == (int)LearningMode.Start)
+            if (clusteringNodeClass.learningMode == (int)LearningMode.Start) // learningMode == (int)LearningMode.Start
             {
                 Nodes = new List<ClusteringNeuron>();
-                Nodes.Add(new ClusteringNeuron(Items[0].GetCoordinates, LearningSpeed)); //Инициализация первого нейрона
+                Nodes.Add(new ClusteringNeuron(clusteringNodeClass.GetItems()[0].GetCoordinates, LearningSpeed)); //Инициализация первого нейрона // Nodes.Add(new ClusteringNeuron(Items[0].GetCoordinates, LearningSpeed)); 
             }
             List<int> IndexesOfActiveNeurons;
             for (int EpochNum = 1; ; ++EpochNum)
             {
-                if (EpochNum > 1 && (StopFlag || Converged(ConvergencePrecision)))
+                if (EpochNum > 1 && (clusteringNodeClass.StopFlag || clusteringNodeClass.Converged(ConvergencePrecision, Nodes))) // if (EpochNum > 1 && (clusteringNodeClass.StopFlag || Converged(ConvergencePrecision)))
                 {
                     ProgressChanged(EpochNum - 1);
                     return;
                 }
                 IndexesOfActiveNeurons = new List<int>();
                 Nodes.ForEach(x => x.RewriteSavedCoordinates());
-                foreach (var item in RandomAlgo.RandomShuffleList(Items)) //Цикл реализует одну эпоху обучения
+                foreach (var item in RandomAlgo.RandomShuffleList(clusteringNodeClass.GetItems())) //Цикл реализует одну эпоху обучения
                 {
                     double distance;
-                    int IndOfCurWinner = Winner(item, out distance);
+                    int IndOfCurWinner = clusteringNodeClass.Winner(item, out distance, Nodes); // int IndOfCurWinner = Winner(item, out distance);
                     if (distance > MaxDistance)
                     {
                         Nodes.Add(new ClusteringNeuron(item.GetCoordinates, LearningSpeed));
@@ -100,6 +116,45 @@ namespace ClusteringLib
                 Nodes = NewNeurons;
                 ProgressChanged(EpochNum);
             }
-        }//void Learn()
+        }
+
+        public void SetItems(List<Item> items)
+        {
+            clusteringNodeClass.SetItems(items);
+        }
+
+        public List<List<Item>> GetClusters()
+        {
+            StopFlag = false;
+            if (clusteringNodeClass.GetItems() == null || clusteringNodeClass.GetItems().Count == 0) // if (Items == null || Items.Count == 0)
+            {
+                return new List<List<Item>>();
+            }
+            if (clusteringNodeClass.GetItems().Count == 1) // if (Items.Count == 1)
+            {
+                List<Item> cluster = new List<Item>();
+                cluster.Add(clusteringNodeClass.GetItems()[0]); // cluster.Add(Items[0]);
+                List<List<Item>> clusters = new List<List<Item>>();
+                clusters.Add(cluster);
+                return clusters;
+            }
+            Learn();
+            List<List<Item>> Clusters = new List<List<Item>>();
+            for (int i = 0; i < Nodes.Count; ++i)
+            {
+                Clusters.Add(new List<Item>());
+            }
+            foreach (var item in clusteringNodeClass.GetItems()) // foreach (var item in Items)
+            {
+                Clusters[clusteringNodeClass.Winner(item, Nodes)].Add(item);
+            }
+            Clusters.RemoveAll(cluster => cluster.Count == 0);
+            return Clusters;
+        }
+
+        public void Stop()
+        {
+            clusteringNodeClass.Stop();
+        }
     }
 }

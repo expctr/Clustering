@@ -12,10 +12,32 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public abstract class ClusteringNodeClass<Node> : ClusteringClass where Node : ClusteringNode
+    public class ClusteringNodeClass : IClusteringNodeClass // ClusteringNodeClass<Node> : ClusteringClass where Node : ClusteringNode
     {
-        protected List<Node> Nodes = new List<Node>();
-        protected int Winner(Item item)
+        // protected List<Node> Nodes = new List<Node>();
+
+        protected List<Item> Items = new List<Item>();
+
+        public LearningMode learningMode { set; get; }
+
+        public void SetItems(List<Item> items)
+        {
+            Items = items;
+        }
+
+        public List<Item> GetItems()
+        {
+            return Items;
+        }
+
+        public bool StopFlag { set; get; }
+
+        public void Stop()
+        {
+            StopFlag = true;
+        }
+
+        public int Winner<Node>(Item item, List<Node> Nodes) where Node : ClusteringNode
         {
             double[] itemCoordinates = item.GetCoordinates;
             double MinDistance = EuclideanGeometry.Distance(Nodes[0].GetCoordinates(), itemCoordinates);
@@ -31,7 +53,8 @@ namespace ClusteringLib
             }
             return result;
         }
-        protected int Winner(Item item, out double distance)
+
+        public int Winner<Node>(Item item, out double distance, List<Node> Nodes) where Node : ClusteringNode
         {
             double[] itemCoordinates = item.GetCoordinates;
             double MinDistance = EuclideanGeometry.Distance(Nodes[0].GetCoordinates(), itemCoordinates);
@@ -48,36 +71,37 @@ namespace ClusteringLib
             distance = MinDistance;
             return result;
         }
-        protected abstract void Learn();
-        public override List<List<Item>> GetClusters()
-        {
-            StopFlag = false;
-            if (Items == null || Items.Count == 0)
-            {
-                return new List<List<Item>>();
-            }
-            if (Items.Count == 1)
-            {
-                List<Item> cluster = new List<Item>();
-                cluster.Add(Items[0]);
-                List<List<Item>> clusters = new List<List<Item>>();
-                clusters.Add(cluster);
-                return clusters;
-            }
-            Learn();
-            List<List<Item>> Clusters = new List<List<Item>>();
-            for (int i = 0; i < Nodes.Count; ++i)
-            {
-                Clusters.Add(new List<Item>());
-            }
-            foreach (var item in Items)
-            {
-                Clusters[Winner(item)].Add(item);
-            }
-            Clusters.RemoveAll(cluster => cluster.Count == 0);
-            return Clusters;
-        }
-        public Dictionary<Node, List<Item>> CreateDomains()
+        
+        //public List<List<Item>> GetClusters()
+        //{
+        //    StopFlag = false;
+        //    if (Items == null || Items.Count == 0)
+        //    {
+        //        return new List<List<Item>>();
+        //    }
+        //    if (Items.Count == 1)
+        //    {
+        //        List<Item> cluster = new List<Item>();
+        //        cluster.Add(Items[0]);
+        //        List<List<Item>> clusters = new List<List<Item>>();
+        //        clusters.Add(cluster);
+        //        return clusters;
+        //    }
+        //    Learn();
+        //    List<List<Item>> Clusters = new List<List<Item>>();
+        //    for (int i = 0; i < Nodes.Count; ++i)
+        //    {
+        //        Clusters.Add(new List<Item>());
+        //    }
+        //    foreach (var item in Items)
+        //    {
+        //        Clusters[Winner(item)].Add(item);
+        //    }
+        //    Clusters.RemoveAll(cluster => cluster.Count == 0);
+        //    return Clusters;
+        //}
+
+        public Dictionary<Node, List<Item>> CreateDomains<Node>(List<Node> Nodes) where Node : ClusteringNode
         {
             Dictionary<Node, List<Item>> result = new Dictionary<Node, List<Item>>();
             foreach (var node in Nodes)
@@ -86,11 +110,12 @@ namespace ClusteringLib
             }
             foreach (var item in Items)
             {
-                result[Nodes[Winner(item)]].Add(item);
+                result[Nodes[Winner(item, Nodes)]].Add(item);
             }
             return result;
         }
-        public List<double[]> GetNodesCoordinates()
+
+        public List<double[]> GetNodesCoordinates<Node>(List<Node> Nodes) where Node : ClusteringNode
         {
             List<double[]> result = new List<double[]>();
             foreach (var neuron in Nodes)
@@ -99,7 +124,7 @@ namespace ClusteringLib
             }
             return result;
         }
-        protected bool Converged(double ConvEps)
+        public bool Converged<Node>(double ConvEps, List<Node> Nodes) where Node : ClusteringNode
         {
             for (int i = 0; i < Nodes.Count; ++i)
             {

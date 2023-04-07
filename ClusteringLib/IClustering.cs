@@ -23,9 +23,13 @@ namespace ClusteringLib
         }
         void Stop();
         event ProgressDel ProgressChanged;
+
         LearningMode learningMode { set; get; }
+
         void SetOptions(ClusteringOptions opt);
+
         ClusteringOptions GetOptions();
-        event DebugDel debugEvent;//del
+
+        event DebugDel debugEvent;
     }
 }
