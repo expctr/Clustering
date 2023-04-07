@@ -42,8 +42,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClusteringLibClass.cs" />
+    <Compile Include="AffinityPropagationClusteringClass.cs" />
+    <Compile Include="AglomerativeClusteringClass.cs" />
+    <Compile Include="AglomerativeEdge.cs" />
+    <Compile Include="AglomerativeNode.cs" />
+    <Compile Include="Cluster.cs" />
+    <Compile Include="ClusteringClass.cs" />
+    <Compile Include="ClusteringNeuron.cs" />
+    <Compile Include="ClusteringNode.cs" />
+    <Compile Include="ClusteringNodeClass.cs" />
+    <Compile Include="ClusteringOptions.cs" />
+    <Compile Include="ClusteringParameterOptions.cs" />
+    <Compile Include="DBSCANClusteringClass.cs" />
+    <Compile Include="DebugDel.cs" />
+    <Compile Include="FORELClusteringClass.cs" />
+    <Compile Include="FORELNode.cs" />
+    <Compile Include="FullGraphClusteringClass.cs" />
+    <Compile Include="GNGNeuron.cs" />
+    <Compile Include="GraphClusteringClass.cs" />
+    <Compile Include="GrowingNeuralGassNetwork.cs" />
+    <Compile Include="IClustering.cs" />
+    <Compile Include="KMeansClusteringClass.cs" />
+    <Compile Include="KMeansNode.cs" />
+    <Compile Include="LearningMode.cs" />
+    <Compile Include="MinimumSpanningTreeClusteringClass.cs" />
+    <Compile Include="MinimumSpanningTreeMaster.cs" />
+    <Compile Include="ProgressDel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelfOrganisingKohonenNetwork.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AlgorithmLib\AlgorithmLib.csproj">

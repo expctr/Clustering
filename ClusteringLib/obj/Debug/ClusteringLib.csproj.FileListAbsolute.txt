@@ -517,3 +517,20 @@ D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагу�
 D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
 D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
 D:\6. Sundries\Bounded Chaos\Moving\Курсовая работа\КР Шагурин БПИ183\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.dll
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\ClusteringLib.pdb
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.dll
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.dll
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\ItemLib.dll
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.dll
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.dll
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\AlgorithmLib.pdb
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\EuclideanGeometryLib.pdb
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\ItemLib.pdb
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\RandomAlgoLib.pdb
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\bin\Debug\ExcelLib.pdb
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csprojAssemblyReference.cache
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CoreCompileInputs.cache
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.csproj.CopyComplete
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.dll
+D:\Курсы\3-й курс (2022 - 2023)\ПАПС\Проект\Кластеризация\ClusteringLib\obj\Debug\ClusteringLib.pdb
