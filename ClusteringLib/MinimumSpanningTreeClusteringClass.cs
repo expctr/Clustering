@@ -12,30 +12,40 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class MinimumSpanningTreeClusteringClass : GraphClusteringClass
+    public class MinimumSpanningTreeClusteringClass : IClustering
     {
-        public override event ProgressDel ProgressChanged;
+        public event ProgressDel ProgressChanged;
+        public event DebugDel debugEvent;
+
         public int ClustersNumber;
+
+        IGraphClusteringClass graphClusteringClass;
+
+        public bool StopFlag { set { graphClusteringClass.StopFlag = value; } get { return graphClusteringClass.StopFlag; } }
+        public LearningMode learningMode { set { graphClusteringClass.learningMode = value; } get { return graphClusteringClass.learningMode; } }
+
         public MinimumSpanningTreeClusteringClass(int clustersNumber, List<Item> items)
         {
+            graphClusteringClass = new GraphClusteringClass();
+
             ClustersNumber = clustersNumber;
-            Items = items;
+            graphClusteringClass.SetItems(items); // Items = items;
         }
-        public override void SetOptions(ClusteringOptions opt)
+        public void SetOptions(ClusteringOptions opt)
         {
             ClustersNumber = opt.ClustersNumber;
         }
-        public override ClusteringOptions GetOptions()
+        public ClusteringOptions GetOptions()
         {
             ClusteringOptions result = new ClusteringOptions();
             result.ClustersNumber = ClustersNumber;
             return result;
         }
-        public override void Report(double x)
+        public void Report(double x)
         {
             ProgressChanged(x);
         }
-        public override List<List<int>> SplitGraph(List<List<int>> graph)
+        public List<List<int>> SplitGraph(List<List<int>> graph)
         {
             List<Tuple<int, int, double>> edges = new List<Tuple<int, int, double>>();
             double cur4 = 0;
@@ -45,9 +55,10 @@ namespace ClusteringLib
             {
                 for (int j = 0; j < graph[i].Count; ++j)
                 {
-                    if (StopFlag) return null;
+                    if (graphClusteringClass.StopFlag) return null; // if (StopFlag) return null;
                     if (i >= graph[i][j]) continue;
-                    edges.Add(new Tuple<int, int, double>(i, graph[i][j], Distances(i, graph[i][j])));
+                    // edges.Add(new Tuple<int, int, double>(i, graph[i][j], Distances(i, graph[i][j])));
+                    edges.Add(new Tuple<int, int, double>(i, graph[i][j], graphClusteringClass.Distances(i, graph[i][j])));
                 }
                 ++cur4;
                 ProgressChanged((3.0 / 6) + (1.0 / 6) * cur4 / total4);
@@ -56,18 +67,162 @@ namespace ClusteringLib
             List<List<int>> result = new List<List<int>>();
             foreach (var i in graph)
             {
-                if (StopFlag) return null;
+                if (graphClusteringClass.StopFlag) return null; // if (StopFlag) return null;
                 result.Add(new List<int>(i));
             }
             for (int i = 0; i < ClustersNumber - 1 && i < edges.Count; ++i)
             {
-                if (StopFlag)
+                if (graphClusteringClass.StopFlag) // if (StopFlag)
                 {
 
                     return new List<List<int>>();
                 }
                 result[edges[i].Item1].Remove(edges[i].Item2);
                 result[edges[i].Item2].Remove(edges[i].Item1);
+            }
+            return result;
+        }
+
+        public void SetItems(List<Item> items)
+        {
+            graphClusteringClass.SetItems(items);
+        }
+
+        public List<List<Item>> GetClusters()
+        {
+            StopFlag = false;
+            if (graphClusteringClass.GetItems() == null || graphClusteringClass.GetItems().Count == 0) // if (Items == null || Items.Count == 0)
+            {
+                return new List<List<Item>>();
+            }
+            if (graphClusteringClass.GetItems().Count == 1)  // if (Items.Count == 1)
+            {
+                List<Item> cluster = new List<Item>();
+                cluster.Add(graphClusteringClass.GetItems()[0]); // cluster.Add(Items[0]);
+                List<List<Item>> clusters = new List<List<Item>>();
+                clusters.Add(cluster);
+                return clusters;
+            }
+            //if (minimumSpanningTree == null || minimumSpanningTree.Count == 0)
+            if (graphClusteringClass.GetMinimumSpanningTree() == null || graphClusteringClass.GetMinimumSpanningTree().Count == 0)
+            {
+                graphClusteringClass.SetMSTMaster(new MinimumSpanningTreeMaster()); // MSTMaster = new MinimumSpanningTreeMaster();
+                graphClusteringClass.GetMSTMaster().ProgressChanged += (double x) => // MSTMaster.ProgressChanged += (double x) =>
+                {
+                    Report(x);
+                };
+                //minimumSpanningTree = graphClusteringClass.GetMSTMaster().CreateMinimumSpanningTree(graphClusteringClass.GetItems(), // minimumSpanningTree = MSTMaster.CreateMinimumSpanningTree(Items
+                //    (a, b, items) =>
+                //    {
+                //        if (a == b) return double.PositiveInfinity;
+                //        return EuclideanGeometry.Distance(items[a].GetCoordinates,
+                //            items[b].GetCoordinates);
+                //    });
+                graphClusteringClass.SetMinimumSpanningTree(
+                    graphClusteringClass.GetMSTMaster().CreateMinimumSpanningTree(graphClusteringClass.GetItems(), // minimumSpanningTree = MSTMaster.CreateMinimumSpanningTree(Items
+                    (a, b, items) =>
+                    {
+                        if (a == b) return double.PositiveInfinity;
+                        return EuclideanGeometry.Distance(items[a].GetCoordinates,
+                            items[b].GetCoordinates);
+                    }));
+            }
+            if (StopFlag)
+            {
+                return new List<List<Item>>();
+            }
+
+            List<List<int>> SplittedGraph = SplitGraph(graphClusteringClass.GetMinimumSpanningTree()); // List<List<int>> SplittedGraph = SplitGraph(minimumSpanningTree);
+            if (StopFlag)
+            {
+                return new List<List<Item>>();
+            }
+            List<List<int>> Componets = GetComponents(SplittedGraph);
+            if (StopFlag)
+            {
+                return new List<List<Item>>();
+            }
+            List<List<Item>> result = new List<List<Item>>();
+            foreach (var component in Componets)
+            {
+                if (StopFlag)
+                {
+                    return new List<List<Item>>();
+                }
+                result.Add(new List<Item>());
+                foreach (var ind in component)
+                {
+                    if (StopFlag) return null;
+                    result[result.Count - 1].Add(graphClusteringClass.GetItems()[ind]); // result[result.Count - 1].Add(Items[ind]);
+                }
+            }
+            return result;
+        }
+
+        public void Stop()
+        {
+            graphClusteringClass.Stop();
+        }
+
+        public List<List<int>> GetComponents(List<List<int>> graph)
+        {
+            if (StopFlag)
+            {
+                return new List<List<int>>();
+            }
+            List<List<int>> result = new List<List<int>>();//искомый список компонент
+            bool[] visited = new bool[graph.Count];//массив, содержащий информацию о посещенных вершинах
+            for (int i = 0; i < graphClusteringClass.GetItems().Count; ++i) // for (int i = 0; i < Items.Count; ++i)
+            {
+                if (StopFlag)
+                {
+                    return new List<List<int>>();
+                };
+                if (visited[i]) continue; //если вершина посещена, то не следует снова искать ее компоненту связности//here
+                List<int> curComponent = new List<int>();//текущая компонента
+                List<int> curLayer = new List<int>();//текущий слой вершин обхода
+                curLayer.Add(i);//первый слой состоит из вершины, с которой начинается обход
+                double cur6 = 0;
+                double total6 = graphClusteringClass.GetItems().Count; // double total6 = Items.Count;
+                while (curLayer.Count > 0)//пока текущий слой обхода непуст
+                {
+                    if (StopFlag)
+                    {
+                        return new List<List<int>>();
+                    };
+                    foreach (var ind in curLayer)//относим к текущей компоненте вершины текущего слоя
+                    {
+                        if (StopFlag)
+                        {
+                            return new List<List<int>>();
+                        };
+                        if (visited[ind]) continue;
+                        visited[ind] = true;
+                        curComponent.Add(ind);
+                    }
+                    List<int> nextLayer = new List<int>();//список вершин следующего слоя
+                     // bool[] added = new bool[Items.Count];//этот массив нужен, чтобы никакая вершина не вошла в новый слой дважды
+                     bool[] added = new bool[graphClusteringClass.GetItems().Count];
+                    foreach (var ind in curLayer)
+                    {
+                        foreach (var _ind in graph[ind])//для каждой вершины текущего слоя обходим список смежных с ней вершин
+                        {
+                            if (StopFlag)
+                            {
+                                return new List<List<int>>();
+                            };
+                            if (!visited[_ind] && !added[_ind])
+                            {
+                                nextLayer.Add(_ind);
+                                added[_ind] = true;
+                            }
+                        }
+                    }
+                    curLayer = nextLayer;
+                }
+                result.Add(curComponent);
+                cur6 += curComponent.Count;
+                Report((5.0 / 6) + (1.0 / 6) * cur6 / total6);
             }
             return result;
         }

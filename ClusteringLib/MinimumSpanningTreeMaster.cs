@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    class MinimumSpanningTreeMaster
+    public class MinimumSpanningTreeMaster
     {
         public bool StopFlag;
         public event ProgressDel ProgressChanged;
