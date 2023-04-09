@@ -62,6 +62,7 @@
     <Compile Include="GraphClusteringClass.cs" />
     <Compile Include="GrowingNeuralGassNetwork.cs" />
     <Compile Include="IClustering.cs" />
+    <Compile Include="IClusteringClass.cs" />
     <Compile Include="IClusteringNodeClass.cs" />
     <Compile Include="IGraphClusteringClass.cs" />
     <Compile Include="KMeansClusteringClass.cs" />

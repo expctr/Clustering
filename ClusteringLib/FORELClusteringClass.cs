@@ -12,73 +12,93 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class FORELClusteringClass : ClusteringClass
+    public class FORELClusteringClass : IClustering
     {
         public double ReachabilityRadius;
-        public override event ProgressDel ProgressChanged;
+
+        public event ProgressDel ProgressChanged;
+        public event DebugDel debugEvent;
+
+        private IClusteringClass clusteringClass;
+
+        public bool StopFlag { set { clusteringClass.StopFlag = value; } get { return clusteringClass.StopFlag; } }
+        public LearningMode learningMode { set { clusteringClass.learningMode = value; } get { return clusteringClass.learningMode; } }
+
         public FORELClusteringClass(double reachabilityRadius, List<Item> items)
         {
-            Items = new List<Item>();
-            Items.AddRange(items);
+            clusteringClass = new ClusteringClass();
+
+            clusteringClass.SetItems(new List<Item>()); // Items = new List<Item>();
+            clusteringClass.GetItems().AddRange(items); // Items.AddRange(items);
             ReachabilityRadius = reachabilityRadius;
         }
 
-        public override void SetOptions(ClusteringOptions opt)
+        public void SetOptions(ClusteringOptions opt)
         {
             ReachabilityRadius = opt.ReachabilityRadius;
         }
-        public override ClusteringOptions GetOptions()
+        public ClusteringOptions GetOptions()
         {
             ClusteringOptions result = new ClusteringOptions();
             result.ReachabilityRadius = ReachabilityRadius;
             return result;
         }
 
-        public override List<List<Item>> GetClusters()
+        public List<List<Item>> GetClusters()
         {
-            StopFlag = false;
-            if (Items == null || Items.Count == 0)
+            clusteringClass.StopFlag = false; // StopFlag = false;
+            if (clusteringClass.GetItems() == null || clusteringClass.GetItems().Count == 0) // if (Items == null || Items.Count == 0)
             {
                 return new List<List<Item>>();
             }
-            if (Items.Count == 1)
+            if (clusteringClass.GetItems().Count == 1) // if (Items.Count == 1)
             {
                 List<Item> cluster = new List<Item>();
-                cluster.Add(Items[0]);
+                cluster.Add(clusteringClass.GetItems()[0]); // cluster.Add(Items[0]);
                 List<List<Item>> clusters = new List<List<Item>>();
                 clusters.Add(cluster);
                 return clusters;
             }
             List<List<Item>> result = new List<List<Item>>();
-            bool[] used = new bool[Items.Count];
+            bool[] used = new bool[clusteringClass.GetItems().Count]; // bool[] used = new bool[Items.Count];
             FORELNode node;
             double grabbedElements = 0;
             while (used.Contains(false))
             {
-                for (int i = 0; i < Items.Count; ++i)
+                for (int i = 0; i < clusteringClass.GetItems().Count; ++i) // for (int i = 0; i < Items.Count; ++i)
                 {
                     if (used[i]) continue;
-                    node = new FORELNode(Items[i].GetCoordinates, ReachabilityRadius);
-                    node.Grab(Items, used);
+                    node = new FORELNode(clusteringClass.GetItems()[i].GetCoordinates, ReachabilityRadius); // node = new FORELNode(Items[i].GetCoordinates, ReachabilityRadius);
+                    node.Grab(clusteringClass.GetItems(), used); // node.Grab(Items, used);
                     double[] oldCoord = node.GetCoordinates();
                     while (true)
                     {
-                        if (StopFlag) return null;
+                        if (clusteringClass.StopFlag) return null; // if (StopFlag) return null;
                         node.Learn();
                         if (EuclideanGeometry.Distance(oldCoord, node.GetCoordinates()) == 0)
                         {
                             break;
                         }
-                        node.Grab(Items, used);
+                        node.Grab(clusteringClass.GetItems(), used); // node.Grab(Items, used);
                         oldCoord = node.GetCoordinates();
                     }
-                    List<Item> curCluster = node.Grab_Own(Items, used);
+                    List<Item> curCluster = node.Grab_Own(clusteringClass.GetItems(), used); // List<Item> curCluster = node.Grab_Own(Items, used);
                     result.Add(curCluster);
                     grabbedElements += curCluster.Count;
-                    ProgressChanged(grabbedElements / Items.Count);
+                    ProgressChanged(grabbedElements / clusteringClass.GetItems().Count); // ProgressChanged(grabbedElements / Items.Count);
                 }
             }
             return result;
+        }
+
+        public void SetItems(List<Item> items)
+        {
+            clusteringClass.SetItems(items);
+        }
+
+        public void Stop()
+        {
+            clusteringClass.Stop();
         }
     }
 }

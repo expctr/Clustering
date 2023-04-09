@@ -12,17 +12,13 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public abstract class ClusteringClass : IClustering
+    public class ClusteringClass : IClusteringClass
     {
-        public abstract void SetOptions(ClusteringOptions opt);
-
-        public abstract ClusteringOptions GetOptions();
-
-        public virtual event DebugDel debugEvent;
+        public event DebugDel debugEvent;
 
         protected List<Item> Items = new List<Item>();
 
-        public virtual void SetItems(List<Item> items)
+        public void SetItems(List<Item> items)
         {
             if (items == null)
             {
@@ -30,16 +26,20 @@ namespace ClusteringLib
             }
             Items = new List<Item>(items);
         }
-        public abstract List<List<Item>> GetClusters();
+
+        public List<Item> GetItems()
+        {
+            return Items;
+        }
 
         public bool StopFlag { set; get; }
 
-        public virtual void Stop()
+        public void Stop()
         {
             StopFlag = true;
         }
 
-        public virtual event ProgressDel ProgressChanged;
+        public event ProgressDel ProgressChanged;
 
         public LearningMode learningMode { set; get; }
     }

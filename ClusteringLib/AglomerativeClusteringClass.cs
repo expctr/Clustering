@@ -14,41 +14,49 @@ namespace ClusteringLib
 {
     public class AglomerativeClusteringClass : IClustering
     {
+        private IClusteringClass clusteringClass;
+
         public event DebugDel debugEvent;
-        List<Item> Items;
+
         public double DetalizationCoef;
+
         public ClusteringOptions.AglomerativeClusteringDistance ACDistance;
+
         MinimumSpanningTreeMaster MSTMaster;
+
         AglomerativeNode DendraRoot = null;
+
         List<List<AglomerativeNode>> Levels = null;
-        public bool StopFlag { set; get; }
-        public void Stop()
-        {
-            StopFlag = true;
-        }
+
         public event ProgressDel ProgressChanged;
-        //
+        
         double CDpart = 25.0 / 30, CMSTpart = 1.0 / 4,
             CELpart = 1.0 / 4, SELpart = 1.0 / 4,
             CD1part = 1.0 / 4;
+
         double SDpart = 4.0 / 30;
+
         double ECpart = 1.0 / 30,
+
             MInANpart = 1.0 / 2, EANpart = 1.0 / 2;
+
         double CurProgress = 0;
+
         void Report(double x)
         {
             ProgressChanged(CurProgress + x);
         }
-        //
-        public LearningMode learningMode { set; get; }//костыль
+
         public AglomerativeClusteringClass(double detalizationCoef,
             ClusteringOptions.AglomerativeClusteringDistance _ACDistance,
             List<Item> items)
         {
+            clusteringClass = new ClusteringClass();
+
             DetalizationCoef = detalizationCoef;
             ACDistance = _ACDistance;
-            Items = new List<Item>();
-            Items.AddRange(items);
+            clusteringClass.SetItems(new List<Item>()); // Items = new List<Item>();
+            clusteringClass.GetItems().AddRange(items); // Items.AddRange(items);
         }
 
         public void SetOptions(ClusteringOptions opt)
@@ -73,11 +81,13 @@ namespace ClusteringLib
         {
             if (items == null)
             {
-                Items = new List<Item>();
+                // Items = new List<Item>();
+                clusteringClass.SetItems(new List<Item>());
             }
             else
             {
-                Items = new List<Item>(items);
+                // Items = new List<Item>(items);
+                clusteringClass.SetItems(new List<Item>(items));
             }
             DendraRoot = null;
             Levels = null;
@@ -94,9 +104,9 @@ namespace ClusteringLib
         List<AglomerativeNode> PrimaryNodes()
         {
             List<AglomerativeNode> result = new List<AglomerativeNode>();
-            for (int i = 0; i < Items.Count; ++i)
+            for (int i = 0; i < clusteringClass.GetItems().Count; ++i)
             {
-                result.Add(new AglomerativeNode(i, Items, i.ToString()));
+                result.Add(new AglomerativeNode(i, clusteringClass.GetItems(), i.ToString()));
             }
             return result;
         }
@@ -109,7 +119,7 @@ namespace ClusteringLib
             {
                 Report(x * CMSTpart * CDpart);
             };
-            List<List<int>> mst_ind = MSTMaster.CreateMinimumSpanningTree(Items,
+            List<List<int>> mst_ind = MSTMaster.CreateMinimumSpanningTree(clusteringClass.GetItems(),
                 (a, b, items) => {
                     if (a == b) return double.PositiveInfinity;
                     return EuclideanGeometry.Distance(items[a].GetCoordinates,
@@ -148,7 +158,7 @@ namespace ClusteringLib
             curLayer.Add(primaryNodes[0]);
             List<AglomerativeNode> nextLayer;
             double buildingEdgesListCurProgress = 0;
-            double buildingEdgesListTotalProgress = Items.Count - 1;
+            double buildingEdgesListTotalProgress = clusteringClass.GetItems().Count - 1;
             while (curLayer.Count != 0)//обход в ширину
             {
                 nextLayer = new List<AglomerativeNode>();
@@ -156,7 +166,7 @@ namespace ClusteringLib
                 {
                     foreach (var nodeJ in mst[nodeI])//обходим смежные ноды с текущей нодой текущего слоя
                     {
-                        if (StopFlag)
+                        if (clusteringClass.StopFlag)
                         {
                             return null;
                         }
@@ -179,7 +189,7 @@ namespace ClusteringLib
             double CD1_TotalProgress = edges.Count;
             while (edges.Count > 0)//процесс построения дендрограммы
             {
-                if (StopFlag)
+                if (clusteringClass.StopFlag)
                 {
                     return null;
                 }
@@ -188,11 +198,11 @@ namespace ClusteringLib
                 AglomerativeNode node1 = curEdge.Node1;
                 AglomerativeNode node2 = curEdge.Node2;
                 AglomerativeNode newNode = new AglomerativeNode(node1, node2,
-                    curEdge.Distance, Items);
+                    curEdge.Distance, clusteringClass.GetItems());
                 edges.RemoveAt(edges.Count - 1);
                 for (int i = 0; i < edges.Count; ++i)//перенаправление ребер в списке
                 {
-                    if (StopFlag)
+                    if (clusteringClass.StopFlag)
                     {
                         return null;
                     }
@@ -232,10 +242,10 @@ namespace ClusteringLib
             List<AglomerativeNode> _ANNodes = PrimaryNodes();//инициализация списка агломеративных нод
             MSTMaster = new MinimumSpanningTreeMaster();
             double CD_CurProgress = 0;
-            double CD_TotalProgress = 2 * Items.Count - 1;
+            double CD_TotalProgress = 2 * clusteringClass.GetItems().Count - 1;
             while (_ANNodes.Count > 1)//процесс слияния агломеративных нод
             {
-                if (StopFlag)
+                if (clusteringClass.StopFlag)
                 {
                     return null;
                 }
@@ -253,7 +263,7 @@ namespace ClusteringLib
                 {
                     foreach (var ind in mst[i])
                     {
-                        if (StopFlag)
+                        if (clusteringClass.StopFlag)
                         {
                             return null;
                         }
@@ -268,7 +278,7 @@ namespace ClusteringLib
                 }
                 AglomerativeNode newNode = new AglomerativeNode(
                     _ANNodes[targetI], _ANNodes[targetJ], CentreDistance(
-                        _ANNodes[targetI], _ANNodes[targetJ]), Items);
+                        _ANNodes[targetI], _ANNodes[targetJ]), clusteringClass.GetItems());
                 AglomerativeNode nodeI = _ANNodes[targetI];
                 AglomerativeNode nodeJ = _ANNodes[targetJ];
                 _ANNodes.Remove(nodeI);
@@ -281,9 +291,13 @@ namespace ClusteringLib
 
         double SD_CurProgress;
         double SD_TotalProgress;
+
+        public bool StopFlag { set { clusteringClass.StopFlag = value; } get { return clusteringClass.StopFlag; } }
+        public LearningMode learningMode { set { clusteringClass.learningMode = value; } get { return clusteringClass.learningMode; } }
+
         public void SplitDendrogramm(AglomerativeNode node, List<List<AglomerativeNode>> levels)//распределяем ноды дендрограммы на уровни
         {
-            if (StopFlag)
+            if (clusteringClass.StopFlag)
             {
                 return;
             }
@@ -298,16 +312,16 @@ namespace ClusteringLib
         }
         public List<List<Item>> GetClusters()
         {
-            StopFlag = false;
+            clusteringClass.StopFlag = false;
             CurProgress = 0;
-            if (Items == null || Items.Count == 0)
+            if (clusteringClass.GetItems() == null || clusteringClass.GetItems().Count == 0)
             {
                 return new List<List<Item>>();
             }
-            if (Items.Count == 1)
+            if (clusteringClass.GetItems().Count == 1)
             {
                 List<Item> cluster = new List<Item>();
-                cluster.Add(Items[0]);
+                cluster.Add(clusteringClass.GetItems()[0]);
                 List<List<Item>> clusters = new List<List<Item>>();
                 clusters.Add(cluster);
                 return clusters;
@@ -328,7 +342,7 @@ namespace ClusteringLib
                 }
             }
             CurProgress = CDpart;
-            if (StopFlag)
+            if (clusteringClass.StopFlag)
             {
                 return new List<List<Item>>();
             }
@@ -337,14 +351,14 @@ namespace ClusteringLib
                 Levels = new List<List<AglomerativeNode>>();
                 for (int i = 0; i <= DendraRoot.GetLevel; ++i)
                 {
-                    if (StopFlag)
+                    if (clusteringClass.StopFlag)
                     {
                         return new List<List<Item>>();
                     }
                     Levels.Add(new List<AglomerativeNode>());
                 }
                 SD_CurProgress = 0;
-                SD_TotalProgress = 2 * Items.Count - 1;
+                SD_TotalProgress = 2 * clusteringClass.GetItems().Count - 1;
                 SplitDendrogramm(DendraRoot, Levels);
             }
             else
@@ -353,7 +367,7 @@ namespace ClusteringLib
                 {
                     for (int j = 0; j < Levels[i].Count; ++j)
                     {
-                        if (StopFlag)
+                        if (clusteringClass.StopFlag)
                         {
                             return new List<List<Item>>();
                         }
@@ -362,7 +376,7 @@ namespace ClusteringLib
                 }
             }
             CurProgress += SDpart;
-            if (StopFlag)
+            if (clusteringClass.StopFlag)
             {
                 return new List<List<Item>>();
             }
@@ -372,7 +386,7 @@ namespace ClusteringLib
             {
                 for (int j = 0; j < Levels[i].Count; ++j)
                 {
-                    if (StopFlag)
+                    if (clusteringClass.StopFlag)
                     {
                         return new List<List<Item>>();
                     }
@@ -388,7 +402,7 @@ namespace ClusteringLib
             {
                 for (int j = 0; j < Levels[i].Count; ++j)
                 {
-                    if (StopFlag)
+                    if (clusteringClass.StopFlag)
                     {
                         return new List<List<Item>>();
                     }
@@ -410,13 +424,13 @@ namespace ClusteringLib
             double EAN_TotalProgress = Levels.Count - 1;
             for (int i = 1; i < Levels.Count; ++i)//извлекаем непомеченные ноды, они задают искомую кластеризацию
             {
-                if (StopFlag)
+                if (clusteringClass.StopFlag)
                 {
                     return new List<List<Item>>();
                 }
                 for (int j = 0; j < Levels[i].Count; ++j)
                 {
-                    if (StopFlag)
+                    if (clusteringClass.StopFlag)
                     {
                         return new List<List<Item>>();
                     }
@@ -430,13 +444,18 @@ namespace ClusteringLib
             List<List<Item>> result = new List<List<Item>>();
             foreach (var node in CompletedNodes)
             {
-                if (StopFlag)
+                if (clusteringClass.StopFlag)
                 {
                     return new List<List<Item>>();
                 }
                 result.Add(node.GetItems);
             }
             return result;
+        }
+
+        public void Stop()
+        {
+            clusteringClass.Stop();
         }
     }
 }

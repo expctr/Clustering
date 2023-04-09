@@ -12,16 +12,27 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class DBSCANClusteringClass : ClusteringClass, IClustering
+    public class DBSCANClusteringClass : IClustering
     {
         public double ReachabilityRadius;
+
         public int Threshold;
-        public override event DebugDel debugEvent;
-        //
+
+        public event DebugDel debugEvent;
+        
         double CGpart = 35.0 / 40;
+
         double SRpart = 4.0 / 40;
+
         double CCpart = 1.0 / 40;
+
         double CurProgress = 0;
+
+        IClusteringClass clusteringClass;
+
+        public bool StopFlag { set { clusteringClass.StopFlag = value; } get { return clusteringClass.StopFlag; } }
+        public LearningMode learningMode { set { clusteringClass.learningMode = value; } get { return clusteringClass.learningMode; } }
+
         void Report(double x)
         {
             ProgressChanged(x + CurProgress);
@@ -29,17 +40,18 @@ namespace ClusteringLib
         //
         public DBSCANClusteringClass(double reachabilityRadius, int threshold, List<Item> items)
         {
+            clusteringClass = new ClusteringClass();
             ReachabilityRadius = reachabilityRadius;
             Threshold = threshold;
-            Items = items;
+            clusteringClass.SetItems(items); // Items = items;
         }
 
-        public override void SetOptions(ClusteringOptions opt)
+        public void SetOptions(ClusteringOptions opt)
         {
             ReachabilityRadius = opt.ReachabilityRadius;
             Threshold = opt.Threshold;
         }
-        public override ClusteringOptions GetOptions()
+        public ClusteringOptions GetOptions()
         {
             ClusteringOptions result = new ClusteringOptions();
             result.ReachabilityRadius = ReachabilityRadius;
@@ -47,26 +59,28 @@ namespace ClusteringLib
             return result;
         }
 
-        public override event ProgressDel ProgressChanged;
+        public event ProgressDel ProgressChanged;
         //public LearningMode learningMode { set; get; }
-        public override List<List<Item>> GetClusters()
+        public List<List<Item>> GetClusters()
         {
-            StopFlag = false;
-            if (Items == null || Items.Count == 0)
+            clusteringClass.StopFlag = false; // StopFlag = false;
+            if (clusteringClass.GetItems() == null || clusteringClass.GetItems().Count == 0) // if (Items == null || Items.Count == 0)
             {
                 return new List<List<Item>>();
             }
-            if (Items.Count == 1)
+            if (clusteringClass.GetItems().Count == 1) // if (Items.Count == 1)
             {
                 List<Item> cluster = new List<Item>();
-                cluster.Add(Items[0]);
+                cluster.Add(clusteringClass.GetItems()[0]); // cluster.Add(Items[0]);
                 List<List<Item>> clusters = new List<List<Item>>();
                 clusters.Add(cluster);
                 return clusters;
             }
             List<List<Item>> result = new List<List<Item>>();
-            bool[] visited = new bool[Items.Count];//информация о посещенных вершинах
-            List<int>[] graph = new List<int>[Items.Count];//список смежности
+            // bool[] visited = new bool[Items.Count];//информация о посещенных вершинах
+            bool[] visited = new bool[clusteringClass.GetItems().Count];
+            // List<int>[] graph = new List<int>[Items.Count];//список смежности
+            List<int>[] graph = new List<int>[clusteringClass.GetItems().Count];
             for (int i = 0; i < graph.Length; ++i)
             {
                 graph[i] = new List<int>();
@@ -74,17 +88,17 @@ namespace ClusteringLib
             //int total = Items.Count * (Items.Count + 1) / 2;
             //double cur = 0;
             double CG_CurProgress = 0;
-            double CG_TotalProgress = Items.Count * Items.Count;
-            for (int i = 0; i < Items.Count; ++i)//построение графа
+            double CG_TotalProgress = clusteringClass.GetItems().Count * clusteringClass.GetItems().Count;
+            for (int i = 0; i < clusteringClass.GetItems().Count; ++i)//построение графа
             {
-                for (int j = 0; j < Items.Count; ++j)
+                for (int j = 0; j < clusteringClass.GetItems().Count; ++j)
                 {
                     Report(CGpart * (++CG_CurProgress / CG_TotalProgress));
                     if (j > i) continue;
-                    if (EuclideanGeometry.Distance(Items[i].GetCoordinates, Items[j].GetCoordinates)
+                    if (EuclideanGeometry.Distance(clusteringClass.GetItems()[i].GetCoordinates, clusteringClass.GetItems()[j].GetCoordinates)
                         <= ReachabilityRadius)
                     {
-                        if (StopFlag) return null;
+                        if (clusteringClass.StopFlag) return null;
                         graph[i].Add(j);
                         graph[j].Add(i);
                     }
@@ -92,21 +106,21 @@ namespace ClusteringLib
             }
             CurProgress = CGpart;
             double SR_CurProgress = 0;
-            double SR_TotalProgress = Items.Count;
-            bool[] IsRoot = new bool[Items.Count];
-            for (int i = 0; i < Items.Count; ++i)//выявление корневых вершин
+            double SR_TotalProgress = clusteringClass.GetItems().Count;
+            bool[] IsRoot = new bool[clusteringClass.GetItems().Count];
+            for (int i = 0; i < clusteringClass.GetItems().Count; ++i)//выявление корневых вершин
             {
                 if (graph[i].Count >= Threshold)
                 {
-                    if (StopFlag) return null;
+                    if (clusteringClass.StopFlag) return null;
                     IsRoot[i] = true;
                 }
                 Report(SRpart * (++SR_CurProgress / SR_TotalProgress));
             }
             CurProgress += SRpart;
             double CC_CurProgress = 0;
-            double CC_TotalProgress = Items.Count;
-            for (int i = 0; i < Items.Count; ++i)//
+            double CC_TotalProgress = clusteringClass.GetItems().Count;
+            for (int i = 0; i < clusteringClass.GetItems().Count; ++i)//
             {
                 if (visited[i]) continue;
                 if (!IsRoot[i]) continue;
@@ -117,21 +131,21 @@ namespace ClusteringLib
                 {
                     foreach (var ind in curLayer)//извлечение вершин из текущего слоя обхода для текущего кластера
                     {
-                        if (StopFlag) return new List<List<Item>>();
+                        if (clusteringClass.StopFlag) return new List<List<Item>>();
                         if (visited[ind]) continue;
                         visited[ind] = true;
                         curCluster.Add(ind);
                         Report(CCpart * (++CC_CurProgress / CC_TotalProgress));
                     }
                     List<int> nextLayer = new List<int>();
-                    bool[] added = new bool[Items.Count];
+                    bool[] added = new bool[clusteringClass.GetItems().Count];
                     foreach (var ind in curLayer)//формирование следующего слоя обхода
                     {
                         if (IsRoot[ind])
                         {
                             foreach (var _ind in graph[ind])
                             {
-                                if (StopFlag) return null;
+                                if (clusteringClass.StopFlag) return null;
                                 if (!visited[_ind] && !added[_ind])
                                 {
                                     nextLayer.Add(_ind);
@@ -145,21 +159,31 @@ namespace ClusteringLib
                 List<Item> _curCluster = new List<Item>();
                 foreach (var ind in curCluster)
                 {
-                    if (StopFlag) return new List<List<Item>>();
-                    _curCluster.Add(Items[ind]);
+                    if (clusteringClass.StopFlag) return new List<List<Item>>();
+                    _curCluster.Add(clusteringClass.GetItems()[ind]);
                 }
                 result.Add(_curCluster);
             }
-            for (int i = 0; i < Items.Count; ++i)//формирование одноэлементных кластеров шума
+            for (int i = 0; i < clusteringClass.GetItems().Count; ++i)//формирование одноэлементных кластеров шума
             {
                 if (!visited[i])
                 {
-                    if (StopFlag) return new List<List<Item>>();
-                    result.Add(new List<Item>(new Item[] { Items[i] }));
+                    if (clusteringClass.StopFlag) return new List<List<Item>>();
+                    result.Add(new List<Item>(new Item[] { clusteringClass.GetItems()[i] }));
                     Report(CCpart * (++CC_CurProgress / CC_TotalProgress));
                 }
             }
             return result;
+        }
+
+        public void SetItems(List<Item> items)
+        {
+            clusteringClass.SetItems(items);
+        }
+
+        public void Stop()
+        {
+            clusteringClass.Stop();
         }
     }
 }

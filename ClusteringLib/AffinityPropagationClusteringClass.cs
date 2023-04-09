@@ -12,30 +12,46 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class AffinityPropagationClusteringClass : ClusteringClass, IClustering
+    public class AffinityPropagationClusteringClass : IClustering
     {
         public double SelfSimilarity;
+
         public double ConvergencePrecision;
-        public override event ProgressDel ProgressChanged;
+
+        public event ProgressDel ProgressChanged;
+        public event DebugDel debugEvent;
+
         double[,] Similarity = null;
+
         double[,] Responsibility = null;
+
         double[,] prevResponsibility = null;
+
         double[,] Availability = null;
+
         double[,] prevAvailability = null;
+
+        private IClusteringClass clusteringClass;
+
+        public bool StopFlag { set { clusteringClass.StopFlag = value; } get { return clusteringClass.StopFlag; } }
+        public LearningMode learningMode { set { clusteringClass.learningMode = value; } get { return clusteringClass.learningMode; } }
+
         public AffinityPropagationClusteringClass(int selfSimilarity, double convergencePrecision, List<Item> items)
         {
+            clusteringClass = new ClusteringClass();
+
             SelfSimilarity = selfSimilarity;
             ConvergencePrecision = convergencePrecision;
-            Items = items;
+            clusteringClass.SetItems(items); // Items = items;
         }
 
-        public override void SetItems(List<Item> items)
+        public void SetItems(List<Item> items)
         {
-            base.SetItems(items);
+            clusteringClass.SetItems(items); // base.SetItems(items);
             Similarity = null;
         }
 
-        public override void SetOptions(ClusteringOptions opt)
+        public void SetOptions(ClusteringOptions opt)
         {
             if (SelfSimilarity != opt.SelfSimilarity)
             {
@@ -44,7 +60,7 @@ namespace ClusteringLib
             SelfSimilarity = opt.SelfSimilarity;
             ConvergencePrecision = opt.ConvergencePrecision;
         }
-        public override ClusteringOptions GetOptions()
+        public ClusteringOptions GetOptions()
         {
             ClusteringOptions result = new ClusteringOptions();
             result.SelfSimilarity = SelfSimilarity;
@@ -74,33 +90,30 @@ namespace ClusteringLib
             }
             return result;
         }
-        public void SetLearningMode(LearningMode _learningMode)
+
+        public List<List<Item>> GetClusters()
         {
-            learningMode = _learningMode;
-        }
-        public override List<List<Item>> GetClusters()
-        {
-            StopFlag = false;
-            if (Items == null || Items.Count == 0)
+            clusteringClass.StopFlag = false; // StopFlag = false;
+            if (clusteringClass.GetItems() == null || clusteringClass.GetItems().Count == 0) // if (Items == null || Items.Count == 0)
             {
                 return new List<List<Item>>();
             }
-            if (Items.Count == 1)
+            if (clusteringClass.GetItems().Count == 1) // if (Items.Count == 1)
             {
                 List<Item> cluster = new List<Item>();
-                cluster.Add(Items[0]);
+                cluster.Add(clusteringClass.GetItems()[0]); // cluster.Add(Items[0]);
                 List<List<Item>> clusters = new List<List<Item>>();
                 clusters.Add(cluster);
                 return clusters;
             }
-            if (learningMode == LearningMode.Start)
+            if (clusteringClass.learningMode == LearningMode.Start) // if (learningMode == LearningMode.Start)
             {
                 if (Similarity == null)
                 {
-                    Similarity = new double[Items.Count, Items.Count];
-                    for (int i = 0; i < Items.Count; ++i)
+                    Similarity = new double[clusteringClass.GetItems().Count, clusteringClass.GetItems().Count]; // Similarity = new double[Items.Count, Items.Count];
+                    for (int i = 0; i < clusteringClass.GetItems().Count; ++i)
                     {
-                        for (int j = 0; j < Items.Count; ++j)
+                        for (int j = 0; j < clusteringClass.GetItems().Count; ++j)
                         {
                             if (j > i) continue;
                             if (i == j)
@@ -108,30 +121,30 @@ namespace ClusteringLib
                                 Similarity[i, j] = SelfSimilarity;
                                 continue;
                             }
-                            double curSim = -EuclideanGeometry.Distance(Items[i].GetCoordinates,
-                                Items[j].GetCoordinates);
+                            double curSim = -EuclideanGeometry.Distance(clusteringClass.GetItems()[i].GetCoordinates,
+                                clusteringClass.GetItems()[j].GetCoordinates);
                             Similarity[i, j] = Similarity[j, i] = curSim;
                         }
                     }
                 }
-                prevResponsibility = new double[Items.Count, Items.Count];
-                Responsibility = new double[Items.Count, Items.Count];
-                prevAvailability = new double[Items.Count, Items.Count];
-                Availability = new double[Items.Count, Items.Count];
+                prevResponsibility = new double[clusteringClass.GetItems().Count, clusteringClass.GetItems().Count];
+                Responsibility = new double[clusteringClass.GetItems().Count, clusteringClass.GetItems().Count];
+                prevAvailability = new double[clusteringClass.GetItems().Count, clusteringClass.GetItems().Count];
+                Availability = new double[clusteringClass.GetItems().Count, clusteringClass.GetItems().Count];
             }
             for (int EpochNum = 1; ; ++EpochNum)
             {
-                if (EpochNum > 1 && StopFlag)
+                if (EpochNum > 1 && clusteringClass.StopFlag)
                 {
                     ProgressChanged(EpochNum - 1);
                     break;
                 }
-                for (int i = 0; i < Items.Count; ++i)
+                for (int i = 0; i < clusteringClass.GetItems().Count; ++i)
                 {
-                    for (int k = 0; k < Items.Count; ++k)
+                    for (int k = 0; k < clusteringClass.GetItems().Count; ++k)
                     {
                         List<double> list = new List<double>();
-                        for (int j = 0; j < Items.Count; ++j)
+                        for (int j = 0; j < clusteringClass.GetItems().Count; ++j)
                         {
                             if (j == k) continue;
                             list.Add(Availability[i, j] + Responsibility[i, j]);
@@ -139,16 +152,16 @@ namespace ClusteringLib
                         Responsibility[i, k] = Similarity[i, k] - Algorithm.FindMax(list);
                     }
                 }
-                for (int i = 0; i < Items.Count; ++i)
+                for (int i = 0; i < clusteringClass.GetItems().Count; ++i)
                 {
-                    for (int k = 0; k < Items.Count; ++k)
+                    for (int k = 0; k < clusteringClass.GetItems().Count; ++k)
                     {
                         if (i == k) continue;
                         Availability[i, k] =
                             Algorithm.Min(0, Responsibility[k, k] + Sum1(i, k, Responsibility));
                     }
                 }
-                for (int k = 0; k < Items.Count; ++k)
+                for (int k = 0; k < clusteringClass.GetItems().Count; ++k)
                 {
                     Availability[k, k] = Sum2(k, Responsibility);
                 }
@@ -163,7 +176,7 @@ namespace ClusteringLib
                 prevAvailability = (double[,])Availability.Clone();
             }
             List<int> Exemplars = new List<int>();
-            for (int k = 0; k < Items.Count; ++k)
+            for (int k = 0; k < clusteringClass.GetItems().Count; ++k)
             {
                 if (Availability[k, k] + Responsibility[k, k] > 0)
                 {
@@ -172,7 +185,7 @@ namespace ClusteringLib
             }
             if (Exemplars.Count == 0)
             {
-                for (int k = 0; k < Items.Count; ++k)
+                for (int k = 0; k < clusteringClass.GetItems().Count; ++k)
                 {
                     Exemplars.Add(k);
                 }
@@ -186,8 +199,8 @@ namespace ClusteringLib
                 };
                 return res;
             }
-            int[] Leadership = new int[Items.Count];
-            for (int i = 0; i < Items.Count; ++i)
+            int[] Leadership = new int[clusteringClass.GetItems().Count];
+            for (int i = 0; i < clusteringClass.GetItems().Count; ++i)
             {
                 if (Exemplars.Contains(i))
                 {
@@ -203,7 +216,7 @@ namespace ClusteringLib
             }
             for (int i = 0; i < Leadership.Length; ++i)
             {
-                groups[Leadership[i]].Add(Items[i]);
+                groups[Leadership[i]].Add(clusteringClass.GetItems()[i]);
             }
             List<List<Item>> result = new List<List<Item>>();
             foreach (var exmp in Exemplars)
@@ -211,6 +224,11 @@ namespace ClusteringLib
                 result.Add(groups[exmp]);
             }
             return result;
+        }
+
+        public void Stop()
+        {
+            clusteringClass.Stop();
         }
     }
 }

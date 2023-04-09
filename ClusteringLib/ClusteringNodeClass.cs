@@ -14,27 +14,26 @@ namespace ClusteringLib
 {
     public class ClusteringNodeClass : IClusteringNodeClass // ClusteringNodeClass<Node> : ClusteringClass where Node : ClusteringNode
     {
-        // protected List<Node> Nodes = new List<Node>();
+        private IClusteringClass clusteringClass = new ClusteringClass();
 
-        protected List<Item> Items = new List<Item>();
-
-        public LearningMode learningMode { set; get; }
+        public LearningMode learningMode { set { clusteringClass.learningMode = value; } get { return clusteringClass.learningMode; } }
+        public bool StopFlag { set { clusteringClass.StopFlag = value; } get { return clusteringClass.StopFlag; } }
 
         public void SetItems(List<Item> items)
         {
-            Items = items;
+            clusteringClass.SetItems(items); // Items = items;
         }
 
         public List<Item> GetItems()
         {
-            return Items;
+            return clusteringClass.GetItems(); // return Items;
         }
 
-        public bool StopFlag { set; get; }
+        //public bool StopFlag { set; get; }
 
         public void Stop()
         {
-            StopFlag = true;
+            clusteringClass.Stop(); // StopFlag = true;
         }
 
         public int Winner<Node>(Item item, List<Node> Nodes) where Node : ClusteringNode
@@ -108,7 +107,7 @@ namespace ClusteringLib
             {
                 result[node] = new List<Item>();
             }
-            foreach (var item in Items)
+            foreach (var item in clusteringClass.GetItems()) // foreach (var item in Items)
             {
                 result[Nodes[Winner(item, Nodes)]].Add(item);
             }
