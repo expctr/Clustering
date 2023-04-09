@@ -12,19 +12,28 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class GNGNeuron : ClusteringNeuron, IClusteringNode
+    public class GNGNeuron : IClusteringNode
     {
+        IClusteringNeuron clusteringNeuron;
+
         double Error;
+
         List<GNGNeuron> Neighbours = new List<GNGNeuron>();
+
         Dictionary<GNGNeuron, int> Ages = new Dictionary<GNGNeuron, int>();
-        public GNGNeuron(double[] coordinates) : base(coordinates)
+
+        public GNGNeuron(double[] coordinates)
         {
+            clusteringNeuron = new ClusteringNeuron(coordinates);
             Error = 0;
         }
-        public GNGNeuron(double[] coordinates, double _Error) : base(coordinates)
+
+        public GNGNeuron(double[] coordinates, double _Error)
         {
+            clusteringNeuron = new ClusteringNeuron(coordinates);
             Error = _Error;
         }
+
         public double GetError
         {
             get
@@ -32,34 +41,46 @@ namespace ClusteringLib
                 return Error;
             }
         }
+
         public void IncreaseError(Item item)
         {
-            Error += EuclideanGeometry.Distance(item.GetCoordinates, Coordinates);
+            Error += EuclideanGeometry.Distance(item.GetCoordinates, clusteringNeuron.GetCoordinates());
         }
+
         public void MultiplyError(double x)
         {
             Error *= x;
         }
+
         public void Connect(GNGNeuron neuron)
         {
             PartialConnect(neuron);
             neuron.PartialConnect(this);
         }
+
         public void PartialConnect(GNGNeuron neuron)
         {
             if (Neighbours.FindIndex(x => x == neuron) == -1) Neighbours.Add(neuron);
             Ages[neuron] = 0;
         }
+
         public void Disconnect(GNGNeuron neuron)
         {
             PartialDisconnect(neuron);
             neuron.PartialDisconnect(this);
         }
+
         public void PartialDisconnect(GNGNeuron neuron)
         {
             Neighbours.RemoveAt(Neighbours.FindIndex(x => x == neuron));
             Ages.Remove(neuron);
         }
+
+        public void Learn(double[] point, double learningSpeed)
+        {
+            clusteringNeuron.Learn(point, learningSpeed);
+        }
+
         public void LearnNeighbours(Item item, double learningSpeed)
         {
             foreach (var neighbour in Neighbours)
@@ -67,6 +88,7 @@ namespace ClusteringLib
                 neighbour.Learn(item.GetCoordinates, learningSpeed);
             }
         }
+
         public void IncreaseAges()
         {
             foreach (var neighbour in Neighbours)
@@ -74,6 +96,7 @@ namespace ClusteringLib
                 ++Ages[neighbour];
             }
         }
+
         public void DeleteOldNeighbours(int maxAge)
         {
             for (int i = 0; i < Neighbours.Count; ++i)
@@ -85,6 +108,7 @@ namespace ClusteringLib
                 }
             }
         }
+
         public bool NoNeighbours
         {
             get
@@ -92,6 +116,7 @@ namespace ClusteringLib
                 return Neighbours.Count == 0;
             }
         }
+
         public GNGNeuron FindMostIncorrectNeighbour()
         {
             int result = 0;
@@ -106,7 +131,9 @@ namespace ClusteringLib
             }
             return Neighbours[result];
         }
+
         public delegate void del1();
+
         public void GetComponent(List<GNGNeuron> Component, Dictionary<GNGNeuron, bool> UsedNeurons)
         {
             if (UsedNeurons[this]) return;
@@ -116,6 +143,36 @@ namespace ClusteringLib
             {
                 neighbour.GetComponent(Component, UsedNeurons);
             }
+        }
+
+        public void SetCoordinates(double[] coordinates)
+        {
+            clusteringNeuron.SetCoordinates(coordinates);
+        }
+
+        public double[] GetCoordinates()
+        {
+            return clusteringNeuron.GetCoordinates();
+        }
+
+        public void SetSavedCoordinates(double[] savedCoordinates)
+        {
+            clusteringNeuron.SetSavedCoordinates(savedCoordinates);
+        }
+
+        public double[] GetSavedCoordinates()
+        {
+            return clusteringNeuron.GetSavedCoordinates();
+        }
+
+        public bool Deflected(double ConvEps)
+        {
+            return clusteringNeuron.Deflected(ConvEps);
+        }
+
+        public void RewriteSavedCoordinates()
+        {
+            clusteringNeuron.RewriteSavedCoordinates();
         }
     }
 }

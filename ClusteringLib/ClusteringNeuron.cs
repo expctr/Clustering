@@ -12,33 +12,72 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class ClusteringNeuron : ClusteringNode, IClusteringNode
+    public class ClusteringNeuron : IClusteringNode, IClusteringNeuron
     {
+        IClusteringNode clusteringNode;
+
         protected double LearningSpeed;
-        public ClusteringNeuron(double[] coordinates, double learningSpeed) : base(coordinates)
+
+        public ClusteringNeuron(double[] coordinates, double learningSpeed)
         {
+            clusteringNode = new ClusteringNode(coordinates);
+
             LearningSpeed = learningSpeed;
-            SavedCoordinates = null;
+            clusteringNode.SetSavedCoordinates(null); // SavedCoordinates = null;
         }
-        public ClusteringNeuron(double[] coordinates) : base(coordinates)
+
+        public ClusteringNeuron(double[] coordinates)
         {
-            SavedCoordinates = null;
+            clusteringNode = new ClusteringNode(coordinates);
+            // SavedCoordinates = null;
+            clusteringNode.SetSavedCoordinates(null);
         }
+
         public void Learn(double[] point)
         {
-            double[] offset = EuclideanGeometry.VectorSubtraction(point, Coordinates);
-            for (int i = 0; i < Coordinates.Length; ++i)
+            double[] offset = EuclideanGeometry.VectorSubtraction(point, clusteringNode.GetCoordinates());
+            for (int i = 0; i < clusteringNode.GetCoordinates().Length; ++i)
             {
-                Coordinates[i] = Coordinates[i] + LearningSpeed * offset[i];
+                clusteringNode.GetCoordinates()[i] = clusteringNode.GetCoordinates()[i] + LearningSpeed * offset[i];
             }
         }
         public void Learn(double[] point, double learningSpeed)
         {
-            double[] offset = EuclideanGeometry.VectorSubtraction(point, Coordinates);
-            for (int i = 0; i < Coordinates.Length; ++i)
+            double[] offset = EuclideanGeometry.VectorSubtraction(point, clusteringNode.GetCoordinates());
+            for (int i = 0; i < clusteringNode.GetCoordinates().Length; ++i)
             {
-                Coordinates[i] = Coordinates[i] + learningSpeed * offset[i];
+                clusteringNode.GetCoordinates()[i] = clusteringNode.GetCoordinates()[i] + learningSpeed * offset[i];
             }
+        }
+
+        public void SetCoordinates(double[] coordinates)
+        {
+            clusteringNode.SetCoordinates(coordinates);
+        }
+
+        public double[] GetCoordinates()
+        {
+            return clusteringNode.GetCoordinates();
+        }
+
+        public void SetSavedCoordinates(double[] savedCoordinates)
+        {
+            clusteringNode.SetSavedCoordinates(savedCoordinates);
+        }
+
+        public double[] GetSavedCoordinates()
+        {
+            return clusteringNode.GetSavedCoordinates();
+        }
+
+        public bool Deflected(double ConvEps)
+        {
+            return clusteringNode.Deflected(ConvEps);
+        }
+
+        public void RewriteSavedCoordinates()
+        {
+            clusteringNode.RewriteSavedCoordinates();
         }
     }
 }

@@ -12,12 +12,17 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class FORELNode : ClusteringNode
+    public class FORELNode
     {
+        IClusteringNode clusteringNode;
+
         double Range;
+
         List<Item> Domain = new List<Item>();
-        public FORELNode(double[] coordinates, double range) : base(coordinates)
+
+        public FORELNode(double[] coordinates, double range)
         {
+            clusteringNode = new ClusteringNode(coordinates);
             Range = range;
         }
         public void Grab(List<Item> items, bool[] used)
@@ -26,7 +31,7 @@ namespace ClusteringLib
             for (int i = 0; i < items.Count; ++i)
             {
                 if (used[i]) continue;
-                if (EuclideanGeometry.Distance(items[i].GetCoordinates, Coordinates) <= Range)
+                if (EuclideanGeometry.Distance(items[i].GetCoordinates, clusteringNode.GetCoordinates()) <= Range)
                 {
                     Domain.Add(items[i]);
                 }
@@ -38,7 +43,7 @@ namespace ClusteringLib
             for (int i = 0; i < items.Count; ++i)
             {
                 if (used[i]) continue;
-                if (EuclideanGeometry.Distance(items[i].GetCoordinates, Coordinates) <= Range)
+                if (EuclideanGeometry.Distance(items[i].GetCoordinates, clusteringNode.GetCoordinates()) <= Range)
                 {
                     DomainInd.Add(i);
                 }
@@ -56,7 +61,13 @@ namespace ClusteringLib
         }
         public void Learn()
         {
-            Coordinates = EuclideanGeometry.Barycentre(Item.ToDoubleArray(Domain));
+            // Coordinates = EuclideanGeometry.Barycentre(Item.ToDoubleArray(Domain));
+            clusteringNode.SetCoordinates(EuclideanGeometry.Barycentre(Item.ToDoubleArray(Domain)));
+        }
+
+        public double[] GetCoordinates()
+        {
+            return clusteringNode.GetCoordinates();
         }
     }
 }

@@ -12,16 +12,50 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class KMeansNode : ClusteringNode, IClusteringNode
+    public class KMeansNode : IClusteringNode
     {
-        public KMeansNode(double[] coordinates) : base(coordinates)
-        {
+        IClusteringNode clusteringNode;
 
+        public KMeansNode(double[] coordinates)
+        {
+            clusteringNode = new ClusteringNode(coordinates);
         }
+
+        public bool Deflected(double ConvEps)
+        {
+            return clusteringNode.Deflected(ConvEps);
+        }
+
+        public double[] GetCoordinates()
+        {
+            return clusteringNode.GetCoordinates();
+        }
+
+        public double[] GetSavedCoordinates()
+        {
+            return clusteringNode.GetSavedCoordinates();
+        }
+
         public void Learn(List<Item> items)
         {
             if (items.Count == 0) return;
-            Coordinates = EuclideanGeometry.Barycentre(Item.ToDoubleArray(items));
+            // Coordinates = EuclideanGeometry.Barycentre(Item.ToDoubleArray(items));
+            clusteringNode.SetCoordinates(EuclideanGeometry.Barycentre(Item.ToDoubleArray(items)));
+        }
+
+        public void RewriteSavedCoordinates()
+        {
+            clusteringNode.RewriteSavedCoordinates();
+        }
+
+        public void SetCoordinates(double[] coordinates)
+        {
+            clusteringNode.SetCoordinates(coordinates);
+        }
+
+        public void SetSavedCoordinates(double[] savedCoordinates)
+        {
+            clusteringNode.SetSavedCoordinates(savedCoordinates);
         }
     }
 }
