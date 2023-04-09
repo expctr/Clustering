@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class ClusteringNeuron : ClusteringNode
+    public class ClusteringNeuron : ClusteringNode, IClusteringNode
     {
         protected double LearningSpeed;
         public ClusteringNeuron(double[] coordinates, double learningSpeed) : base(coordinates)

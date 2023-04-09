@@ -36,7 +36,7 @@ namespace ClusteringLib
             clusteringClass.Stop(); // StopFlag = true;
         }
 
-        public int Winner<Node>(Item item, List<Node> Nodes) where Node : ClusteringNode
+        public int Winner<Node>(Item item, List<Node> Nodes) where Node : IClusteringNode
         {
             double[] itemCoordinates = item.GetCoordinates;
             double MinDistance = EuclideanGeometry.Distance(Nodes[0].GetCoordinates(), itemCoordinates);
@@ -53,7 +53,7 @@ namespace ClusteringLib
             return result;
         }
 
-        public int Winner<Node>(Item item, out double distance, List<Node> Nodes) where Node : ClusteringNode
+        public int Winner<Node>(Item item, out double distance, List<Node> Nodes) where Node : IClusteringNode
         {
             double[] itemCoordinates = item.GetCoordinates;
             double MinDistance = EuclideanGeometry.Distance(Nodes[0].GetCoordinates(), itemCoordinates);
@@ -100,7 +100,7 @@ namespace ClusteringLib
         //    return Clusters;
         //}
 
-        public Dictionary<Node, List<Item>> CreateDomains<Node>(List<Node> Nodes) where Node : ClusteringNode
+        public Dictionary<Node, List<Item>> CreateDomains<Node>(List<Node> Nodes) where Node : IClusteringNode
         {
             Dictionary<Node, List<Item>> result = new Dictionary<Node, List<Item>>();
             foreach (var node in Nodes)
@@ -123,7 +123,7 @@ namespace ClusteringLib
             }
             return result;
         }
-        public bool Converged<Node>(double ConvEps, List<Node> Nodes) where Node : ClusteringNode
+        public bool Converged<Node>(double ConvEps, List<Node> Nodes) where Node : IClusteringNode
         {
             for (int i = 0; i < Nodes.Count; ++i)
             {

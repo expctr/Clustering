@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class GNGNeuron : ClusteringNeuron
+    public class GNGNeuron : ClusteringNeuron, IClusteringNode
     {
         double Error;
         List<GNGNeuron> Neighbours = new List<GNGNeuron>();

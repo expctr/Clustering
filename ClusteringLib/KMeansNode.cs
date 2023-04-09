@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class KMeansNode : ClusteringNode
+    public class KMeansNode : ClusteringNode, IClusteringNode
     {
         public KMeansNode(double[] coordinates) : base(coordinates)
         {
