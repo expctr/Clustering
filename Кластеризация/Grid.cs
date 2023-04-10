@@ -13,7 +13,7 @@ using ClusteringLib;
 
 namespace Кластеризация
 {
-    class Grid //Реализует координатную евклидову плоскость, способную содержать точки
+    class Grid : IGrid //Реализует координатную евклидову плоскость, способную содержать точки
     {
         protected Bitmap bmp;
         protected PictureBox PB;
@@ -31,6 +31,7 @@ namespace Кластеризация
         protected double minOffsetY = double.MinValue / 10;
         protected double maxOffsetX = double.MaxValue / 10;
         protected double maxOffsetY = double.MaxValue / 10;
+        protected List<Item> Items = new List<Item>(); //Список точек
         public Grid(PictureBox pb)
         {
             PB = pb;
@@ -42,7 +43,63 @@ namespace Кластеризация
             graph = Graphics.FromImage(bmp);
             graph.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
         }
-        protected void SetOffsetX(double _offsetX)
+
+        public void SetItems(List<Item> items)
+        {
+            Items = items;
+        }
+
+        public List<Item> GetItems()
+        {
+            return Items;
+        }
+
+        public PictureBox GetPB()
+        {
+            return PB;
+        }
+
+        public Graphics GetGraph()
+        {
+            return graph;
+        }
+
+        public void SetGrpah(Graphics graph)
+        {
+            this.graph = graph;
+        }
+
+        public Bitmap GetBMP()
+        {
+            return bmp;
+        }
+
+        public void SetBMP(Bitmap bmp)
+        {
+            this.bmp = bmp;
+        }
+
+        public double GetOffsetX()
+        {
+            return offsetX;
+        }
+
+        public double GetOffsetY()
+        {
+            return offsetY;
+        }
+
+        public double GetScaleX()
+        {
+            return scaleX;
+        }
+
+        public double GetScaleY()
+        {
+            return scaleY;
+        }
+
+        public void SetOffsetX(double _offsetX)
         {
             if(_offsetX < minOffsetX)
             {
@@ -56,7 +113,7 @@ namespace Кластеризация
             }
             offsetX = _offsetX;
         }
-        protected void SetOffsetY(double _offsetY)
+        public void SetOffsetY(double _offsetY)
         {
             if (_offsetY < minOffsetY)
             {
@@ -70,7 +127,7 @@ namespace Кластеризация
             }
             offsetY = _offsetY;
         }
-        protected void SetScaleX(double _scaleX)
+        public void SetScaleX(double _scaleX)
         {
             if(_scaleX < minScaleX)
             {
@@ -84,7 +141,7 @@ namespace Кластеризация
             }
             scaleX = _scaleX;
         }
-        protected void SetScaleY(double _scaleY)
+        public void SetScaleY(double _scaleY)
         {
             if (_scaleY < minScaleY)
             {
@@ -99,11 +156,11 @@ namespace Кластеризация
             scaleY = _scaleY;
         }
         //Преобразования координат
-        protected double XtoGrid(double eX)
+        public double XtoGrid(double eX)
         {
             return (offsetX + eX) * scaleX;
         }
-        protected double YtoGrid(double eY)
+        public double YtoGrid(double eY)
         {
             return (offsetY - eY) * scaleY;
         }
@@ -175,7 +232,7 @@ namespace Кластеризация
                 PB.Image = bmp;
             }
         }
-        protected void DrawPoints_Grid(List<double[]> points, Color color, Graphics graph_, bool show)
+        public void DrawPoints_Grid(List<double[]> points, Color color, Graphics graph_, bool show)
         {
             foreach (var point in points)
             {
@@ -220,7 +277,7 @@ namespace Кластеризация
         {
             DrawSquare_PB(XtoPB(Xgrid), YtoPB(Ygrid), color, graph_, aPB);
         }
-        protected void DrawSquare_Grid(double Xgrid, double Ygrid, Color color, bool InverseCentre, Graphics graph_,
+        public void DrawSquare_Grid(double Xgrid, double Ygrid, Color color, bool InverseCentre, Graphics graph_,
             int aPB = 8)
         {
             DrawSquare_PB(XtoPB(Xgrid), YtoPB(Ygrid), color, InverseCentre, graph_, aPB);
@@ -307,11 +364,12 @@ namespace Кластеризация
                 PB.Image = bmp;
             }
         }
-        protected List<Item> Items = new List<Item>(); //Список точек
+
         protected Item CreateItem_PB(double eX, double eY) //Создает 2D экземпляр структуры Item по координатам на PB
         {
             return new Item(XtoGrid(eX), YtoGrid(eY), $"Объект {Items.Count + 1}", 3);
         }
+
         protected void AddItem_PB(double eX, double eY, Graphics graph_, bool show)
         {
             Items.Add(CreateItem_PB(eX, eY));
@@ -321,6 +379,7 @@ namespace Кластеризация
                 PB.Image = bmp;
             }
         }
+
         protected void AddItem_PB(double eX, double eY, bool show)
         {
             Items.Add(CreateItem_PB(eX, eY));
@@ -331,196 +390,4 @@ namespace Кластеризация
             }
         }
     }//class Grid
-
-    class ClusteringViewMaster : Grid
-    {
-        protected Form Carrier;
-        protected List<Cluster> Clusters = null;
-        public ClusteringViewMaster(PictureBox pb, Form carrier, List<Item> items) : base(pb)
-        {
-            Carrier = carrier;
-            Items = items;
-            PB.MouseDown += PB_MouseDown;
-            PB.MouseUp += PB_MouseUp;
-            PB.MouseMove += PB_MoveMouseMove;
-            PB.MouseWheel += PB_MouseWheel;
-            Carrier.SizeChanged += Carrier_SizeChanged;
-
-            showDelegate += delegate ()
-            {
-                if (Clusters != null)
-                {
-                    ShowGrid(graph, false);
-                    ShowClusters(graph, true);
-                }
-                else
-                {
-                    Show(graph, true);
-                }
-            };
-        }
-        //
-        //Рисование
-        //
-        protected void ShowCluster(Cluster cluster, bool ShowCentre, Graphics graph_, bool show)
-        {
-            List<Item> items = cluster.GetElements();
-
-            DrawPoints_Grid(Item.ToDoubleArray(items), cluster.GetElementColor, graph_, false);
-            if (ShowCentre)
-            {
-                double[] centre = EuclideanGeometry.Barycentre(Item.ToDoubleArray(items));
-                DrawSquare_Grid(centre[0], centre[1], cluster.GetCentreColor, true, graph_);
-            }
-            if (show)
-            {
-                PB.Image = bmp;
-            }
-        }
-        protected void ShowClusters(Graphics graph_, bool show)
-        {
-            foreach (var cluster in Clusters)
-            {
-                ShowCluster(cluster, true, graph_, false);
-            }
-            if (show)
-            {
-                PB.Image = bmp;
-            }
-        }
-        //
-        //Обработчики событий
-        //
-
-        //
-        //Режим перемещения
-        //
-        protected delegate void ShowDelegate();
-        protected ShowDelegate showDelegate;
-        protected bool InMove; //Мышь зажата
-        protected double targetX, targetY; //Запоминание положения мыши в некоторый момент в координатах PB
-        protected void PB_MouseDown(object sender, MouseEventArgs e) //Регистрирует зажатие мыши
-        {
-            InMove = true;
-            targetX = e.X;
-            targetY = e.Y;
-        }
-        protected void PB_MouseUp(object sender, MouseEventArgs e) //Регистрирует снятия зажатия с мыши
-        {
-            InMove = false;
-        }
-        protected void PB_MoveMouseMove(object sender, MouseEventArgs e) //При перемещении курсора перемещается и плоскость
-        {
-            if (!InMove) return;
-            SetOffsetX(offsetX - (e.X - targetX));
-            SetOffsetY(offsetY + e.Y - targetY);
-            showDelegate();
-            targetX = e.X;
-            targetY = e.Y;
-        }
-        //
-        //Масштабирование
-        //
-        protected void PB_MouseWheel(object sender, MouseEventArgs e) //Управление масштабированием. Этот обработчик является общим для всех режимов
-        {
-            double X0 = XtoGrid(e.X);
-            double Y0 = YtoGrid(e.Y);
-            if (e.Delta > 0)
-            {
-                SetScaleX(scaleX * 0.95);
-                SetScaleY(scaleY * 0.95);
-            }
-            else
-            {
-                SetScaleX(scaleX * 1.05);
-                SetScaleY(scaleY * 1.05);
-            }
-            SetOffsetX(X0 / scaleX - e.X);
-            SetOffsetY(Y0 / scaleY + e.Y);
-            showDelegate();
-        }
-
-        //
-        //Изменение размеров формы
-        //
-        protected void Carrier_SizeChanged(object sender, EventArgs e)
-        {
-            PB.Width = Carrier.Width - PB.Location.X - 28;
-            PB.Height = Carrier.Height - 78;
-            try
-            {
-                bmp = new Bitmap(PB.Width, PB.Height);
-                graph = Graphics.FromImage(bmp);
-                showDelegate();
-            }
-            catch
-            {
-
-            }
-        }
-    }//class ClusteringViewMaster
-
-    class TimeLimitMaster
-    {
-        public bool TimeLimitActivated;
-        public double Hours, Minutes, Seconds;
-        double timeLimit_Seconds;
-        Stopwatch watch;
-        Action Finish;
-        public TimeLimitMaster(bool timeLimitActivated, double hours, double minutes, double seconds)
-        {
-            TimeLimitActivated = timeLimitActivated;
-            Hours = hours;
-            Minutes = minutes;
-            Seconds = seconds;
-            watch = new Stopwatch();
-        }
-
-        public void SetOptions(ClusteringOptions opt)
-        {
-            TimeLimitActivated = opt.TimeLimitActivated;
-            Hours = opt.Hours;
-            Minutes = opt.Minutes;
-            Seconds = opt.Seconds;
-        }
-        public void AddOptions(ClusteringOptions opt)
-        {
-            opt.TimeLimitActivated = TimeLimitActivated;
-            opt.Hours = Hours;
-            opt.Minutes = Minutes;
-            opt.Seconds = Seconds;
-        }
-
-        public double TimeLimit_Seconds
-        {
-            get {
-                return Hours * 3600 + Minutes * 60 + Seconds;
-            }
-        }
-        public void SetTimeLimit(double hours, double minutes, double seconds)
-        {
-            Hours = hours; Minutes = minutes; Seconds = seconds;
-        }
-        public void SetFinish(Action finish)
-        {
-            Finish = null;
-            Finish += finish;
-        }
-        public void Activate()
-        {
-            watch.Restart();
-            timeLimit_Seconds = TimeLimit_Seconds;
-        }
-
-        public void Check()
-        {
-            if (!TimeLimitActivated) return;
-            if (watch.Elapsed.Seconds > TimeLimit_Seconds)
-            {
-                watch.Reset();
-                Finish();
-            }
-        }
-    }//class SOMTimeLimitMaster
-
 }
