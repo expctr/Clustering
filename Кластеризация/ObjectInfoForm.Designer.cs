@@ -138,7 +138,7 @@
             this.Name = "ObjectInfoForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Информацмя об объекте";
-            this.Load += new System.EventHandler(this.ObjectInfoForm_Load);
+            // this.Load += new System.EventHandler(this.ObjectInfoForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ObjectInfoDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

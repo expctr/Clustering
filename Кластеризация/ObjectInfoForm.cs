@@ -21,87 +21,49 @@ namespace Кластеризация
             InitializeComponent();
         }
 
-        Item item;
-        string[] ColsNames;
-        Cluster cluster;
-        int clusterInd;
-
-        public ObjectInfoForm(Item _item, string[] colsNames, Cluster _cluster,
-            int _clusterInd) : this()
+        public Label GetObjectNameL()
         {
-            item = _item;
-            ColsNames = colsNames;
-            cluster = _cluster;
-            clusterInd = _clusterInd;
-            FindB.Click += FindB_Click;
+            return ObjectNameL;
         }
 
-        private void ObjectInfoForm_Load(object sender, EventArgs e)
+        public Label GetObjectIndexL()
         {
-            ShowInfo();
+            return ObjectIndexL;
         }
 
-        void ShowInfo()
+        public Label GetClusterIndexL()
         {
-            ObjectNameL.Text = $"Название объекта: {item.Name}";
-            ObjectIndexL.Text = $"Индекс объекта (в общем списке): {item.Index}";
-            ClusterIndexL.Text = $"Индекс кластера: {clusterInd}";
-            double distance = EuclideanGeometry.Distance(item.GetCoordinates,
-                cluster.GetCentre);
-            DistanceL.Text = $"Расстояние до центра кластера: " +
-                $"{distance}";
-            ShowDGV();
-
+            return ClusterIndexL;
         }
 
-        void ShowDGV()
+        public Label GetDistanceL()
         {
-            ObjectInfoDGV.ColumnCount = ColsNames.Length + 2;
-            for (int i = 0; i < ColsNames.Length + 2; ++i)
-            {
-                ObjectInfoDGV.Columns[i].Name = (i + 1).ToString();
-            }
-            string[] _ColsNames = new string[ColsNames.Length + 2];
-            _ColsNames[0] = "Индекс";
-            _ColsNames[1] = "Название";
-            for (int i = 2; i < _ColsNames.Length; ++i)
-            {
-                _ColsNames[i] = ColsNames[i - 2];
-            }
-            ObjectInfoDGV.Rows.Add(_ColsNames);
-            ObjectInfoDGV.Rows.Add(item.ToRow());
+            return DistanceL;
         }
 
-        private void FindB_Click(object sender, EventArgs e)
+        public DataGridView GetObjectInfoDGV()
         {
-            FindB.Enabled = false;
-            double radius = 0;
-            try
-            {
-                radius = double.Parse(RadiusTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Радиус введен некорректно.");
-                FindB.Enabled = true;
-                return;
-            }
-            if (radius < 0)
-            {
-                MessageBox.Show("Ошибка. Радиус не может быть отрицательным");
-                FindB.Enabled = true;
-                return;
-            }
-            int number = cluster.CountInRadius(item.GetCoordinates, radius);
-            NumberOfElementsInRadius.Text = "Число элементов около\n" +
-                "объекта в указанном\n" +
-                $"радиусе: {number - 1}";
-            FindB.Enabled = true;
+            return ObjectInfoDGV;
         }
 
-        private void ObjectInfoForm_SizeChanged(object sender, EventArgs e)
+        public Button GetFindB()
         {
-            ObjectInfoDGV.Width = Width - 2 * 8 - 2 * 12;
+            return FindB;
+        }
+
+        public TextBox GetRadiusTB()
+        {
+            return RadiusTB;
+        }
+
+        public Label GetNumberOfElementsInRadius()
+        {
+            return NumberOfElementsInRadius;
+        }
+
+        public int GetWidth()
+        {
+            return Width;
         }
     }
 }

@@ -1231,9 +1231,13 @@ namespace Кластеризация
                 return;
             }
             int itemIndInCluster = Clusters[ind].FindIndex_Name(ObjectIDTB.Text);
-            ObjectInfoForm infoForm = new ObjectInfoForm(Items[
+
+            ObjectInfoForm infoForm = new ObjectInfoForm();
+            ObjectInfoModel infoModel = new ObjectInfoModel(infoForm, Items[
                 Clusters[ind][itemIndInCluster].Index],
                 ColsNames, Clusters[ind], ind);
+            ObjectInfoController infoController = new ObjectInfoController(infoForm, infoModel);
+            infoController.AddEventHandlers();
             infoForm.ShowDialog();
         }
         void FindClusterIndexB_Click(object sender, EventArgs e)
@@ -1260,9 +1264,12 @@ namespace Кластеризация
                 return;
             }
             int itemIndInCluster = Clusters[ind].FindIndex_Index(Index);
-            ObjectInfoForm infoForm = new ObjectInfoForm(Items[
+            ObjectInfoForm infoForm = new ObjectInfoForm();
+            ObjectInfoModel infoModel = new ObjectInfoModel(infoForm, Items[
                 Clusters[ind][itemIndInCluster].Index],
                 ColsNames, Clusters[ind], ind);
+            ObjectInfoController infoController = new ObjectInfoController(infoForm, infoModel);
+            infoController.AddEventHandlers();
             infoForm.ShowDialog();
         }
         //
