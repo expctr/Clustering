@@ -1217,8 +1217,11 @@ namespace Кластеризация
         void ClusterInfoB_Click(object sender, EventArgs e)
         {
             int ind = (int)ClustersNumberNUD.Value;
-            ClusterInfoForm infoForm = new ClusterInfoForm(Clusters[ind], ind,
+            ClusterInfoForm infoForm = new ClusterInfoForm();
+            ClusterInfoModel infoModel = new ClusterInfoModel(infoForm, Clusters[ind], ind,
                 ColsNames);
+            ClusterInfoController infoController = new ClusterInfoController(infoForm, infoModel);
+            infoController.AddEventHandlers();
             infoForm.ShowDialog();
         }
         void FindClusterNameB_Click(object sender, EventArgs e)

@@ -59,12 +59,14 @@
     <Compile Include="AglomerativeOptionsForm.Designer.cs">
       <DependentUpon>AglomerativeOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClusterInfoController.cs" />
     <Compile Include="ClusterInfoForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ClusterInfoForm.Designer.cs">
       <DependentUpon>ClusterInfoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClusterInfoModel.cs" />
     <Compile Include="ClusteringViewMaster.cs" />
     <Compile Include="ClusterizationParameterOptionsController.cs" />
     <Compile Include="ClusterizationParameterOptionsForm.cs">

@@ -20,92 +20,69 @@ namespace Кластеризация
             InitializeComponent();
         }
 
-        int Index;
-        double ADBE;
-        string[] ColsNames;
-        Cluster cluster;
+        //int Index;
+        //double ADBE;
+        //string[] ColsNames;
+        //Cluster cluster;
 
-        public ClusterInfoForm(Cluster _cluster, int index, string[] colsNames) : this()
+        public BackgroundWorker GetBackgroundWorker1()
         {
-            cluster = _cluster;
-            cluster.ResetProgressChanged();
-            cluster.progressChanged += (double x) =>
-            {
-                backgroundWorker1.ReportProgress((int)(x * progressBar1.Maximum));
-            };
-            Index = index;
-            ColsNames = colsNames;
+            return backgroundWorker1;
         }
 
-        private void ClusterInfoForm_Load(object sender, EventArgs e)
+        public ProgressBar GetProgressBar1()
         {
-            ShowInfo();
-            FindADBEB.Click += FindADBEB_Click;
-            backgroundWorker1.DoWork +=
-                backgroundWorker1_DoWork;
-            backgroundWorker1.ProgressChanged +=
-                backgroundWorker1_ProgressChanged;
-            backgroundWorker1.RunWorkerCompleted +=
-                backgroundWorker1_RunWorkerCompleted;
+            return progressBar1;
         }
 
-        void ShowCentreCoordinates()
+        public Button GetFindADBEB()
         {
-            CentreCoordinatesDGV.ColumnCount = ColsNames.Length;
-            for (int i = 0; i < ColsNames.Length; ++i)
-            {
-                CentreCoordinatesDGV.Columns[i].Name = (i + 1).ToString();
-            }
-            CentreCoordinatesDGV.Rows.Add(ColsNames);
-            double[] centre = cluster.GetCentre;
-            string[] row = new string[centre.Length];
-            for (int i = 0; i < row.Length; ++i)
-            {
-                row[i] = centre[i].ToString();
-            }
-            CentreCoordinatesDGV.Rows.Add(row);
-            //CentreCoordinatesDGV.Rows[0].Frozen = true;
+            return FindADBEB;
         }
 
-        void ShowInfo()
+        public DataGridView GetCentreCoordinatesDGV()
         {
-            ClusterIndexL.Text = $"Кластер с индексом {Index}";
-            ShowCentreCoordinates();
-            SizeL.Text = $"Размер: {cluster.Count}";
-            MeanLinearDeviationL.Text = $"Среднее линейное отклонение: " +
-                $"{cluster.MeanLinearIntraclusterDeviation}";
-            MeanSquareDeviationL.Text = $"Среднеквадратическое отклонение: " +
-                $"{cluster.MeanSquareIntraclusterDeviation}";
-            DispersionL.Text = $"Дисперсия: {cluster.Dispersion}";
-            QuartileRangeL.Text = $"Квартильный размах: {cluster.QuartileRange}";
+            return CentreCoordinatesDGV;
         }
 
-        private void FindADBEB_Click(object sender, EventArgs e)
+        public Label GetClusterIndexL()
         {
-            FindADBEB.Enabled = false;
-            backgroundWorker1.RunWorkerAsync();
+            return ClusterIndexL;
         }
 
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        public Label GetSizeL()
         {
-            ADBE = cluster.AverageDistanceBetweenElements;
+            return SizeL;
         }
 
-        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        public Label GetMeanLinearDeviationL()
         {
-            progressBar1.Value = e.ProgressPercentage;
+            return MeanLinearDeviationL;
         }
 
-        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        public Label GetMeanSquareDeviationL()
         {
-            progressBar1.Value = 0;
-            ADBEL.Text = $"Среднее расстояние между \nэлементами: {ADBE}";
-            FindADBEB.Enabled = true;
+            return MeanSquareDeviationL;
         }
 
-        private void ClusterInfoForm_SizeChanged(object sender, EventArgs e)
+        public Label GetDispersionL()
         {
-            CentreCoordinatesDGV.Width = Width - 2 * 8 - 2 * 12;
+            return DispersionL;
+        }
+
+        public Label GetQuartileRangeL()
+        {
+            return QuartileRangeL;
+        }
+
+        public Label GetADBEL()
+        {
+            return ADBEL;
+        }
+
+        public int GetWidth()
+        {
+            return Width;
         }
     }
 }

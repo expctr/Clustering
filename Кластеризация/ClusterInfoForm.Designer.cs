@@ -164,7 +164,7 @@
             this.Name = "ClusterInfoForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Информация о кластере";
-            this.Load += new System.EventHandler(this.ClusterInfoForm_Load);
+            // this.Load += new System.EventHandler(this.ClusterInfoForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.CentreCoordinatesDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
