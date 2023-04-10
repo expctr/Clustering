@@ -1301,6 +1301,9 @@ namespace Кластеризация
                 case ClusteringAlgorithm.DBSCAN:
                     DBSCANOptionsForm _DBSCANOptionsForm =
                         new DBSCANOptionsForm(Carrier, ApplyEnabled);
+                    DBSCANOptionsModel dbscanOptionsModel = new DBSCANOptionsModel(_DBSCANOptionsForm);
+                    DBSCANOptionsController dbscanOptionsController = new DBSCANOptionsController(_DBSCANOptionsForm, dbscanOptionsModel);
+                    dbscanOptionsController.AddEventHadlers();
                     _DBSCANOptionsForm.ShowDialog();
                     break;
                 case ClusteringAlgorithm.AffinityPropagation:
@@ -1310,7 +1313,7 @@ namespace Кластеризация
                         = new AffinityPropagationOptionsModel(_APOptionsForm);
                     AffinityPropagationOptionsController affinityPropagationOptionsController
                         = new AffinityPropagationOptionsController(_APOptionsForm, affinityPropagationOptionsModel);
-                    affinityPropagationOptionsController.AddActionHandlers();
+                    affinityPropagationOptionsController.AddEventHandlers();
                     _APOptionsForm.ShowDialog();
                     break;
                 case ClusteringAlgorithm.FOREL:

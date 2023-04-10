@@ -103,7 +103,7 @@
             this.Name = "DBSCANOptionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Настройки";
-            this.Load += new System.EventHandler(this.DBSCANOptionsForm_Load);
+            // this.Load += new System.EventHandler(this.DBSCANOptionsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

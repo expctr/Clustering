@@ -18,60 +18,29 @@ namespace Кластеризация
             InitializeComponent();
         }
 
-        MainForm ParentWinForm;
-        ClusteringOptions Options;
+        public MainForm ParentWinForm;
 
         public DBSCANOptionsForm(MainForm parentWinForm, bool ApplyEnabled) : this()
         {
             ParentWinForm = parentWinForm;
-            Options = ParentWinForm.GetOptions();
+            // Options = ParentWinForm.GetOptions();
             ApplyB.Enabled = ApplyEnabled;
-            ApplyB.Click += ApplyB_Click;
+            // ApplyB.Click += ApplyB_Click;
         }
 
-        private void DBSCANOptionsForm_Load(object sender, EventArgs e)
+        public TextBox GetReachabilityRadiusTB()
         {
-            ShowOptions();
+            return ReachabilityRadiusTB;
         }
 
-        public void ShowOptions()
+        public TextBox GetThresholdTB()
         {
-            ReachabilityRadiusTB.Text = Options.ReachabilityRadius.ToString();
-            ThresholdTB.Text = Options.Threshold.ToString();
+            return ThresholdTB;
         }
 
-        private void ApplyB_Click(object sender, EventArgs e)
+        public Button GetApplyB()
         {
-            try
-            {
-                Options.ReachabilityRadius = double.Parse(ReachabilityRadiusTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Радиус достижимости введен некорректно.");
-                return;
-            }
-            if (Options.ReachabilityRadius < 0)
-            {
-                MessageBox.Show("Ошибка. Радиус достижимости не может быть отрицательным.");
-                return;
-            }
-            try
-            {
-                Options.Threshold = int.Parse(ThresholdTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Порог кучности введен некорректно.");
-                return;
-            }
-            if (Options.Threshold < 0)
-            {
-                MessageBox.Show("Ошибка. Порог кучности не может быть отрицательным.");
-                return;
-            }
-            ParentWinForm.SetOptions(Options);
-            MessageBox.Show("Настройки сохранены.");
+            return ApplyB;
         }
     }
 }

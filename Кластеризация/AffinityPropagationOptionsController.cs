@@ -24,7 +24,7 @@ namespace Кластеризация
             this.model = model;
         }
 
-        public void AddActionHandlers()
+        public void AddEventHandlers()
         {
             form.Load += AffinityPropagationOptionsForm_Load;
             form.GetApplyB().Click += ApplyB_Click;

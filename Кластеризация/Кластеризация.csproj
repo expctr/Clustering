@@ -72,12 +72,14 @@
     <Compile Include="ClusterizationParameterOptionsForm.Designer.cs">
       <DependentUpon>ClusterizationParameterOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DBSCANOptionsController.cs" />
     <Compile Include="DBSCANOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DBSCANOptionsForm.Designer.cs">
       <DependentUpon>DBSCANOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DBSCANOptionsModel.cs" />
     <Compile Include="DrawingForm.cs">
       <SubType>Form</SubType>
     </Compile>
