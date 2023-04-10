@@ -1306,6 +1306,11 @@ namespace Кластеризация
                 case ClusteringAlgorithm.AffinityPropagation:
                     AffinityPropagationOptionsForm _APOptionsForm =
                         new AffinityPropagationOptionsForm(Carrier, ApplyEnabled);
+                    AffinityPropagationOptionsModel affinityPropagationOptionsModel
+                        = new AffinityPropagationOptionsModel(_APOptionsForm);
+                    AffinityPropagationOptionsController affinityPropagationOptionsController
+                        = new AffinityPropagationOptionsController(_APOptionsForm, affinityPropagationOptionsModel);
+                    affinityPropagationOptionsController.AddActionHandlers();
                     _APOptionsForm.ShowDialog();
                     break;
                 case ClusteringAlgorithm.FOREL:

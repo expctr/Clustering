@@ -45,12 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AffinityPropagationOptionsController.cs" />
     <Compile Include="AffinityPropagationOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AffinityPropagationOptionsForm.Designer.cs">
       <DependentUpon>AffinityPropagationOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AffinityPropagationOptionsModel.cs" />
     <Compile Include="AglomerativeOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
