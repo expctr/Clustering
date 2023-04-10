@@ -1344,6 +1344,11 @@ namespace Кластеризация
         {
             ClusterizationParameterOptionsForm parameterForm =
                 new ClusterizationParameterOptionsForm(Carrier, ApplyEnabled);
+            ClusterizationParameterOptionsModel parameterModel
+                = new ClusterizationParameterOptionsModel(parameterForm);
+            ClusterizationParameterOptionsController parameterController
+                = new ClusterizationParameterOptionsController(parameterForm, parameterModel);
+            parameterController.AddEventHandlers();
             parameterForm.ShowDialog();
         }
 

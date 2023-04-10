@@ -135,7 +135,7 @@
             this.Name = "ClusterizationParameterOptionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Выбор параметров кластеризации";
-            this.Load += new System.EventHandler(this.ClusterizationParameterOptionsForm_Load);
+            // this.Load += new System.EventHandler(this.ClusterizationParameterOptionsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
