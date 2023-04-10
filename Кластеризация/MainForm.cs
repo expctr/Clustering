@@ -1327,6 +1327,9 @@ namespace Кластеризация
                 case ClusteringAlgorithm.MST:
                     MSTOptionsForm _MSTOptionsForm =
                         new MSTOptionsForm(Carrier, ApplyEnabled);
+                    MSTOptionsModel mstOptionsModel = new MSTOptionsModel(_MSTOptionsForm);
+                    MSTOptionsController mstOptionsController = new MSTOptionsController(_MSTOptionsForm, mstOptionsModel);
+                    mstOptionsController.AddEventHandlers();
                     _MSTOptionsForm.ShowDialog();
                     break;
                 case ClusteringAlgorithm.FullGraph:

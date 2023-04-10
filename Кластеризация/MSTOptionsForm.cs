@@ -18,45 +18,24 @@ namespace Кластеризация
             InitializeComponent();
         }
 
-        MainForm ParentWinForm;
-        ClusteringOptions Options;
+        public MainForm ParentWinForm;
 
         public MSTOptionsForm(MainForm parentWinForm, bool ApplyEnabled) : this()
         {
             ParentWinForm = parentWinForm;
-            Options = ParentWinForm.GetOptions();
+            // Options = ParentWinForm.GetOptions();
             ApplyB.Enabled = ApplyEnabled;
-            ApplyB.Click += ApplyB_Click;
+            // ApplyB.Click += ApplyB_Click;
         }
 
-        private void ApplyB_Click(object sender, EventArgs e)
+        public TextBox GetClustersNumberTB()
         {
-            try
-            {
-                Options.ClustersNumber = int.Parse(ClustersNumberTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Число кластеров введено некорректно.");
-                return;
-            }
-            if (Options.ClustersNumber < 1)
-            {
-                MessageBox.Show("Ошибка. Число кластеров должно быть положительным.");
-                return;
-            }
-            ParentWinForm.SetOptions(Options);
-            MessageBox.Show("Настройки сохранены.");
+            return ClustersNumberTB;
         }
 
-        void ShowOptions()
+        public Button GetApplyB()
         {
-            ClustersNumberTB.Text = Options.ClustersNumber.ToString();
-        }
-
-        private void MSTOptionsForm_Load(object sender, EventArgs e)
-        {
-            ShowOptions();
+            return ApplyB;
         }
     }
 }
