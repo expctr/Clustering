@@ -347,6 +347,9 @@ namespace Кластеризация
         void ShowItemsTSB_Click(object sender, EventArgs e)
         {
             InfoForm fm2 = new InfoForm();
+            InfoModel infoModel = new InfoModel(fm2);
+            InfoController infoController = new InfoController(fm2, infoModel);
+            infoController.AddEventHandlers();
             fm2.dataGridView1.ColumnCount = 4;
             fm2.dataGridView1.Columns[0].Name = "Индекс";
             fm2.dataGridView1.Columns[1].Name = "Название";

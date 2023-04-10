@@ -49,7 +49,7 @@
             this.MinimumSize = new System.Drawing.Size(300, 300);
             this.Name = "InfoForm";
             this.Text = "Информация";
-            this.Load += new System.EventHandler(this.InfoForm_Load);
+            // this.Load += new System.EventHandler(this.InfoForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
