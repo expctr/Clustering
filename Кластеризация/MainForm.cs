@@ -1291,6 +1291,9 @@ namespace Кластеризация
                     break;
                 case ClusteringAlgorithm.KMeans:
                     KMeansOptionsForm _KMeansOptionsForm = new KMeansOptionsForm(Carrier, ApplyEnabled);
+                    KMeansOptionsModel kMeansOptionsModel = new KMeansOptionsModel(_KMeansOptionsForm);
+                    KMeansOptionsController kMeansOptionsController = new KMeansOptionsController(_KMeansOptionsForm, kMeansOptionsModel);
+                    kMeansOptionsController.AddEventHandlers();
                     _KMeansOptionsForm.ShowDialog();
                     break;
                 case ClusteringAlgorithm.Aglomerative:

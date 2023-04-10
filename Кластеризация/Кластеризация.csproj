@@ -112,12 +112,14 @@
     <Compile Include="InfoForm.Designer.cs">
       <DependentUpon>InfoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KMeansOptionsController.cs" />
     <Compile Include="KMeansOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="KMeansOptionsForm.Designer.cs">
       <DependentUpon>KMeansOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KMeansOptionsModel.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

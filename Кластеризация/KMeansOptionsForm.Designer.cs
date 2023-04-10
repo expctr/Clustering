@@ -154,7 +154,7 @@
             this.Name = "KMeansOptionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Настройки";
-            this.Load += new System.EventHandler(this.KMeansOptionsForm_Load);
+            // this.Load += new System.EventHandler(this.KMeansOptionsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
