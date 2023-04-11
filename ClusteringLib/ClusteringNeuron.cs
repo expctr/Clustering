@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class ClusteringNeuron : IClusteringNode, IClusteringNeuron
+    public class ClusteringNeuron : IClusteringNeuron
     {
         IClusteringNode clusteringNode;
 

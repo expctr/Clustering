@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClusteringLib
 {
-    interface IClusteringNeuron
+    interface IClusteringNeuron : IClusteringNode
     {
         void SetCoordinates(double[] coordinates);
 
@@ -17,6 +17,8 @@ namespace ClusteringLib
         double[] GetSavedCoordinates();
 
         void Learn(double[] point, double learningSpeed);
+
+        void Learn(double[] point);
 
         bool Deflected(double ConvEps);
 
