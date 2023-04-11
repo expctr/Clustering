@@ -441,5 +441,4 @@ namespace Кластеризация
         }
 
     }//class DrawingFormViewMaster
-
 }

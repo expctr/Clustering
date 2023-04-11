@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class KMeansNode : IClusteringNode
+    public class KMeansNode : IKMeansNode
     {
         IClusteringNode clusteringNode;
 

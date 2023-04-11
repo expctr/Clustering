@@ -23,7 +23,7 @@ namespace ClusteringLib
 
         IClusteringNodeClass clusteringNodeClass;
 
-        private List<KMeansNode> Nodes = new List<KMeansNode>();
+        private List<IKMeansNode> Nodes = new List<IKMeansNode>();
 
         public bool StopFlag { set { clusteringNodeClass.StopFlag = value; } get { return clusteringNodeClass.StopFlag; } }
         public LearningMode learningMode { set { clusteringNodeClass.learningMode = value; } get { return clusteringNodeClass.learningMode; } }
@@ -71,7 +71,7 @@ namespace ClusteringLib
                 }
                 for (int i = 1; i <= NodesNumber; ++i)
                 {
-                    Dictionary<KMeansNode, List<Item>> domains = clusteringNodeClass.CreateDomains(Nodes); // Dictionary<KMeansNode, List<Item>> domains = CreateDomains();
+                    Dictionary<IKMeansNode, List<Item>> domains = clusteringNodeClass.CreateDomains(Nodes); // Dictionary<KMeansNode, List<Item>> domains = CreateDomains();
                     for (int j = 0; j < Nodes.Count; ++j)
                     {
                         Nodes[j].Learn(domains[Nodes[j]]);
@@ -80,7 +80,7 @@ namespace ClusteringLib
                 ProgressChanged(EpochNum);
             }
         }
-        KMeansNode InitializeNode(double[] minDin, double[] maxDim)
+        IKMeansNode InitializeNode(double[] minDin, double[] maxDim)
         {
             double[] coord = new double[minDin.Length];
             for (int i = 0; i < coord.Length; ++i)
@@ -91,7 +91,7 @@ namespace ClusteringLib
         }
         void InitializeNodes(double[] minDin, double[] maxDim)
         {
-            Nodes = new List<KMeansNode>();
+            Nodes = new List<IKMeansNode>();
             for (int i = 0; i < NodesNumber; ++i)
             {
                 Nodes.Add(InitializeNode(minDin, maxDim));

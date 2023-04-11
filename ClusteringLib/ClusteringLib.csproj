@@ -67,6 +67,7 @@
     <Compile Include="IClusteringNode.cs" />
     <Compile Include="IClusteringNodeClass.cs" />
     <Compile Include="IGraphClusteringClass.cs" />
+    <Compile Include="IKMeansNode.cs" />
     <Compile Include="KMeansClusteringClass.cs" />
     <Compile Include="KMeansNode.cs" />
     <Compile Include="LearningMode.cs" />
