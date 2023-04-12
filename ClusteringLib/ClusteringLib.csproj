@@ -66,6 +66,7 @@
     <Compile Include="IClusteringNeuron.cs" />
     <Compile Include="IClusteringNode.cs" />
     <Compile Include="IClusteringNodeClass.cs" />
+    <Compile Include="IFORELNode.cs" />
     <Compile Include="IGNGNeuron.cs" />
     <Compile Include="IGraphClusteringClass.cs" />
     <Compile Include="IKMeansNode.cs" />

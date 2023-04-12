@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace ClusteringLib
 {
-    public class FORELNode
+    public class FORELNode : IFORELNode
     {
         IClusteringNode clusteringNode;
 

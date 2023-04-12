@@ -61,7 +61,7 @@ namespace ClusteringLib
             }
             List<List<Item>> result = new List<List<Item>>();
             bool[] used = new bool[clusteringClass.GetItems().Count]; // bool[] used = new bool[Items.Count];
-            FORELNode node;
+            IFORELNode node;
             double grabbedElements = 0;
             while (used.Contains(false))
             {
