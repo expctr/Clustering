@@ -74,7 +74,7 @@
             this.Name = "VisualizationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Визуализация";
-            this.Load += new System.EventHandler(this.VisualizationForm_Load);
+            // this.Load += new System.EventHandler(this.VisualizationForm_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

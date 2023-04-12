@@ -1281,7 +1281,10 @@ namespace Кластеризация
         void VisualizationTSMI_Click(object sender, EventArgs e)
         {
             VisualizationForm visualizationForm = new VisualizationForm();
-            visualizationForm.SetInfo(Items, Clusters, false);
+            VisualizationModel visualizationModel = new VisualizationModel(visualizationForm);
+            VisualizationController visualizationController = new VisualizationController(visualizationForm, visualizationModel);
+            visualizationModel.SetInfo(Items, Clusters, false);
+            visualizationController.AddEventHandlers();
             visualizationForm.ShowDialog();
         }
         //
