@@ -157,12 +157,14 @@
       <DependentUpon>SOMOptionsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="TimeLimitMaster.cs" />
+    <Compile Include="VisualizationController.cs" />
     <Compile Include="VisualizationForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="VisualizationForm.Designer.cs">
       <DependentUpon>VisualizationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="VisualizationModel.cs" />
     <EmbeddedResource Include="AffinityPropagationOptionsForm.resx">
       <DependentUpon>AffinityPropagationOptionsForm.cs</DependentUpon>
     </EmbeddedResource>
