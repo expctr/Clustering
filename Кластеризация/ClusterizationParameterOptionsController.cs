@@ -34,22 +34,7 @@ namespace Кластеризация
 
         private void ClusterizationParameterOptionsForm_Load(object sender, EventArgs e)
         {
-            ShowInfo();
-        }
-
-        void ShowInfo()
-        {
-            form.GetCCPChLB().Items.Clear();
-            if (model.OriginalColsNames == null)
-            {
-                return;
-            }
-            form.GetCCPChLB().Items.AddRange(model.OriginalColsNames);
-            for (int i = 0; i < model.CPOptions.ChosenClusterizationParameter.Length; ++i)
-            {
-                form.GetCCPChLB().SetItemChecked(i, model.CPOptions.ChosenClusterizationParameter[i]);
-            }
-            form.GetNormalizeChB().Checked = model.CPOptions.Normalize;
+            form.ShowInfo(model.OriginalColsNames, model.CPOptions);
         }
 
         private void ApplyB_Click(object sender, EventArgs e)
@@ -72,7 +57,7 @@ namespace Кластеризация
             model.CPOptions.Normalize = form.GetNormalizeChB().Checked;
             if (form.GetChangeWeightChB().Checked)
             {
-                int ind = ClusteringParameterIndex(form.GetClusteringParameterNameTB().Text);
+                int ind = model.ClusteringParameterIndex(form.GetClusteringParameterNameTB().Text);
                 if (ind == -1)
                 {
                     MessageBox.Show($"Параметра с названием \"{form.GetClusteringParameterNameTB().Text}\" " +
@@ -112,22 +97,10 @@ namespace Кластеризация
             form.GetCCPChLB().Height = form.GetHeight() - 215;
         }
 
-        int ClusteringParameterIndex(string clusteringParameterName)
-        {
-            for (int i = 0; i < model.OriginalColsNames.Length; ++i)
-            {
-                if (model.OriginalColsNames[i] == clusteringParameterName)
-                {
-                    return i;
-                }
-            }
-            return -1;
-        }
-
         private void ShowClusteringParameterWeight_Click(object sender, EventArgs e)
         {
             string clusteringParameterName = form.GetClusteringParameterNameTB().Text;
-            int ind = ClusteringParameterIndex(clusteringParameterName);
+            int ind = model.ClusteringParameterIndex(clusteringParameterName);
             if (ind != -1)
             {
                 MessageBox.Show($"Вес параметра \"{clusteringParameterName}\" " +

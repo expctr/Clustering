@@ -28,6 +28,17 @@ namespace Кластеризация
             // ApplyB.Click += ApplyB_Click;
         }
 
+        public void ShowOptions(ClusteringOptions clusteringOptions)
+        {
+            GetNodesNumberTB().Text = clusteringOptions.ClustersNumber.ToString();
+            if (clusteringOptions.TimeLimitActivated)
+            {
+                GetHoursTB().Text = clusteringOptions.Hours.ToString();
+                GetMinutesTB().Text = clusteringOptions.Minutes.ToString();
+                GetSecondsTB().Text = clusteringOptions.Seconds.ToString();
+            }
+        }
+
         public TextBox GetNodesNumberTB()
         {
             return NodesNumberTB;

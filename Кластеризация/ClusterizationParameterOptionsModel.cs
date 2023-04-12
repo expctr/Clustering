@@ -25,5 +25,17 @@ namespace Кластеризация
             CPOptions = form.ParentWinForm.GetClusterizationParameterOptions();
             OriginalColsNames = form.ParentWinForm.GetOriginalColsNames();
         }
+
+        public int ClusteringParameterIndex(string clusteringParameterName)
+        {
+            for (int i = 0; i < OriginalColsNames.Length; ++i)
+            {
+                if (OriginalColsNames[i] == clusteringParameterName)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
     }
 }

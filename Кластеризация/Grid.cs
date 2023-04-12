@@ -13,7 +13,7 @@ using ClusteringLib;
 
 namespace Кластеризация
 {
-    class Grid : IGrid //Реализует координатную евклидову плоскость, способную содержать точки
+    public class Grid : IGrid //Реализует координатную евклидову плоскость, способную содержать точки
     {
         protected Bitmap bmp;
         protected PictureBox PB;

@@ -28,7 +28,7 @@ namespace Кластеризация
 
         private void ObjectInfoForm_Load(object sender, EventArgs e)
         {
-            ShowInfo();
+            form.ShowInfo(model.item, model.clusterInd, model.cluster, model.ColsNames);
         }
 
         public void AddEventHandlers()
@@ -36,37 +36,6 @@ namespace Кластеризация
             form.Load += ObjectInfoForm_Load;
             form.GetFindB().Click += FindB_Click;
             form.SizeChanged += ObjectInfoForm_SizeChanged;
-        }
-
-        void ShowInfo()
-        {
-            form.GetObjectNameL().Text = $"Название объекта: {model.item.Name}";
-            form.GetObjectIndexL().Text = $"Индекс объекта (в общем списке): {model.item.Index}";
-            form.GetClusterIndexL().Text = $"Индекс кластера: {model.clusterInd}";
-            double distance = EuclideanGeometry.Distance(model.item.GetCoordinates,
-                model.cluster.GetCentre);
-            form.GetDistanceL().Text = $"Расстояние до центра кластера: " +
-                $"{distance}";
-            ShowDGV();
-
-        }
-
-        void ShowDGV()
-        {
-            form.GetObjectInfoDGV().ColumnCount = model.ColsNames.Length + 2;
-            for (int i = 0; i < model.ColsNames.Length + 2; ++i)
-            {
-                form.GetObjectInfoDGV().Columns[i].Name = (i + 1).ToString();
-            }
-            string[] _ColsNames = new string[model.ColsNames.Length + 2];
-            _ColsNames[0] = "Индекс";
-            _ColsNames[1] = "Название";
-            for (int i = 2; i < _ColsNames.Length; ++i)
-            {
-                _ColsNames[i] = model.ColsNames[i - 2];
-            }
-            form.GetObjectInfoDGV().Rows.Add(_ColsNames);
-            form.GetObjectInfoDGV().Rows.Add(model.item.ToRow());
         }
 
         private void FindB_Click(object sender, EventArgs e)

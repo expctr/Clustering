@@ -33,6 +33,21 @@ namespace Кластеризация
             //ShowClusteringParameterWeight.Click += ShowClusteringParameterWeight_Click;
         }
 
+        public void ShowInfo(string[] OriginalColsNames, ClusteringParameterOptions CPOptions)
+        {
+            GetCCPChLB().Items.Clear();
+            if (OriginalColsNames == null)
+            {
+                return;
+            }
+            GetCCPChLB().Items.AddRange(OriginalColsNames);
+            for (int i = 0; i < CPOptions.ChosenClusterizationParameter.Length; ++i)
+            {
+                GetCCPChLB().SetItemChecked(i, CPOptions.ChosenClusterizationParameter[i]);
+            }
+            GetNormalizeChB().Checked = CPOptions.Normalize;
+        }
+
         public CheckedListBox GetCCPChLB()
         {
             return CCPChLB;

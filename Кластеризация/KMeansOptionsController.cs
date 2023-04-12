@@ -110,18 +110,7 @@ namespace Кластеризация
         private void KMeansOptionsForm_Load(object sender, EventArgs e)
         {
             model.Options = form.ParentWinForm.GetOptions();
-            ShowOptions();
-        }
-
-        public void ShowOptions()
-        {
-            form.GetNodesNumberTB().Text = model.Options.ClustersNumber.ToString();
-            if (model.Options.TimeLimitActivated)
-            {
-                form.GetHoursTB().Text = model.Options.Hours.ToString();
-                form.GetMinutesTB().Text = model.Options.Minutes.ToString();
-                form.GetSecondsTB().Text = model.Options.Seconds.ToString();
-            }
+            form.ShowOptions(model.Options);
         }
     }
 }

@@ -49,14 +49,9 @@ namespace Кластеризация
             MessageBox.Show("Настройки сохранены.");
         }
 
-        void ShowOptions()
-        {
-            form.GetClustersNumberTB().Text = model.Options.ClustersNumber.ToString();
-        }
-
         private void MSTOptionsForm_Load(object sender, EventArgs e)
         {
-            ShowOptions();
+            form.ShowOptions(model.Options);
         }
     }
 }

@@ -27,6 +27,18 @@ namespace Кластеризация
             ApplyB.Enabled = ApplyEnabled;
         }
 
+        public void ShowOptions(ClusteringOptions options)
+        {
+            GetSelfSimilarityTB().Text = options.SelfSimilarity.ToString();
+            GetConvergencePrecisionTB().Text = options.ConvergencePrecision.ToString();
+            if (options.TimeLimitActivated)
+            {
+                GetHoursTB().Text = options.Hours.ToString();
+                GetMinutesTB().Text = options.Minutes.ToString();
+                GetSecondsTB().Text = options.Seconds.ToString();
+            }
+        }
+
         public TextBox GetSelfSimilarityTB()
         {
             return SelfSimilarityTB;

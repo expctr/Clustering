@@ -40,38 +40,7 @@ namespace Кластеризация
 
         private void ClusterInfoForm_Load(object sender, EventArgs e)
         {
-            ShowInfo();
-        }
-
-        void ShowCentreCoordinates()
-        {
-            form.GetCentreCoordinatesDGV().ColumnCount = model.ColsNames.Length;
-            for (int i = 0; i < model.ColsNames.Length; ++i)
-            {
-                form.GetCentreCoordinatesDGV().Columns[i].Name = (i + 1).ToString();
-            }
-            form.GetCentreCoordinatesDGV().Rows.Add(model.ColsNames);
-            double[] centre = model.cluster.GetCentre;
-            string[] row = new string[centre.Length];
-            for (int i = 0; i < row.Length; ++i)
-            {
-                row[i] = centre[i].ToString();
-            }
-            form.GetCentreCoordinatesDGV().Rows.Add(row);
-            //CentreCoordinatesDGV.Rows[0].Frozen = true;
-        }
-
-        void ShowInfo()
-        {
-            form.GetClusterIndexL().Text = $"Кластер с индексом {model.Index}";
-            ShowCentreCoordinates();
-            form.GetSizeL().Text = $"Размер: {model.cluster.Count}";
-            form.GetMeanLinearDeviationL().Text = $"Среднее линейное отклонение: " +
-                $"{model.cluster.MeanLinearIntraclusterDeviation}";
-            form.GetMeanSquareDeviationL().Text = $"Среднеквадратическое отклонение: " +
-                $"{model.cluster.MeanSquareIntraclusterDeviation}";
-            form.GetDispersionL().Text = $"Дисперсия: {model.cluster.Dispersion}";
-            form.GetQuartileRangeL().Text = $"Квартильный размах: {model.cluster.QuartileRange}";
+            form.ShowInfo(model.ColsNames, model.Index, model.cluster);
         }
 
         private void FindADBEB_Click(object sender, EventArgs e)

@@ -84,5 +84,36 @@ namespace Кластеризация
         {
             return Width;
         }
+
+        public void ShowCentreCoordinates(string[] ColsNames, Cluster cluster)
+        {
+            GetCentreCoordinatesDGV().ColumnCount = ColsNames.Length;
+            for (int i = 0; i < ColsNames.Length; ++i)
+            {
+                GetCentreCoordinatesDGV().Columns[i].Name = (i + 1).ToString();
+            }
+            GetCentreCoordinatesDGV().Rows.Add(ColsNames);
+            double[] centre = cluster.GetCentre;
+            string[] row = new string[centre.Length];
+            for (int i = 0; i < row.Length; ++i)
+            {
+                row[i] = centre[i].ToString();
+            }
+            GetCentreCoordinatesDGV().Rows.Add(row);
+            //CentreCoordinatesDGV.Rows[0].Frozen = true;
+        }
+
+        public void ShowInfo(string[] ColsNames, int Index, Cluster cluster)
+        {
+            GetClusterIndexL().Text = $"Кластер с индексом {Index}";
+            ShowCentreCoordinates(ColsNames, cluster);
+            GetSizeL().Text = $"Размер: {cluster.Count}";
+            GetMeanLinearDeviationL().Text = $"Среднее линейное отклонение: " +
+                $"{cluster.MeanLinearIntraclusterDeviation}";
+            GetMeanSquareDeviationL().Text = $"Среднеквадратическое отклонение: " +
+                $"{cluster.MeanSquareIntraclusterDeviation}";
+            GetDispersionL().Text = $"Дисперсия: {cluster.Dispersion}";
+            GetQuartileRangeL().Text = $"Квартильный размах: {cluster.QuartileRange}";
+        }
     }
 }

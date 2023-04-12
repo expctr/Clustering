@@ -28,6 +28,12 @@ namespace Кластеризация
             // ApplyB.Click += ApplyB_Click;
         }
 
+        public void ShowOptions(ClusteringOptions clusteringOptions)
+        {
+            GetReachabilityRadiusTB().Text = clusteringOptions.ReachabilityRadius.ToString();
+            GetThresholdTB().Text = clusteringOptions.Threshold.ToString();
+        }
+
         public TextBox GetReachabilityRadiusTB()
         {
             return ReachabilityRadiusTB;

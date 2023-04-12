@@ -28,6 +28,11 @@ namespace Кластеризация
             // ApplyB.Click += ApplyB_Click;
         }
 
+        public void ShowOptions(ClusteringOptions clusteringOptions)
+        {
+            GetClustersNumberTB().Text = clusteringOptions.ClustersNumber.ToString();
+        }
+
         public TextBox GetClustersNumberTB()
         {
             return ClustersNumberTB;

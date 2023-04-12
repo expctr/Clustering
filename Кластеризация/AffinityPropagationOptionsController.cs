@@ -32,7 +32,7 @@ namespace Кластеризация
 
         private void AffinityPropagationOptionsForm_Load(object sender, EventArgs e)
         {
-            ShowOptions();
+            form.ShowOptions(model.Options);
         }
 
         private void ApplyB_Click(object sender, EventArgs e)
@@ -125,18 +125,6 @@ namespace Кластеризация
             }
             form.ParentWinForm.SetOptions(model.Options);
             MessageBox.Show("Настройки сохранены.");
-        }
-
-        public void ShowOptions()
-        {
-            form.GetSelfSimilarityTB().Text = model.Options.SelfSimilarity.ToString();
-            form.GetConvergencePrecisionTB().Text = model.Options.ConvergencePrecision.ToString();
-            if (model.Options.TimeLimitActivated)
-            {
-                form.GetHoursTB().Text = model.Options.Hours.ToString();
-                form.GetMinutesTB().Text = model.Options.Minutes.ToString();
-                form.GetSecondsTB().Text = model.Options.Seconds.ToString();
-            }
         }
     }
 }

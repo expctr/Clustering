@@ -14,7 +14,7 @@ using AlgorithmLib;
 
 namespace Кластеризация
 {
-    class VisualizationModel
+    public class VisualizationModel
     {
         private VisualizationForm form;
 
@@ -26,12 +26,9 @@ namespace Кластеризация
 
         public bool InMove;
 
-        public Grid grid;
-
         public VisualizationModel(VisualizationForm form)
         {
             this.form = form;
-            grid = new Grid(form.GetPictureBox1());
         }
 
         public void SetInfo(List<Item> items, List<Cluster> clusters, bool copy)
@@ -66,6 +63,24 @@ namespace Кластеризация
                     Clusters = clusters;
                 }
             }
+        }
+
+        public void Boundaries(out double lowerX, out double lowerY, out double upperX,
+            out double upperY)
+        {
+            if (form.grid.GetItems() == null || form.grid.GetItems().Count == 0)
+            {
+                lowerX = lowerY = upperX = upperY = 0;
+                return;
+            }
+            lowerX =
+                Algorithm.FindMin(form.grid.GetItems(), (item1, item2) => item1[0].CompareTo(item2[0]))[0];
+            lowerY =
+                Algorithm.FindMin(form.grid.GetItems(), (item1, item2) => item1[1].CompareTo(item2[1]))[1];
+            upperX =
+                Algorithm.FindMax(form.grid.GetItems(), (item1, item2) => item1[0].CompareTo(item2[0]))[0];
+            upperY =
+                Algorithm.FindMax(form.grid.GetItems(), (item1, item2) => item1[1].CompareTo(item2[1]))[1];
         }
     }
 }

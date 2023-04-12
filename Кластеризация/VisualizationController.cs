@@ -30,10 +30,10 @@ namespace Кластеризация
         {
             form.Load += VisualizationForm_Load;
             form.SizeChanged += Carrier_SizeChanged;
-            model.grid.GetPB().MouseWheel += PB_MouseWheel;
-            model.grid.GetPB().MouseDown += PB_MouseDown;
-            model.grid.GetPB().MouseMove += PB_MoveMouseMove;
-            model.grid.GetPB().MouseUp += PB_MouseUp;
+            form.grid.GetPB().MouseWheel += PB_MouseWheel;
+            form.grid.GetPB().MouseDown += PB_MouseDown;
+            form.grid.GetPB().MouseMove += PB_MoveMouseMove;
+            form.grid.GetPB().MouseUp += PB_MouseUp;
             form.GetViewAllPointsTSB().Click += ViewAllPointsTSB_Click;
             ViewAllPointsTSB_Click(new object(), new EventArgs());
         }
@@ -46,110 +46,10 @@ namespace Кластеризация
             //    ViewAllPointsTSB);
             // ViewMaster.ShowInfo(true);
 
-            model.grid = new Grid(form.GetPictureBox1());
-            model.grid.SetItems(model.Items);
-            ShowInfo(true);
+            form.grid = new Grid(form.GetPictureBox1());
+            form.grid.SetItems(model.Items);
+            form.ShowInfo(true, model.Clusters);
         }
-
-        public void ShowInfo(bool show)
-        {
-            model.grid.ShowGrid(false);
-            if (model.Clusters != null && model.Clusters.Count > 0)
-            {
-                ShowClusters(model.grid.GetGraph(), false);
-            }
-            else
-            {
-                model.grid.ShowPoints(model.grid.GetGraph(), false);
-            }
-            if (show)
-            {
-                model.grid.GetPB().Image = model.grid.GetBMP();
-            }
-        }
-
-        protected void ShowCluster(Cluster cluster, bool ShowCentre, Graphics graph_, bool show)
-        {
-            if (cluster == null || cluster.Count == 0)
-            {
-                return;
-            }
-            List<Item> items = cluster.GetElements();
-
-            model.grid.DrawPoints_Grid(Item.ToDoubleArray(items), cluster.GetElementColor, graph_, false);
-            if (ShowCentre)
-            {
-                double[] centre = EuclideanGeometry.Barycentre(Item.ToDoubleArray(items));
-                model.grid.DrawSquare_Grid(centre[0], centre[1], cluster.GetCentreColor, true, graph_);
-            }
-            if (show)
-            {
-                model.grid.GetPB().Image = model.grid.GetBMP();
-            }
-        }
-
-        protected void ShowCentre(Cluster cluster, Graphics graph_, bool show)
-        {
-            if (cluster == null || cluster.Count == 0)
-            {
-                return;
-            }
-            List<Item> items = cluster.GetElements();
-            double[] centre = EuclideanGeometry.Barycentre(Item.ToDoubleArray(items));
-            ////
-            //double radPB = cluster.QuartileRange / scaleX;
-            //double xPB = XtoPB(centre[0]);
-            //double yPB = YtoPB(centre[1]);
-            //graph.DrawEllipse(new Pen(Color.Black), (float)(xPB - radPB), 
-            //    (float)(yPB - radPB),
-            //    (float)radPB * 2, (float)radPB * 2);
-            ////
-            model.grid.DrawSquare_Grid(centre[0], centre[1], cluster.GetCentreColor, true, graph_);
-            if (show)
-            {
-                model.grid.GetPB().Image = model.grid.GetBMP();
-            }
-        }
-
-        protected void ShowClusters(Graphics graph_, bool show)
-        {
-            if (model.Clusters == null)
-            {
-                return;
-            }
-            foreach (var cluster in model.Clusters)
-            {
-                ShowCluster(cluster, false, graph_, false);
-            }
-            foreach (var cluster in model.Clusters)
-            {
-                ShowCentre(cluster, graph_, false);
-            }
-            if (show)
-            {
-                model.grid.GetPB().Image = model.grid.GetBMP();
-            }
-        }
-
-        void Boundaries(out double lowerX, out double lowerY, out double upperX,
-            out double upperY)
-        {
-            if (model.grid.GetItems() == null || model.grid.GetItems().Count == 0)
-            {
-                lowerX = lowerY = upperX = upperY = 0;
-                return;
-            }
-            lowerX =
-                Algorithm.FindMin(model.grid.GetItems(), (item1, item2) => item1[0].CompareTo(item2[0]))[0];
-            lowerY =
-                Algorithm.FindMin(model.grid.GetItems(), (item1, item2) => item1[1].CompareTo(item2[1]))[1];
-            upperX =
-                Algorithm.FindMax(model.grid.GetItems(), (item1, item2) => item1[0].CompareTo(item2[0]))[0];
-            upperY =
-                Algorithm.FindMax(model.grid.GetItems(), (item1, item2) => item1[1].CompareTo(item2[1]))[1];
-        }
-
-        //
 
         //
         //Обработчики событий
@@ -173,20 +73,20 @@ namespace Кластеризация
         void PB_MoveMouseMove(object sender, MouseEventArgs e) //При перемещении курсора перемещается и плоскость
         {
             if (!model.InMove) return;
-            model.grid.SetOffsetX(model.grid.GetOffsetX() - (e.X - model.targetX));
-            model.grid.SetOffsetY(model.grid.GetOffsetY() + e.Y - model.targetY);
+            form.grid.SetOffsetX(form.grid.GetOffsetX() - (e.X - model.targetX));
+            form.grid.SetOffsetY(form.grid.GetOffsetY() + e.Y - model.targetY);
             model.targetX = e.X;
             model.targetY = e.Y;
-            model.grid.ShowGrid(false);
+            form.grid.ShowGrid(false);
             if (model.Clusters != null && model.Clusters.Count > 0)
             {
-                ShowClusters(model.grid.GetGraph(), false);
+                form.ShowClusters(form.grid.GetGraph(), false, model.Clusters);
             }
             else
             {
-                model.grid.ShowPoints(model.grid.GetGraph(), false);
+                form.grid.ShowPoints(form.grid.GetGraph(), false);
             }
-            model.grid.GetPB().Image = model.grid.GetBMP();
+            form.grid.GetPB().Image = form.grid.GetBMP();
         }
 
         //
@@ -195,30 +95,30 @@ namespace Кластеризация
 
         void PB_MouseWheel(object sender, MouseEventArgs e) //Управление масштабированием. Этот обработчик является общим для всех режимов
         {
-            double X0 = model.grid.XtoGrid(e.X);
-            double Y0 = model.grid.YtoGrid(e.Y);
+            double X0 = form.grid.XtoGrid(e.X);
+            double Y0 = form.grid.YtoGrid(e.Y);
             if (e.Delta > 0)
             {
-                model.grid.SetScaleX(model.grid.GetScaleX() * 0.95);
-                model.grid.SetScaleY(model.grid.GetScaleY() * 0.95);
+                form.grid.SetScaleX(form.grid.GetScaleX() * 0.95);
+                form.grid.SetScaleY(form.grid.GetScaleY() * 0.95);
             }
             else
             {
-                model.grid.SetScaleX(model.grid.GetScaleX() * 1.05);
-                model.grid.SetScaleY(model.grid.GetScaleY() * 1.05);
+                form.grid.SetScaleX(form.grid.GetScaleX() * 1.05);
+                form.grid.SetScaleY(form.grid.GetScaleY() * 1.05);
             }
-            model.grid.SetOffsetX(X0 / model.grid.GetScaleX() - e.X);
-            model.grid.SetOffsetY(Y0 / model.grid.GetScaleY() + e.Y);
-            model.grid.ShowGrid(false);
+            form.grid.SetOffsetX(X0 / form.grid.GetScaleX() - e.X);
+            form.grid.SetOffsetY(Y0 / form.grid.GetScaleY() + e.Y);
+            form.grid.ShowGrid(false);
             if (model.Clusters != null && model.Clusters.Count > 0)
             {
-                ShowClusters(model.grid.GetGraph(), false);
+                form.ShowClusters(form.grid.GetGraph(), false, model.Clusters);
             }
             else
             {
-                model.grid.ShowPoints(model.grid.GetGraph(), false);
+                form.grid.ShowPoints(form.grid.GetGraph(), false);
             }
-            model.grid.GetPB().Image = model.grid.GetBMP();
+            form.grid.GetPB().Image = form.grid.GetBMP();
         }
 
         //
@@ -227,21 +127,21 @@ namespace Кластеризация
 
         void Carrier_SizeChanged(object sender, EventArgs e)
         {
-            model.grid.GetPB().Width = form.Width - 2 * 8 - 2 * 12;
-            model.grid.GetPB().Height = form.Height - 8 - 12 - model.grid.GetPB().Location.Y - 32;
-            model.grid.SetBMP(new Bitmap(model.grid.GetPB().Width, model.grid.GetPB().Height));
-            model.grid.SetGrpah(Graphics.FromImage(model.grid.GetBMP()));
+            form.grid.GetPB().Width = form.Width - 2 * 8 - 2 * 12;
+            form.grid.GetPB().Height = form.Height - 8 - 12 - form.grid.GetPB().Location.Y - 32;
+            form.grid.SetBMP(new Bitmap(form.grid.GetPB().Width, form.grid.GetPB().Height));
+            form.grid.SetGrpah(Graphics.FromImage(form.grid.GetBMP()));
             //MessageBox.Show("SizeChanged");//del
-            model.grid.ShowGrid(false);
+            form.grid.ShowGrid(false);
             if (model.Clusters != null && model.Clusters.Count > 0)
             {
-                ShowClusters(model.grid.GetGraph(), false);
+                form.ShowClusters(form.grid.GetGraph(), false, model.Clusters);
             }
             else
             {
-                model.grid.ShowPoints(model.grid.GetGraph(), false);
+                form.grid.ShowPoints(form.grid.GetGraph(), false);
             }
-            model.grid.GetPB().Image = model.grid.GetBMP();
+            form.grid.GetPB().Image = form.grid.GetBMP();
         }
 
         //
@@ -250,29 +150,29 @@ namespace Кластеризация
 
         void ViewAllPointsTSB_Click(object sender, EventArgs e)
         {
-            if (model.grid.GetItems() == null || model.grid.GetItems().Count == 0)
+            if (form.grid.GetItems() == null || form.grid.GetItems().Count == 0)
             {
                 return;
             }
             double x_min, y_min, x_max, y_max;
-            Boundaries(out x_min, out y_min, out x_max, out y_max);
+            model.Boundaries(out x_min, out y_min, out x_max, out y_max);
             double w = x_max - x_min;
             double h = y_max - y_min;
-            double scale = Algorithm.Max(w / (0.9 * model.grid.GetPB().Width), h / (0.9 * model.grid.GetPB().Height));
-            model.grid.SetScaleX(scale);
-            model.grid.SetScaleY(scale);
-            model.grid.SetOffsetX((x_max + x_min) / (2 * model.grid.GetScaleX()) - model.grid.GetPB().Width / 2);
-            model.grid.SetOffsetY((y_max + y_min) / (2 * model.grid.GetScaleY()) + model.grid.GetPB().Height / 2);
-            model.grid.ShowGrid(false);
+            double scale = Algorithm.Max(w / (0.9 * form.grid.GetPB().Width), h / (0.9 * form.grid.GetPB().Height));
+            form.grid.SetScaleX(scale);
+            form.grid.SetScaleY(scale);
+            form.grid.SetOffsetX((x_max + x_min) / (2 * form.grid.GetScaleX()) - form.grid.GetPB().Width / 2);
+            form.grid.SetOffsetY((y_max + y_min) / (2 * form.grid.GetScaleY()) + form.grid.GetPB().Height / 2);
+            form.grid.ShowGrid(false);
             if (model.Clusters != null && model.Clusters.Count > 0)
             {
-                ShowClusters(model.grid.GetGraph(), false);
+                form.ShowClusters(form.grid.GetGraph(), false, model.Clusters);
             }
             else
             {
-                model.grid.ShowPoints(model.grid.GetGraph(), false);
+                form.grid.ShowPoints(form.grid.GetGraph(), false);
             }
-            model.grid.GetPB().Image = model.grid.GetBMP();
+            form.grid.GetPB().Image = form.grid.GetBMP();
         }
     }
 }

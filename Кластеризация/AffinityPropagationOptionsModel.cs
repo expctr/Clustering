@@ -11,7 +11,7 @@ using ClusteringLib;
 
 namespace Кластеризация
 {
-    class AffinityPropagationOptionsModel
+    public class AffinityPropagationOptionsModel
     {
         private AffinityPropagationOptionsForm form;
 

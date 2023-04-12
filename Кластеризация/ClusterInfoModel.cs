@@ -13,7 +13,7 @@ using AlgorithmLib;
 
 namespace Кластеризация
 {
-    class ClusterInfoModel
+    public class ClusterInfoModel
     {
         public ClusterInfoForm form;
 

@@ -31,13 +31,7 @@ namespace Кластеризация
 
         private void DBSCANOptionsForm_Load(object sender, EventArgs e)
         {
-            ShowOptions();
-        }
-
-        public void ShowOptions()
-        {
-            form.GetReachabilityRadiusTB().Text = model.Options.ReachabilityRadius.ToString();
-            form.GetThresholdTB().Text = model.Options.Threshold.ToString();
+            form.ShowOptions(model.Options);
         }
 
         private void ApplyB_Click(object sender, EventArgs e)
