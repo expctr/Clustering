@@ -1160,15 +1160,19 @@ namespace Кластеризация
         //
         void DrawObjectListTSMI_Click(object sender, EventArgs e)//добавить перенесение двумерных объектов
         {
-            DrawingForm drawForm = new DrawingForm();
+            DrawingForm drawForm = new DrawingForm(Carrier);
+            DrawingModel drawModel = new DrawingModel(drawForm);
+            DrawingController drawController = new DrawingController(drawModel, drawForm);
+            drawController.AddEventHandlers();
+
             drawForm.ParentWinfForm = Carrier;
             if (Dimension == 2)
             {
-                drawForm.SetItems(Items, true);
+                drawModel.SetItems(Items, true);
             }
             else
             {
-                drawForm.SetItems(new List<Item>(), false);
+                drawModel.SetItems(new List<Item>(), false);
             }
             drawForm.ShowDialog();
         }

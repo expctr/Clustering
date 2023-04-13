@@ -191,7 +191,7 @@
             this.Name = "DrawingForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Рисование списка объектов";
-            this.Load += new System.EventHandler(this.DrawingForm_Load);
+            // this.Load += new System.EventHandler(this.DrawingForm_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
