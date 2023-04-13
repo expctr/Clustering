@@ -164,11 +164,11 @@ namespace Кластеризация
         {
             return (offsetY - eY) * scaleY;
         }
-        protected double XtoPB(double X)
+        public double XtoPB(double X)
         {
             return (X / scaleX - offsetX);
         }
-        protected double YtoPB(double Y)
+        public double YtoPB(double Y)
         {
             return -(Y / scaleY - offsetY);
         }
@@ -370,7 +370,7 @@ namespace Кластеризация
             return new Item(XtoGrid(eX), YtoGrid(eY), $"Объект {Items.Count + 1}", 3);
         }
 
-        protected void AddItem_PB(double eX, double eY, Graphics graph_, bool show)
+        public void AddItem_PB(double eX, double eY, Graphics graph_, bool show)
         {
             Items.Add(CreateItem_PB(eX, eY));
             DrawPointPB(eX, eY, Color.Gray, graph_, false);
@@ -380,7 +380,7 @@ namespace Кластеризация
             }
         }
 
-        protected void AddItem_PB(double eX, double eY, bool show)
+        public void AddItem_PB(double eX, double eY, bool show)
         {
             Items.Add(CreateItem_PB(eX, eY));
             DrawPointPB(eX, eY, Color.Gray, false);

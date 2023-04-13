@@ -44,7 +44,7 @@ namespace Кластеризация
         }
     }
 
-    class DrawingFormViewMaster : Grid //Класс реализует координатную евклидову плоскость и взаимодействует с элементами пользовательского интерфейса
+    class DrawingFormViewMaster //Класс реализует координатную евклидову плоскость и взаимодействует с элементами пользовательского интерфейса
     {
         ToolStripButton SaveListTSB;
         ToolStripButton MoveTSB;
@@ -57,15 +57,18 @@ namespace Кластеризация
         DrawingForm Carrier;
         ToolStripButton ShowItemsTSB;
         ToolStripButton ViewAllPointsTSB;
+        Grid grid;
+
         public DrawingFormViewMaster(List<Item> items, PictureBox pb, ToolStripButton saveListTSB,
             ToolStripButton moveTSB, ToolStripSplitButton drawTSSB,
             ToolStripMenuItem сlickTSMI, ToolStripMenuItem curveLineTSMI,
             ToolStripMenuItem spraying15ptTSMI, ToolStripMenuItem spraying30ptTSMI,
             Timer _timer1, DrawingForm carrier, ToolStripSplitButton eraseTSSB,
             ToolStripMenuItem eraserTSMI, ToolStripMenuItem deleteAllTSMI,
-            ToolStripButton showItemsTSB, ToolStripButton viewAllPointsTSB) : base(pb)
+            ToolStripButton showItemsTSB, ToolStripButton viewAllPointsTSB)
         {
-            Items = items;
+            grid = new Grid(pb);
+            grid.SetItems(items);
             SaveListTSB = saveListTSB;
             SaveListTSB.Click += SaveListTSB_Click;
             MoveTSB = moveTSB;
@@ -81,7 +84,7 @@ namespace Кластеризация
             Carrier = carrier;
             DeleteAllTSMI = deleteAllTSMI;
             ShowItemsTSB = showItemsTSB;
-            PB.MouseWheel += PB_MouseWheel;
+            grid.GetPB().MouseWheel += PB_MouseWheel;
             MoveTSB.Click += MoveTSB_Click;
             DrawTSSB.Click += DrawTSSB_Click;
             ClickTSMI.Click += ClickTSMI_Click;
@@ -98,24 +101,29 @@ namespace Кластеризация
             ViewAllPointsTSB_Click(new object(), new EventArgs());
         }
 
+        public void Show(bool show)
+        {
+            grid.Show(show);
+        }
+
         public void DrawEraser(double eX, double eY, int a = 20) //Рисует ластик там, где расположен курсор
         {
-            graph.FillRectangle(new Pen(Color.LightGray).Brush, (float)(eX - 10), (float)(eY - 10), 20, 20);
-            graph.DrawRectangle(new Pen(Color.DarkGray), (float)(eX - 10), (float)(eY - 10), 20, 20);
-            PB.Image = bmp;
+            grid.GetGraph().FillRectangle(new Pen(Color.LightGray).Brush, (float)(eX - 10), (float)(eY - 10), 20, 20);
+            grid.GetGraph().DrawRectangle(new Pen(Color.DarkGray), (float)(eX - 10), (float)(eY - 10), 20, 20);
+            grid.GetPB().Image = grid.GetBMP();
         }
 
         void AddItemInArea_PB(double x1, double y1, double x3, double y3, bool show)
         {
             double X = RandomAlgo.RandomNumber(x1, x3);
             double Y = RandomAlgo.RandomNumber(y1, y3);
-            if (Items.Count < 5000)
+            if (grid.GetItems().Count < 5000)
             {
-                AddItem_PB(X, Y, false);
+                grid.AddItem_PB(X, Y, false);
             }
             if (show)
             {
-                PB.Image = bmp;
+                grid.GetPB().Image = grid.GetBMP();
             }
         }
         bool InRange(double a, double b, double x)
@@ -130,35 +138,35 @@ namespace Кластеризация
         }
         void DeleteItemsInArea_PB(double x1, double y1, double x3, double y3)
         {
-            Items.RemoveAll(x => InRange(x1, x3, XtoPB(x[0])) &&
-            InRange(y1, y3, YtoPB(x[1])));
+            grid.GetItems().RemoveAll(x => InRange(x1, x3, grid.XtoPB(x[0])) &&
+            InRange(y1, y3, grid.YtoPB(x[1])));
         }
         string[] Item2DToRow(int ind)
         {
             string[] result = new string[4];
             result[0] = ind.ToString();
-            result[1] = Items[ind].Name;
-            result[2] = Items[ind][0].ToString();
-            result[3] = Items[ind][1].ToString();
+            result[1] = grid.GetItems()[ind].Name;
+            result[2] = grid.GetItems()[ind][0].ToString();
+            result[3] = grid.GetItems()[ind][1].ToString();
             return result;
         }
 
         void Boundaries(out double lowerX, out double lowerY, out double upperX,
             out double upperY)
         {
-            if (Items == null || Items.Count == 0)
+            if (grid.GetItems() == null || grid.GetItems().Count == 0)
             {
                 lowerX = lowerY = upperX = upperY = 0;
                 return;
             }
             lowerX =
-                Algorithm.FindMin(Items, (item1, item2) => item1[0].CompareTo(item2[0]))[0];
+                Algorithm.FindMin(grid.GetItems(), (item1, item2) => item1[0].CompareTo(item2[0]))[0];
             lowerY =
-                Algorithm.FindMin(Items, (item1, item2) => item1[1].CompareTo(item2[1]))[1];
+                Algorithm.FindMin(grid.GetItems(), (item1, item2) => item1[1].CompareTo(item2[1]))[1];
             upperX =
-                Algorithm.FindMax(Items, (item1, item2) => item1[0].CompareTo(item2[0]))[0];
+                Algorithm.FindMax(grid.GetItems(), (item1, item2) => item1[0].CompareTo(item2[0]))[0];
             upperY =
-                Algorithm.FindMax(Items, (item1, item2) => item1[1].CompareTo(item2[1]))[1];
+                Algorithm.FindMax(grid.GetItems(), (item1, item2) => item1[1].CompareTo(item2[1]))[1];
         }
 
         //
@@ -179,12 +187,12 @@ namespace Кластеризация
         //
         void SaveListTSB_Click(object sender, EventArgs e)
         {
-            if (Items == null || Items.Count == 0)
+            if (grid.GetItems() == null || grid.GetItems().Count == 0)
             {
                 MessageBox.Show("Ошибка. Нельзя сохранить пустой список объектов.");
                 return;
             }
-            Carrier.ParentWinfForm.SetItems(Items, new string[] { "X", "Y" });
+            Carrier.ParentWinfForm.SetItems(grid.GetItems(), new string[] { "X", "Y" });
             MessageBox.Show("Список объектов сохранен.");
         }
         //
@@ -194,9 +202,9 @@ namespace Кластеризация
         {
             PB_EventRefresh();
             timer1_EventRefresh();
-            PB.MouseDown += PB_MouseDown;
-            PB.MouseUp += PB_MouseUp;
-            PB.MouseMove += PB_MoveMouseMove;
+            grid.GetPB().MouseDown += PB_MouseDown;
+            grid.GetPB().MouseUp += PB_MouseUp;
+            grid.GetPB().MouseMove += PB_MoveMouseMove;
         }
         bool InMove; //Мышь зажата
         double targetX, targetY; //Запоминание положения мыши в некоторый момент в координатах PB
@@ -213,9 +221,9 @@ namespace Кластеризация
         void PB_MoveMouseMove(object sender, MouseEventArgs e) //При перемещении курсора перемещается и плоскость
         {
             if (!InMove) return;
-            SetOffsetX(offsetX - (e.X - targetX));
-            SetOffsetY(offsetY + e.Y - targetY);
-            Show(true);
+            grid.SetOffsetX(grid.GetOffsetX() - (e.X - targetX));
+            grid.SetOffsetY(grid.GetOffsetY() + e.Y - targetY);
+            grid.Show(true);
             targetX = e.X;
             targetY = e.Y;
         }
@@ -225,7 +233,7 @@ namespace Кластеризация
         void ClickTSMI_Click(object sender, EventArgs e) //Активирует режим рисования точек двойным кликом
         {
             PB_EventRefresh();
-            PB.MouseClick += PB_MouseClick;
+            grid.GetPB().MouseClick += PB_MouseClick;
         }
         void DrawTSSB_Click(object sender, EventArgs e) //Активирует режим рисования кривой линии
         {
@@ -233,17 +241,17 @@ namespace Кластеризация
         }
         void PB_MouseClick(object sender, MouseEventArgs e) //Добавляет в список новый предмет, согласно расположению курсора в момент двойного клика
         {
-            if (Items.Count < 5000)
+            if (grid.GetItems().Count < 5000)
             {
-                AddItem_PB(e.X, e.Y, true);
+                grid.AddItem_PB(e.X, e.Y, true);
             }
         }
         void CurveLineTSMI_Click(object sender, EventArgs e) //Активирует режим рисования кривой линии
         {
             PB_EventRefresh();
             timer1_EventRefresh();
-            PB.MouseDown += PB_TimerEnableMouseDown;
-            PB.MouseUp += PB_TimerUnenableMouseUp;
+            grid.GetPB().MouseDown += PB_TimerEnableMouseDown;
+            grid.GetPB().MouseUp += PB_TimerUnenableMouseUp;
             timer1.Tick += timer1_CurveLineTick;
         }
         void PB_TimerEnableMouseDown(object sender, EventArgs e)
@@ -256,11 +264,11 @@ namespace Кластеризация
         }
         void timer1_CurveLineTick(object sender, EventArgs e)
         {
-            double eX = Cursor.Position.X - Carrier.Location.X - PB.Location.X - 8;
-            double eY = Cursor.Position.Y - Carrier.Location.Y - PB.Location.Y - 31;
-            if (Items.Count < 5000)
+            double eX = Cursor.Position.X - Carrier.Location.X - grid.GetPB().Location.X - 8;
+            double eY = Cursor.Position.Y - Carrier.Location.Y - grid.GetPB().Location.Y - 31;
+            if (grid.GetItems().Count < 5000)
             {
-                AddItem_PB(eX, eY, true);
+                grid.AddItem_PB(eX, eY, true);
             }
         }
         void Spraying15ptTSMI_Click(object sender, EventArgs e) //Активирует режим распыления на 15pt
@@ -268,13 +276,13 @@ namespace Кластеризация
             PB_EventRefresh();
             timer1_EventRefresh();
             timer1.Interval = 20;
-            PB.MouseDown += PB_TimerEnableMouseDown;
-            PB.MouseUp += PB_TimerUnenableMouseUp;
+            grid.GetPB().MouseDown += PB_TimerEnableMouseDown;
+            grid.GetPB().MouseUp += PB_TimerUnenableMouseUp;
             timer1.Tick += timer1_Spraying15ptTick;
         }
         void Spraying15ptInArea_PB(double eX, double eY)
         {
-            if (Items.Count < 4996)
+            if (grid.GetItems().Count < 4996)
             {
                 AddItemInArea_PB(eX + 7.5, eY + 7.5, eX, eY, true);
                 AddItemInArea_PB(eX, eY + 7.5, eX - 7.5, eY, true);
@@ -284,8 +292,8 @@ namespace Кластеризация
         }
         void timer1_Spraying15ptTick(object sender, EventArgs e)
         {
-            double eX = Cursor.Position.X - Carrier.Location.X - PB.Location.X - 8;
-            double eY = Cursor.Position.Y - Carrier.Location.Y - PB.Location.Y - 31;
+            double eX = Cursor.Position.X - Carrier.Location.X - grid.GetPB().Location.X - 8;
+            double eY = Cursor.Position.Y - Carrier.Location.Y - grid.GetPB().Location.Y - 31;
             Spraying15ptInArea_PB(eX, eY);
         }
         void Spraying30ptTSMI_Click(object sender, EventArgs e) //Активирует режим распыления на 30pt
@@ -293,14 +301,14 @@ namespace Кластеризация
             PB_EventRefresh();
             timer1_EventRefresh();
             timer1.Interval = 70;
-            PB.MouseDown += PB_TimerEnableMouseDown;
-            PB.MouseUp += PB_TimerUnenableMouseUp;
+            grid.GetPB().MouseDown += PB_TimerEnableMouseDown;
+            grid.GetPB().MouseUp += PB_TimerUnenableMouseUp;
             timer1.Tick += timer1_Spraying30ptTick;
         }
         void timer1_Spraying30ptTick(object sender, EventArgs e)
         {
-            double eX = Cursor.Position.X - Carrier.Location.X - PB.Location.X - 8;
-            double eY = Cursor.Position.Y - Carrier.Location.Y - PB.Location.Y - 31;
+            double eX = Cursor.Position.X - Carrier.Location.X - grid.GetPB().Location.X - 8;
+            double eY = Cursor.Position.Y - Carrier.Location.Y - grid.GetPB().Location.Y - 31;
             Spraying15ptInArea_PB(eX + 7.5, eY + 7.5);
             Spraying15ptInArea_PB(eX - 7.5, eY + 7.5);
             Spraying15ptInArea_PB(eX + 7.5, eY - 7.5);
@@ -313,10 +321,10 @@ namespace Кластеризация
         {
             PB_EventRefresh();
             timer1_EventRefresh();
-            PB.MouseDown += PB_MouseDown;
-            PB.MouseUp += PB_MouseUp;
-            PB.MouseMove += PB_EraserMouseMove;
-            PB.MouseLeave += PB_EraserMouseLeave;
+            grid.GetPB().MouseDown += PB_MouseDown;
+            grid.GetPB().MouseUp += PB_MouseUp;
+            grid.GetPB().MouseMove += PB_EraserMouseMove;
+            grid.GetPB().MouseLeave += PB_EraserMouseLeave;
         }
         void EraseTSSB_Click(object sender, EventArgs e)
         {
@@ -326,19 +334,19 @@ namespace Кластеризация
         {
             if (InMove)
                 DeleteItemsInArea_PB(e.X - 10, e.Y - 10, e.X + 10, e.Y + 10);
-            ShowGrid(false);
-            ShowPoints(graph, false);
-            PB.Image = bmp;
+            grid.ShowGrid(false);
+            grid.ShowPoints(grid.GetGraph(), false);
+            grid.GetPB().Image = grid.GetBMP();
             DrawEraser(e.X, e.Y);
         }
         void PB_EraserMouseLeave(object sender, EventArgs e)
         {
-            Show(true);
+            grid.Show(true);
         }
         void DeleteAllTSMI_Click(object sender, EventArgs e)
         {
-            Items.Clear();
-            Show(true);
+            grid.GetItems().Clear();
+            grid.Show(true);
         }
         //
         //Отображение предметов
@@ -355,7 +363,7 @@ namespace Кластеризация
             fm2.dataGridView1.Columns[1].Name = "Название";
             fm2.dataGridView1.Columns[2].Name = "X";
             fm2.dataGridView1.Columns[3].Name = "Y";
-            for (int i = 0; i < Items.Count; ++i)
+            for (int i = 0; i < grid.GetItems().Count; ++i)
             {
                 fm2.dataGridView1.Rows.Add(Item2DToRow(i));
             }
@@ -367,13 +375,13 @@ namespace Кластеризация
         //
         void Carrier_SizeChanged(object sender, EventArgs e)
         {
-            PB.Width = Carrier.Width - PB.Location.X - 28;
-            PB.Height = Carrier.Height - 78;
+            grid.GetPB().Width = Carrier.Width - grid.GetPB().Location.X - 28;
+            grid.GetPB().Height = Carrier.Height - 78;
             try
             {
-                bmp = new Bitmap(PB.Width, PB.Height);
-                graph = Graphics.FromImage(bmp);
-                Show(true);
+                grid.SetBMP(new Bitmap(grid.GetPB().Width, grid.GetPB().Height));
+                grid.SetGrpah(Graphics.FromImage(grid.GetBMP()));
+                grid.Show(true);
             }
             catch
             {
@@ -387,14 +395,14 @@ namespace Кластеризация
 
         void PB_EventRefresh() //Очищает события  PB от не общих обработчиков
         {
-            PB.MouseUp -= PB_MouseUp;
-            PB.MouseUp -= PB_TimerUnenableMouseUp;
-            PB.MouseDown -= PB_MouseDown;
-            PB.MouseDown -= PB_TimerEnableMouseDown;
-            PB.MouseClick -= PB_MouseClick;
-            PB.MouseMove -= PB_MoveMouseMove;
-            PB.MouseMove -= PB_EraserMouseMove;
-            PB.MouseLeave -= PB_EraserMouseLeave;
+            grid.GetPB().MouseUp -= PB_MouseUp;
+            grid.GetPB().MouseUp -= PB_TimerUnenableMouseUp;
+            grid.GetPB().MouseDown -= PB_MouseDown;
+            grid.GetPB().MouseDown -= PB_TimerEnableMouseDown;
+            grid.GetPB().MouseClick -= PB_MouseClick;
+            grid.GetPB().MouseMove -= PB_MoveMouseMove;
+            grid.GetPB().MouseMove -= PB_EraserMouseMove;
+            grid.GetPB().MouseLeave -= PB_EraserMouseLeave;
         }
         void timer1_EventRefresh() //Очищает события timer1 от не общих обработчиков
         {
@@ -405,26 +413,26 @@ namespace Кластеризация
 
         void PB_MouseWheel(object sender, MouseEventArgs e) //Управление масштабированием. Этот обработчик является общим для всех режимов
         {
-            double X0 = XtoGrid(e.X);
-            double Y0 = YtoGrid(e.Y);
+            double X0 = grid.XtoGrid(e.X);
+            double Y0 = grid.YtoGrid(e.Y);
             if (e.Delta > 0)
             {
-                SetScaleX(scaleX * 0.95);
-                SetScaleY(scaleY * 0.95);
+                grid.SetScaleX(grid.GetScaleX() * 0.95);
+                grid.SetScaleY(grid.GetScaleY() * 0.95);
             }
             else
             {
-                SetScaleX(scaleX * 1.05);
-                SetScaleY(scaleY * 1.05);
+                grid.SetScaleX(grid.GetScaleX() * 1.05);
+                grid.SetScaleY(grid.GetScaleY() * 1.05);
             }
-            SetOffsetX(X0 / scaleX - e.X);
-            SetOffsetY(Y0 / scaleY + e.Y);
-            Show(true);
+            grid.SetOffsetX(X0 / grid.GetScaleX() - e.X);
+            grid.SetOffsetY(Y0 / grid.GetScaleY() + e.Y);
+            grid.Show(true);
         }
 
         void ViewAllPointsTSB_Click(object sender, EventArgs e)
         {
-            if (Items == null || Items.Count == 0)
+            if (grid.GetItems() == null || grid.GetItems().Count == 0)
             {
                 return;
             }
@@ -432,13 +440,12 @@ namespace Кластеризация
             Boundaries(out x_min, out y_min, out x_max, out y_max);
             double w = x_max - x_min;
             double h = y_max - y_min;
-            double scale = Algorithm.Max(w / (0.9 * PB.Width), h / (0.9 * PB.Height));
-            SetScaleX(scale);
-            SetScaleY(scale);
-            SetOffsetX((x_max + x_min) / (2 * scaleX) - PB.Width / 2);
-            SetOffsetY((y_max + y_min) / (2 * scaleY) + PB.Height / 2);
-            Show(true);
+            double scale = Algorithm.Max(w / (0.9 * grid.GetPB().Width), h / (0.9 * grid.GetPB().Height));
+            grid.SetScaleX(scale);
+            grid.SetScaleY(scale);
+            grid.SetOffsetX((x_max + x_min) / (2 * grid.GetScaleX()) - grid.GetPB().Width / 2);
+            grid.SetOffsetY((y_max + y_min) / (2 * grid.GetScaleY()) + grid.GetPB().Height / 2);
+            grid.Show(true);
         }
-
-    }//class DrawingFormViewMaster
+    }
 }
