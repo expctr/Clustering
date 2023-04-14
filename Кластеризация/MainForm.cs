@@ -19,279 +19,115 @@ namespace Кластеризация
 {
     public partial class MainForm : Form
     {
-        public MainForm()
-        {
-            InitializeComponent();
-        }
-        MainFormViewMaster ViewMaster;
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-            ViewMaster = new MainFormViewMaster(this, backgroundWorker1, DrawObjectListTSMI,
-                dataGridView1, ClusteringAlgorithmTSL, SOMTSMI, GNGTSMI, KMeansTSMI, AglomerativeTSMI, DBSCANTSMI,
-                AffinityPropagationTSMI, FORELTSMI, MinimumSpanningTreeTSMI, FullGraphTSMI,
-                StartClusterizationTSMI, ContinueClusterizationTSMI, FinishClusterizationTSMI,
-                ClusterizationTSPB, EpochNumTSTB, ClustersNumberTB, ClustersNumberNUD,
-                ClusterInfoB, ObjectIDTB, FindClusterNameB, ShowObjectListB,
-                SaveAllClustersCSVTSMI,
-                SaveShownClusterCSVTSMI,
-                SaveAllClustersXMLTSMI,
-                SaveShownClusterXMLTSMI,
-                SaveAllClustersXLSXTSMI,
-                SaveShownClusterXLSXTSMI,
-                DataGridViewL, VisualizationTSMI, AlgorithmOptionsTSMI,
-                ClusterizationParameterOptionsTSMI, FindClusterNameB, FindClusterIndexB,
-                MeanLinearIntraclusterDeviation_TotalTB,
-                MeanSquareIntraclusterDeviation_TotalTB,
-                LinearInterclusterDeviatioin_TotalTB,
-                MeanSquareInterclusterDeviationTB,
-                ClusterizationStatusL, saveFileDialog1, openFileDialog1,
-                DownloadObjectListCSVTSMI,
-                DownloadObjectListXMLTSMI,
-                DownloadObjectListXLSXTSMI,
-                ClusteringAlgorithmTSMI);
-        }
-
-        public void SetItems(List<Item> items, string[] colsNames)
-        {
-            ViewMaster.SetItems(items, colsNames);
-        }
-
-        public void SetOptions(ClusteringOptions opt)
-        {
-            ViewMaster.SetOptions(opt);
-        }
-
-        public ClusteringOptions GetOptions()
-        {
-            return ViewMaster.GetOptions();
-        }
-
-        public void SetClusterizationParameterOptions(
-            ClusteringParameterOptions _CPOptions)
-        {
-            ViewMaster.SetClusterizationParameterOptions(_CPOptions);
-        }
-
-        public ClusteringParameterOptions GetClusterizationParameterOptions()
-        {
-            return ViewMaster.GetClusterizationParameterOptions();
-        }
-
-        public string[] GetOriginalColsNames()
-        {
-            return ViewMaster.GetOrigianalGetColsNames();
-        }
-    }
-
-    class MainFormViewMaster
-    {
-        MainForm Carrier;
-        //bool[] ChosenClusterizationParameter;//new
-        //double[] DimensionalWeights;
-        //bool Normalize;
-        ClusteringParameterOptions CPOptions = new ClusteringParameterOptions();
-        List<Item> OriginalItems = new List<Item>();
-        List<Item> Items = new List<Item>();
-        List<Cluster> Clusters = new List<Cluster>();
         enum ClusteringAlgorithm
         {
             SOM, GNG, KMeans, Aglomerative, DBSCAN, AffinityPropagation,
             FOREL, MST, FullGraph, NULL
         };
+
+        ClusteringParameterOptions CPOptions = new ClusteringParameterOptions();
+
+        List<Item> OriginalItems = new List<Item>();
+
+        List<Item> Items = new List<Item>();
+
+        List<Cluster> Clusters = new List<Cluster>();
+
         TimeLimitMaster timeLimitMaster;
+
         ClusteringAlgorithm clusteringAlgorithm = ClusteringAlgorithm.NULL;
+
         IClustering clusteringClass;
-        BackgroundWorker backgroundWorker;
+
         Stopwatch Watch = new Stopwatch();
-        ToolStripMenuItem DrawObjectListTSMI;
-        DataGridView dataGridView;
-        ToolStripLabel ClusteringAlgorithmTSL;
-        ToolStripMenuItem SOMTSMI, GNGTSMI, KMeansTSMI, AglomerativeTSMI, DBSCANTSMI,
-            AffinityPropagationTSMI, FORELTSMI, MSTTSMI, FullGraphTSMI;
-        ToolStripMenuItem StartClusterizationTSMI, ContinueClusterizationTSMI, FinishClusterizationTSMI;
-        ToolStripProgressBar ClusterizationTSPB;
-        ToolStripTextBox EpochNumTSTB;
-        TextBox ClustersNumberTB;
-        NumericUpDown ClustersNumberNUD;
-        Button ClusterInfoB;
-        TextBox ObjectIDTB;
-        Button FindClusterB;
+
         bool Continuable;
-        string[] OriginalColsNames;//new
-        string[] ColsNames;//new
-        Button ShowObjectListB;
-        ToolStripMenuItem SaveAllClustersCSVTSMI;
-        ToolStripMenuItem SaveShownClusterCSVTSMI;
-        ToolStripMenuItem SaveAllClustersXMLTSMI;
-        ToolStripMenuItem SaveShownClusterXMLTSMI;
-        ToolStripMenuItem SaveAllClustersXLSXTSMI;
-        ToolStripMenuItem SaveShownClusterXLSXTSMI;
-        Label DataGridViewL;
-        ToolStripMenuItem VisualizationTSMI;
-        ToolStripMenuItem AlgorithmOptionsTSMI;
-        ToolStripMenuItem ClusterizationParameterOptionsTSMI;
-        Button FindClusterNameB;
-        Button FindClusterIndexB;
-        TextBox MeanLinearIntraclusterDeviation_TotalTB;
-        TextBox MeanSquareIntraclusterDeviation_TotalTB;
-        TextBox LinearInterclusterDeviatioin_TotalTB;
-        TextBox MeanSquareInterclusterDeviationTB;
-        ToolStripLabel ClusterizationStatusL;
-        SaveFileDialog saveFileDialog;
-        OpenFileDialog openFileDialog;
-        ToolStripMenuItem DownloadObjectListCSVTSMI;
-        ToolStripMenuItem DownloadObjectListXMLTSMI;
-        ToolStripMenuItem DownloadObjectListXLSXTSMI;
+
+        string[] OriginalColsNames;
+
+        string[] ColsNames;
+
         ToolStripDropDownButton ClusteringAlgorithmTSDDB;
-        public MainFormViewMaster(MainForm carrier, BackgroundWorker _backgroundWorker,
-            ToolStripMenuItem drawObjectListTSMI, DataGridView _datagridView,
-            ToolStripLabel clusteringAlgorithmTSL, ToolStripMenuItem _SOMTSMI,
-            ToolStripMenuItem _GNGTSMI, ToolStripMenuItem _KMeansTSMI,
-            ToolStripMenuItem _AglomerativeTSMI, ToolStripMenuItem _DBSCANTSMI,
-            ToolStripMenuItem _AffinityPropagationTSMI, ToolStripMenuItem _FORELTSMI,
-            ToolStripMenuItem _MSTTSMI, ToolStripMenuItem _FullGraphTSMI,
-            ToolStripMenuItem startClusterizationTSMI, ToolStripMenuItem continueClusterizationTSMI,
-            ToolStripMenuItem finishClusterizationTSMI, ToolStripProgressBar clusterizationTSPB,
-            ToolStripTextBox epochNumTSTB, TextBox clustersNumberTB,
-            NumericUpDown clustersNumberNUD, Button clusterInfoB,
-            TextBox objectIDTB, Button findClusterB, Button showObjectListB,
-            ToolStripMenuItem saveAllClustersCSVTSMI, ToolStripMenuItem saveShownClusterCSVTSMI,
-            ToolStripMenuItem saveAllClustersXMLTSMI, ToolStripMenuItem saveShownClusterXMLTSMI,
-            ToolStripMenuItem saveAllClustersXLSXTSMI,
-            ToolStripMenuItem saveShownClusterXLSXTSMI,
-        Label dataGridViewL, ToolStripMenuItem visualizationTSMI,
-            ToolStripMenuItem algorithmOptionsTSMI,
-            ToolStripMenuItem clusterizationParameterOptionsTSMI,
-            Button findClusterNameB, Button findClusterIndexB,
-            TextBox meanLinearIntraclusterDeviation_TotalTB,
-            TextBox meanSquareIntraclusterDeviation_TotalTB,
-            TextBox linearInterclusterDeviatioin_TotalTB,
-            TextBox meanSquareInterclusterDeviationTB,
-            ToolStripLabel clusterizationStatusL,
-            SaveFileDialog _saveFileDialog,
-            OpenFileDialog _openFileDialog,
-            ToolStripMenuItem downloadObjectListCSVTSMI,
-            ToolStripMenuItem downloadObjectListXMLTSMI,
-            ToolStripMenuItem downloadObjectListXLSXTSMI,
-            ToolStripDropDownButton clusteringAlgoritmTSDDB)
+
+        // MainFormViewMaster ViewMaster;
+
+        public MainForm()
         {
-            Carrier = carrier;
-            Carrier.SizeChanged += MainForm_SizeChanged;
+            InitializeComponent();
+
+            SizeChanged += MainForm_SizeChanged;
             //
             timeLimitMaster = new TimeLimitMaster(true, 0, 0, 10);
             //
-            backgroundWorker = _backgroundWorker;
-            backgroundWorker.DoWork += backgroundWorker_DoWork;
-            backgroundWorker.RunWorkerCompleted += backgroundWorker_RunWorkerCompleted;
+            backgroundWorker1.DoWork += backgroundWorker_DoWork;
+            backgroundWorker1.RunWorkerCompleted += backgroundWorker_RunWorkerCompleted;
             //
-            DrawObjectListTSMI = drawObjectListTSMI;
             DrawObjectListTSMI.Click += DrawObjectListTSMI_Click;
             //
-            dataGridView = _datagridView;
             //
-            ClusteringAlgorithmTSL = clusteringAlgorithmTSL;
             //
-            SOMTSMI = _SOMTSMI;
             SOMTSMI.Click += SOMTSMI_Click;
-            GNGTSMI = _GNGTSMI;
             GNGTSMI.Click += GNGTSMI_Click;
-            KMeansTSMI = _KMeansTSMI;
             KMeansTSMI.Click += KMeansTSMI_Click;
-            AglomerativeTSMI = _AglomerativeTSMI;
             AglomerativeTSMI.Click += AglomerativeTSMI_Click;
-            DBSCANTSMI = _DBSCANTSMI;
             DBSCANTSMI.Click += DBSCANTSMI_Click;
-            AffinityPropagationTSMI = _AffinityPropagationTSMI;
             AffinityPropagationTSMI.Click += AffinityPropagationTSMI_Click;
-            FORELTSMI = _FORELTSMI;
             FORELTSMI.Click += FORELTSMI_Click;
-            MSTTSMI = _MSTTSMI;
-            MSTTSMI.Click += MSTTSMI_Click;
-            FullGraphTSMI = _FullGraphTSMI;
+            MinimumSpanningTreeTSMI.Click += MSTTSMI_Click;
             FullGraphTSMI.Click += FullGraphTSMI_Click;
             //
-            StartClusterizationTSMI = startClusterizationTSMI;
             StartClusterizationTSMI.Click += StartClusterizationTSMI_Click;
-            ContinueClusterizationTSMI = continueClusterizationTSMI;
             ContinueClusterizationTSMI.Click += ContinueClusterizationTSMI_Click;
-            FinishClusterizationTSMI = finishClusterizationTSMI;
             FinishClusterizationTSMI.Click += FinishClusterizationTSMI_Click;
             //
-            ClusterizationTSPB = clusterizationTSPB;
             //
-            EpochNumTSTB = epochNumTSTB;
             //
-            ClustersNumberTB = clustersNumberTB;
             //
-            ClustersNumberNUD = clustersNumberNUD;
             ClustersNumberNUD.Enabled = false;
             ClustersNumberNUD.ValueChanged += ClustersNumberNUD_ValueChanged;
             //
-            ClusterInfoB = clusterInfoB;
             ClusterInfoB.Click += ClusterInfoB_Click;
             //
-            ObjectIDTB = objectIDTB;
             //
-            FindClusterB = findClusterB;
             //
-            ShowObjectListB = showObjectListB;
             ShowObjectListB.Click += ShowObjectListB_Click;
             //
-            SaveAllClustersCSVTSMI = saveAllClustersCSVTSMI;
             SaveAllClustersCSVTSMI.Click += SaveAllClustersCSVTSMI_Click;
-            SaveShownClusterCSVTSMI = saveShownClusterCSVTSMI;
             SaveShownClusterCSVTSMI.Click += SaveShownClusterCSVTSMI_Click;
-            SaveAllClustersXMLTSMI = saveAllClustersXMLTSMI;
             SaveAllClustersXMLTSMI.Click += SaveAllClustersXMLTSMI_Click;
-            SaveShownClusterXMLTSMI = saveShownClusterXMLTSMI;
             SaveShownClusterXMLTSMI.Click += SaveShownClusterXMLTSMI_Click;
-            SaveAllClustersXLSXTSMI = saveAllClustersXLSXTSMI;
             SaveAllClustersXLSXTSMI.Click += SaveAllClustersXLSXTSMI_Click;
-            SaveShownClusterXLSXTSMI = saveShownClusterXLSXTSMI;
             SaveShownClusterXLSXTSMI.Click += SaveShownClusterXLSXTSMI_Click;
             //
-            dataGridView = _datagridView;
             //
-            VisualizationTSMI = visualizationTSMI;
             VisualizationTSMI.Click += VisualizationTSMI_Click;
             //
-            DataGridViewL = dataGridViewL;
             DataGridViewL.Text = "";
             //
-            AlgorithmOptionsTSMI = algorithmOptionsTSMI;
             AlgorithmOptionsTSMI.Click += AlgorithmOptionsTSMI_Click;
-            ClusterizationParameterOptionsTSMI = clusterizationParameterOptionsTSMI;
             ClusterizationParameterOptionsTSMI.Click +=
                 ClusterizationParameterOptionsTSMI_Click;
             //
-            FindClusterNameB = findClusterNameB;
             FindClusterNameB.Click += FindClusterNameB_Click;
-            FindClusterIndexB = findClusterIndexB;
             FindClusterIndexB.Click += FindClusterIndexB_Click;
             //
-            MeanLinearIntraclusterDeviation_TotalTB = meanLinearIntraclusterDeviation_TotalTB;
-            MeanSquareIntraclusterDeviation_TotalTB = meanSquareIntraclusterDeviation_TotalTB;
-            LinearInterclusterDeviatioin_TotalTB = linearInterclusterDeviatioin_TotalTB;
-            MeanSquareInterclusterDeviationTB = meanSquareInterclusterDeviationTB;
             //
-            ClusterizationStatusL = clusterizationStatusL;
             ClusterizationStatusL.Text = "";
             //
-            saveFileDialog = _saveFileDialog;
-            openFileDialog = _openFileDialog;
             //
-            DownloadObjectListCSVTSMI = downloadObjectListCSVTSMI;
             DownloadObjectListCSVTSMI.Click += DownloadObjectListCSVTSMI_Click;
-            DownloadObjectListXMLTSMI = downloadObjectListXMLTSMI;
             DownloadObjectListXMLTSMI.Click += DownloadObjectListXMLTSMI_Click;
-            DownloadObjectListXLSXTSMI = downloadObjectListXLSXTSMI;
             DownloadObjectListXLSXTSMI.Click += DownloadObjectListXLSXTSMI_Click;
             //
-            ClusteringAlgorithmTSDDB = clusteringAlgoritmTSDDB;
             //
             SOMTSMI_Click(new object(), new EventArgs());
             //
             FirstState();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
 
         //
@@ -386,7 +222,7 @@ namespace Кластеризация
             return result;
         }
 
-        public string[] GetOrigianalGetColsNames()
+        public string[] GetOriginalColsNames()
         {
             return (string[])OriginalColsNames.Clone();
         }
@@ -466,7 +302,8 @@ namespace Кластеризация
         //
         int Dimension
         {
-            get {
+            get
+            {
                 if (ColsNames == null)
                 {
                     return 0;
@@ -490,17 +327,18 @@ namespace Кластеризация
             ClustersNumberNUD.Maximum = Clusters.Count - 1;
             ShowItems(Clusters[0].GetElements(), "Кластер 0");
         }
+
         //
         //Отображение
         //
 
         void ShowItems(List<Item> items, string str)
         {
-            dataGridView.Rows.Clear();
-            dataGridView.ColumnCount = Dimension + 2;
-            for (int i = 0; i < dataGridView.ColumnCount; ++i)
+            dataGridView1.Rows.Clear();
+            dataGridView1.ColumnCount = Dimension + 2;
+            for (int i = 0; i < dataGridView1.ColumnCount; ++i)
             {
-                dataGridView.Columns[i].Name = (i + 1).ToString();
+                dataGridView1.Columns[i].Name = (i + 1).ToString();
             }
             string[] _ColsNames = new string[ColsNames.Length + 2];
             _ColsNames[0] = "Индекс";
@@ -509,12 +347,12 @@ namespace Кластеризация
             {
                 _ColsNames[i + 2] = ColsNames[i];
             }
-            dataGridView.Rows.Add(_ColsNames);
+            dataGridView1.Rows.Add(_ColsNames);
             DataGridViewL.Text = str;
             if (items == null) return;
             for (int i = 0; i < items.Count; ++i)
             {
-                dataGridView.Rows.Add(items[i].ToRow());
+                dataGridView1.Rows.Add(items[i].ToRow());
             }
         }
 
@@ -549,6 +387,7 @@ namespace Кластеризация
             }
             return result;
         }
+
         List<string> PrintClusters_CSV()
         {
             List<string> result = new List<string>();
@@ -559,6 +398,7 @@ namespace Кластеризация
             }
             return result;
         }
+
         XmlDocument PrintClusterXML(Cluster cluster)
         {
             List<Item> items = cluster.GetElements();
@@ -576,6 +416,7 @@ namespace Кластеризация
             result.AppendChild(clusterElement);
             return result;
         }
+
         XmlElement PrintClusterXML(Cluster cluster, XmlDocument xmlDoc)
         {
             List<Item> items = cluster.GetElements();
@@ -588,6 +429,7 @@ namespace Кластеризация
             }
             return result;
         }
+
         XmlDocument PrintClustersXML()
         {
             XmlDocument result = new XmlDocument();
@@ -601,6 +443,7 @@ namespace Кластеризация
             result.AppendChild(clustersElement);
             return result;
         }
+
         //
         //Скачивание файла
         //
@@ -609,12 +452,12 @@ namespace Кластеризация
             StreamReader reader;
             try
             {
-                openFileDialog.Filter = "(*.csv)|*.csv|(*.txt)|*.txt";
-                openFileDialog.FileName = "";
+                openFileDialog1.Filter = "(*.csv)|*.csv|(*.txt)|*.txt";
+                openFileDialog1.FileName = "";
                 string Path;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    Path = openFileDialog.FileName;
+                    Path = openFileDialog1.FileName;
                     try
                     {
                         reader = new StreamReader(Path, Encoding.GetEncoding(1251));
@@ -663,7 +506,7 @@ namespace Кластеризация
                 }
                 MessageBox.Show("Скачивание завершено.");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -672,16 +515,17 @@ namespace Кластеризация
                 reader = null;
             }
         }
+
         private void DownloadObjectListXMLTSMI_Click(object sender, EventArgs e)
         {
             try
             {
-                openFileDialog.Filter = "(*.xml)|*.xml";
-                openFileDialog.FileName = "";
+                openFileDialog1.Filter = "(*.xml)|*.xml";
+                openFileDialog1.FileName = "";
                 string Path;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    Path = openFileDialog.FileName;
+                    Path = openFileDialog1.FileName;
                     XmlDocument xmlDoc = new XmlDocument();
                     xmlDoc.Load(Path);
                     if (!xmlDoc.ChildNodes[1].HasChildNodes)
@@ -705,21 +549,22 @@ namespace Кластеризация
                 }
                 MessageBox.Show("Скачивание завершено.");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
+
         private void DownloadObjectListXLSXTSMI_Click(object sender, EventArgs e)
         {
             try
             {
-                openFileDialog.Filter = "(*.xlsx)|*.xlsx";
-                openFileDialog.FileName = "";
+                openFileDialog1.Filter = "(*.xlsx)|*.xlsx";
+                openFileDialog1.FileName = "";
                 string Path;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    Path = openFileDialog.FileName;
+                    Path = openFileDialog1.FileName;
                     Excel excel = new Excel(Path, 1);
                     string cur = "";
                     int k = 1;
@@ -755,7 +600,7 @@ namespace Кластеризация
                 }
                 MessageBox.Show("Скачивание завершено.");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -781,7 +626,7 @@ namespace Кластеризация
             ClustersNumberNUD.Enabled = false;
             ClusterInfoB.Enabled = false;
             ObjectIDTB.Enabled = false;
-            FindClusterB.Enabled = false;
+            FindClusterNameB.Enabled = false;
             FindClusterIndexB.Enabled = false;
             ClustersNumberNUD.Minimum = 0;
             ClustersNumberNUD.Maximum = 0;
@@ -814,7 +659,7 @@ namespace Кластеризация
             ClustersNumberNUD.Enabled = false;
             ClusterInfoB.Enabled = false;
             ObjectIDTB.Enabled = false;
-            FindClusterB.Enabled = false;
+            FindClusterNameB.Enabled = false;
             FindClusterIndexB.Enabled = false;
             MeanLinearIntraclusterDeviation_TotalTB.Text = "";
             MeanSquareIntraclusterDeviation_TotalTB.Text = "";
@@ -840,7 +685,7 @@ namespace Кластеризация
             ClustersNumberNUD.Enabled = true;
             ClusterInfoB.Enabled = true;
             ObjectIDTB.Enabled = true;
-            FindClusterB.Enabled = true;
+            FindClusterNameB.Enabled = true;
             FindClusterIndexB.Enabled = true;
         }
 
@@ -858,16 +703,16 @@ namespace Кластеризация
             clusteringClass = new SelfOrganisingKohonenNetwork(5, 0.05, 0.05, Items);
             timeLimitMaster.SetFinish(() => { clusteringClass.StopFlag = true; });
             //
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
-            backgroundWorker.ProgressChanged += backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged += backgroundWorker_ProgressChanged_TSTB;
             //
             clusteringClass.ProgressChanged += x =>
             {
                 timeLimitMaster.Check();
                 if (Watch.Elapsed.Milliseconds > 50)
                 {
-                    backgroundWorker.ReportProgress((int)x);
+                    backgroundWorker1.ReportProgress((int)x);
                     Watch.Restart();
                 }
             };
@@ -876,21 +721,22 @@ namespace Кластеризация
             ClusteringAlgorithmTSL.Text = SOMTSMI.Text;
             Continuable = true;
         }
+
         void GNGTSMI_Click(object sender, EventArgs e)
         {
             clusteringClass = new GrowingNeuralGassNetwork(0.05, 0.0006, 10, 10, Items.Count / 5, 0.7, 0.9, 0.05, Items);
             timeLimitMaster.SetFinish(() => { clusteringClass.StopFlag = true; });
             //
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
-            backgroundWorker.ProgressChanged += backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged += backgroundWorker_ProgressChanged_TSTB;
             //
             clusteringClass.ProgressChanged += x =>
             {
                 timeLimitMaster.Check();
                 if (Watch.Elapsed.Milliseconds > 100)
                 {
-                    backgroundWorker.ReportProgress((int)x);
+                    backgroundWorker1.ReportProgress((int)x);
                     Watch.Restart();
                 }
             };
@@ -899,21 +745,22 @@ namespace Кластеризация
             ClusteringAlgorithmTSL.Text = GNGTSMI.Text;
             Continuable = true;
         }
+
         void KMeansTSMI_Click(object sendr, EventArgs e)
         {
             clusteringClass = new KMeansClusteringClass(1, 0, Items);
             timeLimitMaster.SetFinish(() => { clusteringClass.StopFlag = true; });
             //
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
-            backgroundWorker.ProgressChanged += backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged += backgroundWorker_ProgressChanged_TSTB;
             //
             clusteringClass.ProgressChanged += x =>
             {
                 timeLimitMaster.Check();
                 if (Watch.Elapsed.Milliseconds > 100)
                 {
-                    backgroundWorker.ReportProgress((int)x);
+                    backgroundWorker1.ReportProgress((int)x);
                     Watch.Restart();
                 }
             };
@@ -922,6 +769,7 @@ namespace Кластеризация
             ClusteringAlgorithmTSL.Text = KMeansTSMI.Text;
             Continuable = true;
         }
+
         void AglomerativeTSMI_Click(object sender, EventArgs e)
         {
             clusteringClass = new AglomerativeClusteringClass(1,
@@ -932,19 +780,20 @@ namespace Кластеризация
             };
             timeLimitMaster.SetFinish(() => { });
             //
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
-            backgroundWorker.ProgressChanged += backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged += backgroundWorker_ProgressChanged_TSPB;
             //
             clusteringClass.ProgressChanged += x =>
             {
-                backgroundWorker.ReportProgress((int)(x * ClusterizationTSPB.Maximum));
+                backgroundWorker1.ReportProgress((int)(x * ClusterizationTSPB.Maximum));
             };
             //
             clusteringAlgorithm = ClusteringAlgorithm.Aglomerative;
             ClusteringAlgorithmTSL.Text = AglomerativeTSMI.Text;
             Continuable = false;
         }
+
         void DBSCANTSMI_Click(object sender, EventArgs e)
         {
             clusteringClass = new DBSCANClusteringClass(0.5, 5, Items);
@@ -953,35 +802,36 @@ namespace Кластеризация
             };
             timeLimitMaster.SetFinish(() => { });
             //
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
-            backgroundWorker.ProgressChanged += backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged += backgroundWorker_ProgressChanged_TSPB;
             //
             clusteringClass.ProgressChanged += x =>
             {
                 //timeLimitMaster.Check();
-                backgroundWorker.ReportProgress((int)(x * ClusterizationTSPB.Maximum));
+                backgroundWorker1.ReportProgress((int)(x * ClusterizationTSPB.Maximum));
             };
             //
             clusteringAlgorithm = ClusteringAlgorithm.DBSCAN;
             ClusteringAlgorithmTSL.Text = DBSCANTSMI.Text;
             Continuable = false;
         }
+
         void AffinityPropagationTSMI_Click(object sender, EventArgs e)
         {
             clusteringClass = new AffinityPropagationClusteringClass(-5, 0.01, Items);
             timeLimitMaster.SetFinish(() => { clusteringClass.StopFlag = true; });
             //
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
-            backgroundWorker.ProgressChanged += backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged += backgroundWorker_ProgressChanged_TSTB;
             //
             clusteringClass.ProgressChanged += x =>
             {
                 timeLimitMaster.Check();
                 if (Watch.Elapsed.Milliseconds > 100)
                 {
-                    backgroundWorker.ReportProgress((int)x);
+                    backgroundWorker1.ReportProgress((int)x);
                     Watch.Restart();
                 }
             };
@@ -990,25 +840,27 @@ namespace Кластеризация
             ClusteringAlgorithmTSL.Text = AffinityPropagationTSMI.Text;
             Continuable = true;
         }
+
         void FORELTSMI_Click(object sender, EventArgs e)
         {
             clusteringClass = clusteringClass = new FORELClusteringClass(5, Items);
             timeLimitMaster.SetFinish(() => { });
             //
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
-            backgroundWorker.ProgressChanged += backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged += backgroundWorker_ProgressChanged_TSPB;
             //
             clusteringClass.ProgressChanged += x =>
             {
                 //timeLimitMaster.Check();
-                backgroundWorker.ReportProgress((int)(x * ClusterizationTSPB.Maximum));
+                backgroundWorker1.ReportProgress((int)(x * ClusterizationTSPB.Maximum));
             };
             //
             clusteringAlgorithm = ClusteringAlgorithm.FOREL;
             ClusteringAlgorithmTSL.Text = FORELTSMI.Text;
             Continuable = false;
         }
+
         void MSTTSMI_Click(object sender, EventArgs e)
         {
             clusteringClass = clusteringClass = new MinimumSpanningTreeClusteringClass(1, Items);
@@ -1017,41 +869,44 @@ namespace Кластеризация
             };//del
             timeLimitMaster.SetFinish(() => { });
             //
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
-            backgroundWorker.ProgressChanged += backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged += backgroundWorker_ProgressChanged_TSPB;
             //
             clusteringClass.ProgressChanged += x =>
             {
                 //timeLimitMaster.Check();
-                backgroundWorker.ReportProgress((int)(x * ClusterizationTSPB.Maximum));
+                backgroundWorker1.ReportProgress((int)(x * ClusterizationTSPB.Maximum));
             };
             //
             clusteringAlgorithm = ClusteringAlgorithm.MST;
-            ClusteringAlgorithmTSL.Text = MSTTSMI.Text;
+            ClusteringAlgorithmTSL.Text = MinimumSpanningTreeTSMI.Text;
             Continuable = false;
         }
+
         void FullGraphTSMI_Click(object sender, EventArgs e)
         {
             clusteringClass = clusteringClass = new FullGraphClusteringClass(5, Items);
             timeLimitMaster.SetFinish(() => { });
             //
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
-            backgroundWorker.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
-            backgroundWorker.ProgressChanged += backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSTB;
+            backgroundWorker1.ProgressChanged -= backgroundWorker_ProgressChanged_TSPB;
+            backgroundWorker1.ProgressChanged += backgroundWorker_ProgressChanged_TSPB;
             //
             clusteringClass.ProgressChanged += x =>
             {
                 //timeLimitMaster.Check();
-                backgroundWorker.ReportProgress((int)(x * ClusterizationTSPB.Maximum));
+                backgroundWorker1.ReportProgress((int)(x * ClusterizationTSPB.Maximum));
             };
             //
             clusteringAlgorithm = ClusteringAlgorithm.FullGraph;
             ClusteringAlgorithmTSL.Text = FullGraphTSMI.Text;
             Continuable = false;
         }
+
         //
         bool ApplyEnabled = true;
+
         void ClusterizationOnRun()
         {
             StartClusterizationTSMI.Enabled = false;
@@ -1066,18 +921,21 @@ namespace Кластеризация
             ClusteringAlgorithmTSDDB.Enabled = false;
             ClusterizationStatusL.Text = "Кластеризация выполняется";
         }
+
         void StartClusterizationTSMI_Click(object sender, EventArgs e)
         {
             curEpoch = 0;
             EpochNumTSTB.Text = "0";
             ClusterizationOnRun();
-            backgroundWorker.RunWorkerAsync();
+            backgroundWorker1.RunWorkerAsync();
         }
+
         void ContinueClusterizationTSMI_Click(object sender, EventArgs e)
         {
             ClusterizationOnRun();
-            backgroundWorker.RunWorkerAsync();
+            backgroundWorker1.RunWorkerAsync();
         }
+
         void FinishClusterizationTSMI_Click(object sender, EventArgs e)
         {
             FinishClusterizationTSMI.Enabled = false;
@@ -1104,6 +962,7 @@ namespace Кластеризация
             Algorithm.DoWait(() => { Clusters = clusters; }, 1);
         }
         int curEpoch;
+
         private void backgroundWorker_ProgressChanged_TSTB(object sender, ProgressChangedEventArgs e)
         {
             try
@@ -1125,13 +984,14 @@ namespace Кластеризация
                 ClusterizationTSPB.Value = ClusterizationTSPB.Maximum;
                 return;
             }
-            if(e.ProgressPercentage < ClusterizationTSPB.Minimum)
+            if (e.ProgressPercentage < ClusterizationTSPB.Minimum)
             {
                 ClusterizationTSPB.Value = ClusterizationTSPB.Minimum;
                 return;
             }
             ClusterizationTSPB.Value = e.ProgressPercentage;
         }
+
         void ClusterizationEnded()
         {
             StartClusterizationTSMI.Enabled = true;
@@ -1147,6 +1007,7 @@ namespace Кластеризация
             ClusteringAlgorithmTSDDB.Enabled = true;
             ClusterizationStatusL.Text = "Кластеризация завершена";
         }
+
         private void backgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             ClustersUpdated();
@@ -1155,17 +1016,19 @@ namespace Кластеризация
             ShowClusterizationInfo();
             MessageBox.Show("Кластеризация завершена.");
         }
+
         //
         //Рисование объектов
         //
+
         void DrawObjectListTSMI_Click(object sender, EventArgs e)//добавить перенесение двумерных объектов
         {
-            DrawingForm drawForm = new DrawingForm(Carrier);
+            DrawingForm drawForm = new DrawingForm(this);
             DrawingModel drawModel = new DrawingModel(drawForm);
             DrawingController drawController = new DrawingController(drawModel, drawForm);
             drawController.AddEventHandlers();
 
-            drawForm.ParentWinfForm = Carrier;
+            drawForm.ParentWinfForm = this;
             if (Dimension == 2)
             {
                 drawModel.SetItems(Items, true);
@@ -1176,17 +1039,19 @@ namespace Кластеризация
             }
             drawForm.ShowDialog();
         }
+
         //
         //Отображение информации
         //
+
         void ShowObjectListB_Click(object sender, EventArgs e)
         {
             DataGridViewL.Text = "Cписок объектов";
-            dataGridView.Rows.Clear();
-            dataGridView.ColumnCount = Dimension + 2;
+            dataGridView1.Rows.Clear();
+            dataGridView1.ColumnCount = Dimension + 2;
             for (int i = 0; i < Dimension + 2; ++i)
             {
-                dataGridView.Columns[i].Name = (i + 1).ToString();
+                dataGridView1.Columns[i].Name = (i + 1).ToString();
             }
             string[] _ColsNames = new string[Dimension + 2];
             _ColsNames[0] = "Индекс";
@@ -1195,12 +1060,13 @@ namespace Кластеризация
             {
                 _ColsNames[i] = ColsNames[i - 2];
             }
-            dataGridView.Rows.Add(_ColsNames);
+            dataGridView1.Rows.Add(_ColsNames);
             for (int i = 0; i < Items.Count; ++i)
             {
-                dataGridView.Rows.Add(Items[i].ToRow());
+                dataGridView1.Rows.Add(Items[i].ToRow());
             }
         }
+
         void ClustersNumberNUD_ValueChanged(object sender, EventArgs e)
         {
             if (Clusters == null || Clusters.Count == 0)
@@ -1218,6 +1084,7 @@ namespace Кластеризация
                 ShowItems(Clusters[clusterNumber].GetElements(), $"Кластер {clusterNumber}");
             }
         }
+
         void ClusterInfoB_Click(object sender, EventArgs e)
         {
             int ind = (int)ClustersNumberNUD.Value;
@@ -1228,6 +1095,7 @@ namespace Кластеризация
             infoController.AddEventHandlers();
             infoForm.ShowDialog();
         }
+
         void FindClusterNameB_Click(object sender, EventArgs e)
         {
             int ind = Cluster.FindCluster_Name(Clusters, ObjectIDTB.Text);
@@ -1247,6 +1115,7 @@ namespace Кластеризация
             infoController.AddEventHandlers();
             infoForm.ShowDialog();
         }
+
         void FindClusterIndexB_Click(object sender, EventArgs e)
         {
             int Index = 0;
@@ -1279,6 +1148,7 @@ namespace Кластеризация
             infoController.AddEventHandlers();
             infoForm.ShowDialog();
         }
+
         //
         //Визуализация
         //
@@ -1291,23 +1161,25 @@ namespace Кластеризация
             visualizationController.AddEventHandlers();
             visualizationForm.ShowDialog();
         }
+
         //
         //Настройки
         //
+
         void AlgorithmOptionsTSMI_Click(object sender, EventArgs e)
         {
             switch (clusteringAlgorithm)
             {
                 case ClusteringAlgorithm.SOM:
-                    SOMOptionsForm _SOMOptionsForm = new SOMOptionsForm(Carrier, ApplyEnabled);
+                    SOMOptionsForm _SOMOptionsForm = new SOMOptionsForm(this, ApplyEnabled);
                     _SOMOptionsForm.ShowDialog();
                     break;
                 case ClusteringAlgorithm.GNG:
-                    GNGOptionsForm _GNGOptionsForm = new GNGOptionsForm(Carrier, ApplyEnabled);
+                    GNGOptionsForm _GNGOptionsForm = new GNGOptionsForm(this, ApplyEnabled);
                     _GNGOptionsForm.ShowDialog();
                     break;
                 case ClusteringAlgorithm.KMeans:
-                    KMeansOptionsForm _KMeansOptionsForm = new KMeansOptionsForm(Carrier, ApplyEnabled);
+                    KMeansOptionsForm _KMeansOptionsForm = new KMeansOptionsForm(this, ApplyEnabled);
                     KMeansOptionsModel kMeansOptionsModel = new KMeansOptionsModel(_KMeansOptionsForm);
                     KMeansOptionsController kMeansOptionsController = new KMeansOptionsController(_KMeansOptionsForm, kMeansOptionsModel);
                     kMeansOptionsController.AddEventHandlers();
@@ -1315,12 +1187,12 @@ namespace Кластеризация
                     break;
                 case ClusteringAlgorithm.Aglomerative:
                     AglomerativeOptionsForm _AglomerativeOptionsForm =
-                        new AglomerativeOptionsForm(Carrier, ApplyEnabled);
+                        new AglomerativeOptionsForm(this, ApplyEnabled);
                     _AglomerativeOptionsForm.ShowDialog();
                     break;
                 case ClusteringAlgorithm.DBSCAN:
                     DBSCANOptionsForm _DBSCANOptionsForm =
-                        new DBSCANOptionsForm(Carrier, ApplyEnabled);
+                        new DBSCANOptionsForm(this, ApplyEnabled);
                     DBSCANOptionsModel dbscanOptionsModel = new DBSCANOptionsModel(_DBSCANOptionsForm);
                     DBSCANOptionsController dbscanOptionsController = new DBSCANOptionsController(_DBSCANOptionsForm, dbscanOptionsModel);
                     dbscanOptionsController.AddEventHadlers();
@@ -1328,7 +1200,7 @@ namespace Кластеризация
                     break;
                 case ClusteringAlgorithm.AffinityPropagation:
                     AffinityPropagationOptionsForm _APOptionsForm =
-                        new AffinityPropagationOptionsForm(Carrier, ApplyEnabled);
+                        new AffinityPropagationOptionsForm(this, ApplyEnabled);
                     AffinityPropagationOptionsModel affinityPropagationOptionsModel
                         = new AffinityPropagationOptionsModel(_APOptionsForm);
                     AffinityPropagationOptionsController affinityPropagationOptionsController
@@ -1338,12 +1210,12 @@ namespace Кластеризация
                     break;
                 case ClusteringAlgorithm.FOREL:
                     FORELOptionsForm _FORELOptionsForm =
-                        new FORELOptionsForm(Carrier, ApplyEnabled);
+                        new FORELOptionsForm(this, ApplyEnabled);
                     _FORELOptionsForm.ShowDialog();
                     break;
                 case ClusteringAlgorithm.MST:
                     MSTOptionsForm _MSTOptionsForm =
-                        new MSTOptionsForm(Carrier, ApplyEnabled);
+                        new MSTOptionsForm(this, ApplyEnabled);
                     MSTOptionsModel mstOptionsModel = new MSTOptionsModel(_MSTOptionsForm);
                     MSTOptionsController mstOptionsController = new MSTOptionsController(_MSTOptionsForm, mstOptionsModel);
                     mstOptionsController.AddEventHandlers();
@@ -1351,7 +1223,7 @@ namespace Кластеризация
                     break;
                 case ClusteringAlgorithm.FullGraph:
                     FullGraphOptionsForm _FullGraphOptionsForm =
-                        new FullGraphOptionsForm(Carrier, ApplyEnabled);
+                        new FullGraphOptionsForm(this, ApplyEnabled);
                     _FullGraphOptionsForm.ShowDialog();
                     break;
             }
@@ -1360,7 +1232,7 @@ namespace Кластеризация
         void ClusterizationParameterOptionsTSMI_Click(object sender, EventArgs e)
         {
             ClusterizationParameterOptionsForm parameterForm =
-                new ClusterizationParameterOptionsForm(Carrier, ApplyEnabled);
+                new ClusterizationParameterOptionsForm(this, ApplyEnabled);
             ClusterizationParameterOptionsModel parameterModel
                 = new ClusterizationParameterOptionsModel(parameterForm);
             ClusterizationParameterOptionsController parameterController
@@ -1372,16 +1244,17 @@ namespace Кластеризация
         //
         //Сохранение
         //
+
         void SaveShownClusterCSVTSMI_Click(object sender, EventArgs e)
         {
             StreamWriter writer;
             try
             {
-                saveFileDialog.Filter = "(*.csv)|*.csv|(*.txt)|*.txt";
-                saveFileDialog.FileName = "";
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                saveFileDialog1.Filter = "(*.csv)|*.csv|(*.txt)|*.txt";
+                saveFileDialog1.FileName = "";
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    string Path = saveFileDialog.FileName;
+                    string Path = saveFileDialog1.FileName;
                     try
                     {
                         writer = new StreamWriter(Path, true, Encoding.GetEncoding(1251));
@@ -1401,7 +1274,7 @@ namespace Кластеризация
                     MessageBox.Show("Сохранение успешно.");
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -1410,16 +1283,17 @@ namespace Кластеризация
                 writer = null;
             }
         }
+
         void SaveAllClustersCSVTSMI_Click(object sender, EventArgs e)
         {
             StreamWriter writer;
             try
             {
-                saveFileDialog.Filter = "(*.csv)|*.csv";
-                saveFileDialog.FileName = "";
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                saveFileDialog1.Filter = "(*.csv)|*.csv";
+                saveFileDialog1.FileName = "";
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    string Path = saveFileDialog.FileName;
+                    string Path = saveFileDialog1.FileName;
                     try
                     {
                         writer = new StreamWriter(Path, true, Encoding.GetEncoding(1251));
@@ -1439,7 +1313,7 @@ namespace Кластеризация
                     MessageBox.Show("Сохранение успешно.");
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -1448,15 +1322,16 @@ namespace Кластеризация
                 writer = null;
             }
         }
+
         void SaveShownClusterXMLTSMI_Click(object sender, EventArgs e)
         {
             try
             {
-                saveFileDialog.Filter = "(*.xml)|*.xml";
-                saveFileDialog.FileName = "";
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                saveFileDialog1.Filter = "(*.xml)|*.xml";
+                saveFileDialog1.FileName = "";
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    string Path = saveFileDialog.FileName;
+                    string Path = saveFileDialog1.FileName;
                     XmlDocument xmlDoc = PrintClusterXML(
                         Clusters[(int)ClustersNumberNUD.Value]);
                     try
@@ -1472,20 +1347,21 @@ namespace Кластеризация
                     MessageBox.Show("Сохранение успешно.");
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
+
         void SaveAllClustersXMLTSMI_Click(object sender, EventArgs e)
         {
             try
             {
-                saveFileDialog.Filter = "(*.xml)|*.xml";
-                saveFileDialog.FileName = "";
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                saveFileDialog1.Filter = "(*.xml)|*.xml";
+                saveFileDialog1.FileName = "";
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    string Path = saveFileDialog.FileName;
+                    string Path = saveFileDialog1.FileName;
                     XmlDocument xmlDoc = PrintClustersXML();
                     try
                     {
@@ -1500,20 +1376,21 @@ namespace Кластеризация
                     MessageBox.Show("Сохранение успешно.");
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
+
         void SaveShownClusterXLSXTSMI_Click(object sender, EventArgs e)
         {
             try
             {
-                saveFileDialog.Filter = "(*.xlsx)|*.xlsx";
-                saveFileDialog.FileName = "";
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                saveFileDialog1.Filter = "(*.xlsx)|*.xlsx";
+                saveFileDialog1.FileName = "";
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    string Path = saveFileDialog.FileName;
+                    string Path = saveFileDialog1.FileName;
                     Excel excel;
                     try
                     {
@@ -1535,20 +1412,21 @@ namespace Кластеризация
                     MessageBox.Show("Сохранение успешно.");
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
+
         void SaveAllClustersXLSXTSMI_Click(object sender, EventArgs e)
         {
             try
             {
-                saveFileDialog.Filter = "(*.xlsx)|*.xlsx";
-                saveFileDialog.FileName = "";
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                saveFileDialog1.Filter = "(*.xlsx)|*.xlsx";
+                saveFileDialog1.FileName = "";
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    string Path = saveFileDialog.FileName;
+                    string Path = saveFileDialog1.FileName;
                     Excel excel;
                     try
                     {
@@ -1579,19 +1457,20 @@ namespace Кластеризация
                     MessageBox.Show("Сохранение успешно.");
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
+
         //
         //Изменение размеров формы
         //
+
         void MainForm_SizeChanged(object sender, EventArgs e)
         {
-            dataGridView.Height = Carrier.Height - 8 - 12 - dataGridView.Location.Y - 32;
-            dataGridView.Width = Carrier.Width - 8 - dataGridView.Location.X - 8 - 12;
+            dataGridView1.Height = Height - 8 - 12 - dataGridView1.Location.Y - 32;
+            dataGridView1.Width = Width - 8 - dataGridView1.Location.X - 8 - 12;
         }
     }
-
 }
