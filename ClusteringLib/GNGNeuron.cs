@@ -34,7 +34,7 @@ namespace ClusteringLib
         }
         public void IncreaseError(Item item)
         {
-            Error += EuclideanGeometry.Distance(item.GetCoordinates, GetCoordinates());
+            Error += EuclideanGeometry.Distance(item.GetCoordinates, _Coordinates);
         }
         public void MultiplyError(double x)
         {

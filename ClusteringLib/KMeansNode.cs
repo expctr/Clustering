@@ -57,5 +57,13 @@ namespace ClusteringLib
         {
             clusteringNode.SetSavedCoordinates(savedCoordinates);
         }
+
+        public double[] _Coordinates
+        {
+            get
+            {
+                return clusteringNode._Coordinates;
+            }
+        }
     }
 }

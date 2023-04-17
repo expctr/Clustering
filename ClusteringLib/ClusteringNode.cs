@@ -43,6 +43,14 @@ namespace ClusteringLib
             return result;
         }
 
+        public double[] _Coordinates
+        {
+            get
+            {
+                return Coordinates;
+            }
+        }
+
         public void SetCoordinates(double[] coordinates)
         {
             Coordinates = coordinates;

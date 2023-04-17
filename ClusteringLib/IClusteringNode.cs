@@ -12,6 +12,8 @@ namespace ClusteringLib
 
         double[] GetCoordinates();
 
+        double[] _Coordinates { get; }
+
         void SetSavedCoordinates(double[] savedCoordinates);
 
         double[] GetSavedCoordinates();
