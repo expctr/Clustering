@@ -16,7 +16,7 @@ namespace ClusteringLib
     {
         private IClusteringNodeClass clusteringNodeClass;
 
-        private List<GNGNeuron> Nodes = new List<GNGNeuron>();
+        private List<IGNGNeuron> Nodes = new List<IGNGNeuron>();
 
         public double WinnerLearningSpeed, NeighbourLearningSpeed;
 
@@ -37,7 +37,7 @@ namespace ClusteringLib
 
         //public LearningMode learningMode { set; get; }
 
-        List<List<GNGNeuron>> Components = new List<List<GNGNeuron>>();
+        List<List<IGNGNeuron>> Components = new List<List<IGNGNeuron>>();
         public GrowingNeuralGassNetwork(double winnerLearningSpeed, double neighbourLearningSpeed,
             int maxAge, int replicationPeriod, int maxNumOfNeurons, double _ERRMN, double _CERR, double convergencePrecision,
             List<Item> items)
@@ -123,24 +123,24 @@ namespace ClusteringLib
         }
         void CreateComponents()
         {
-            Components = new List<List<GNGNeuron>>();
-            Dictionary<GNGNeuron, bool> UsedNeurons = new Dictionary<GNGNeuron, bool>();
+            Components = new List<List<IGNGNeuron>>();
+            Dictionary<IGNGNeuron, bool> UsedNeurons = new Dictionary<IGNGNeuron, bool>();
             Nodes.ForEach(x => UsedNeurons.Add(x, false));
             foreach (var neuron in Nodes)
             {
                 if (!UsedNeurons[neuron])
                 {
-                    List<GNGNeuron> curComponent = new List<GNGNeuron>();
+                    List<IGNGNeuron> curComponent = new List<IGNGNeuron>();
                     neuron.GetComponent(curComponent, UsedNeurons);
                     Components.Add(curComponent);
                 }
             }
             Components.RemoveAll(x => x.Count == 0);
         }
-        public List<List<GNGNeuron>> GetComponents()
+        public List<List<IGNGNeuron>> GetComponents()
         {
-            List<List<GNGNeuron>> result = new List<List<GNGNeuron>>();
-            Components.ForEach(x => result.Add(new List<GNGNeuron>(x)));
+            List<List<IGNGNeuron>> result = new List<List<IGNGNeuron>>();
+            Components.ForEach(x => result.Add(new List<IGNGNeuron>(x)));
             return result;
         }
         public List<List<Item>> GetClusters()
@@ -160,7 +160,7 @@ namespace ClusteringLib
             }
             Learn();
             CreateComponents();
-            Dictionary<GNGNeuron, List<Item>> Domain = new Dictionary<GNGNeuron, List<Item>>();
+            Dictionary<IGNGNeuron, List<Item>> Domain = new Dictionary<IGNGNeuron, List<Item>>();
             Domain = clusteringNodeClass.CreateDomains(Nodes);
             List<List<Item>> result = new List<List<Item>>();
             foreach (var component in Components)
@@ -178,7 +178,7 @@ namespace ClusteringLib
             if (clusteringNodeClass.GetItems().Count < 1) throw new Exception("Ошибка. Попытка кластеризовать пустое множество."); //if (Items.Count < 1) throw new Exception("Ошибка. Попытка кластеризовать пустое множество.");
             if (clusteringNodeClass.learningMode == (int)LearningMode.Start)
             {
-                Nodes = new List<GNGNeuron>();
+                Nodes = new List<IGNGNeuron>();
                 Nodes.Add(new GNGNeuron(clusteringNodeClass.GetItems()[0].GetCoordinates)); //Nodes.Add(new GNGNeuron(Items[0].GetCoordinates));
                 Nodes.Add(new GNGNeuron(clusteringNodeClass.GetItems()[0].GetCoordinates)); //Nodes.Add(new GNGNeuron(Items[0].GetCoordinates));
             }
@@ -196,7 +196,7 @@ namespace ClusteringLib
                     ++it;
                     int indOfFirst, indOfSecond;
                     TwoWinneers(item, out indOfFirst, out indOfSecond);
-                    GNGNeuron firstWinner = Nodes[indOfFirst];
+                    IGNGNeuron firstWinner = Nodes[indOfFirst];
                     firstWinner.IncreaseError(item);
                     firstWinner.Learn(item.GetCoordinates, WinnerLearningSpeed);
                     firstWinner.LearnNeighbours(item, NeighbourLearningSpeed);
@@ -206,8 +206,8 @@ namespace ClusteringLib
                     Nodes.RemoveAll(x => x.NoNeighbours);
                     if (it % ReplicationPeriod == 0 && Nodes.Count < MaxNumberOfNeurons)
                     {
-                        GNGNeuron neuronU = Nodes[FindMostIncorrectNeuron()];
-                        GNGNeuron neuronV = neuronU.FindMostIncorrectNeighbour();
+                        IGNGNeuron neuronU = Nodes[FindMostIncorrectNeuron()];
+                        IGNGNeuron neuronV = neuronU.FindMostIncorrectNeighbour();
                         neuronU.MultiplyError(ERRMN);
                         neuronV.MultiplyError(ERRMN);
                         GNGNeuron neuronR = new GNGNeuron(EuclideanGeometry.Midpoint(neuronU.GetCoordinates(),

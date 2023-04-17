@@ -18,9 +18,9 @@ namespace ClusteringLib
 
         double Error;
 
-        List<GNGNeuron> Neighbours = new List<GNGNeuron>();
+        List<IGNGNeuron> Neighbours = new List<IGNGNeuron>();
 
-        Dictionary<GNGNeuron, int> Ages = new Dictionary<GNGNeuron, int>();
+        Dictionary<IGNGNeuron, int> Ages = new Dictionary<IGNGNeuron, int>();
 
         public GNGNeuron(double[] coordinates)
         {
@@ -47,22 +47,22 @@ namespace ClusteringLib
         {
             Error *= x;
         }
-        public void Connect(GNGNeuron neuron)
+        public void Connect(IGNGNeuron neuron)
         {
             PartialConnect(neuron);
             neuron.PartialConnect(this);
         }
-        public void PartialConnect(GNGNeuron neuron)
+        public void PartialConnect(IGNGNeuron neuron)
         {
             if (Neighbours.FindIndex(x => x == neuron) == -1) Neighbours.Add(neuron);
             Ages[neuron] = 0;
         }
-        public void Disconnect(GNGNeuron neuron)
+        public void Disconnect(IGNGNeuron neuron)
         {
             PartialDisconnect(neuron);
             neuron.PartialDisconnect(this);
         }
-        public void PartialDisconnect(GNGNeuron neuron)
+        public void PartialDisconnect(IGNGNeuron neuron)
         {
             Neighbours.RemoveAt(Neighbours.FindIndex(x => x == neuron));
             Ages.Remove(neuron);
@@ -107,7 +107,7 @@ namespace ClusteringLib
             }
         }
 
-        public GNGNeuron FindMostIncorrectNeighbour()
+        public IGNGNeuron FindMostIncorrectNeighbour()
         {
             int result = 0;
             double maxError = Neighbours[0].GetError;
@@ -122,7 +122,7 @@ namespace ClusteringLib
             return Neighbours[result];
         }
         public delegate void del1();
-        public void GetComponent(List<GNGNeuron> Component, Dictionary<GNGNeuron, bool> UsedNeurons)
+        public void GetComponent(List<IGNGNeuron> Component, Dictionary<IGNGNeuron, bool> UsedNeurons)
         {
             if (UsedNeurons[this]) return;
             Component.Add(this);
