@@ -106,12 +106,14 @@
     <Compile Include="FullGraphOptionsForm.Designer.cs">
       <DependentUpon>FullGraphOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GNGOptionsController.cs" />
     <Compile Include="GNGOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GNGOptionsForm.Designer.cs">
       <DependentUpon>GNGOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GNGOptionsModel.cs" />
     <Compile Include="Grid.cs" />
     <Compile Include="IGrid.cs" />
     <Compile Include="InfoController.cs" />

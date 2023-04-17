@@ -9,221 +9,91 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ClusteringLib;
 
-namespace Кластеризация
-{
-    public partial class GNGOptionsForm : Form
-    {
-        public GNGOptionsForm()
-        {
+namespace Кластеризация {
+
+    public partial class GNGOptionsForm : Form {
+
+        public GNGOptionsForm() {
             InitializeComponent();
         }
+
         MainForm ParentWinForm;
 
-        MainModel parentModel;
+        public MainModel parentModel;
 
-        ClusteringOptions Options;
-
-        public GNGOptionsForm(MainForm parentWinForm, MainModel parentModel, bool ApplyEnabled) : this()
-        {
+        public GNGOptionsForm(MainForm parentWinForm, MainModel parentModel, bool ApplyEnabled) : this() {
             ParentWinForm = parentWinForm;
             this.parentModel = parentModel;
-            Options = parentModel.GetOptions();
+            // Options = parentModel.GetOptions();
             ApplyB.Enabled = ApplyEnabled;
-            ApplyB.Click += ApplyB_Click;
+            // ApplyB.Click += ApplyB_Click;
         }
 
-        private void ApplyB_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Options.LearningSpeed1 = double.Parse(WinnerLearningSpeedTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Скорость обучения нейрона-победителя введена некорректно.");
-                return;
-            }
-            if (Options.LearningSpeed1 < 0)
-            {
-                MessageBox.Show("Ошибка. Скорость обучения нейрона-победителя не может быть отрицательной.");
-                return;
-            }
-            try
-            {
-                Options.LearningSpeed2 = double.Parse(NeighbourLearningSpeedTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Скорость обучения нейрона-спутника введена некорректно.");
-                return;
-            }
-            if (Options.LearningSpeed2 < 0)
-            {
-                MessageBox.Show("Ошибка. Скорость обучения нейрона-спутника не может быть отрицательной.");
-                return;
-            }
-            try
-            {
-                Options.MaxAge = int.Parse(MaxAgeTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Предельный возраст нейронной связи введен некорректно.");
-                return;
-            }
-            if (Options.MaxAge < 0)
-            {
-                MessageBox.Show("Ошибка. Предельный возраст нейронной связи не может быть отрицательным.");
-                return;
-            }
-            try
-            {
-                Options.ReplicationPeriod = int.Parse(ReplicationPeriodTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Период репликации введен некорректно.");
-                return;
-            }
-            if (Options.ReplicationPeriod < 0)
-            {
-                MessageBox.Show("Ошибка. Период репликации не может быть отрицательным.");
-                return;
-            }
-            try
-            {
-                Options.MaxNumberOfNeurons = int.Parse(MaxNumberOfNeuronsTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Предельное число нейронов введено некорректно.");
-                return;
-            }
-            if (Options.MaxNumberOfNeurons < 0)
-            {
-                MessageBox.Show("Ошибка. Предельное число нейронов не может быть отрицательным");
-                return;
-            }
-            try
-            {
-                Options.ERRMN = double.Parse(ErrorReductionRatioOfMultiplyingNeuronTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Коэффициент снижения ошибки размножающегося нейрона введен " +
-                    "некорректно.");
-                return;
-            }
-            if (Options.ERRMN < 0)
-            {
-                MessageBox.Show("Ошибка. Коэффициент снижения ошибки размножающегося нейрона не " +
-                    "может быть отрицательным.");
-                return;
-            }
-            try
-            {
-                Options.CERR = double.Parse(CommonErrorReductionRationTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Общий коэффициент снижения ошибки введен некорректно.");
-            }
-            if (Options.CERR < 0)
-            {
-                MessageBox.Show("Ошибка. Общий коэффициент снижения ошибки не может быть отрицательным.");
-                return;
-            }
-            try
-            {
-                Options.ConvergencePrecision = double.Parse(ConvergencePrecisionTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Точность сходимости введена некорректно.");
-                return;
-            }
-            if (Options.ConvergencePrecision < 0)
-            {
-                MessageBox.Show("Ошибка. Точнеость сходимости не может быть отрицательна.");
-                return;
-            }
-            HoursTB.Text.Trim(); MinutesTB.Text.Trim(); SecondsTB.Text.Trim();
-            if (HoursTB.Text == "" && MinutesTB.Text == "" && SecondsTB.Text == "")
-            {
-                Options.TimeLimitActivated = false;
-            }
-            else
-            {
-                Options.TimeLimitActivated = true;
-                try
-                {
-                    Options.Hours = double.Parse(HoursTB.Text);
-                }
-                catch
-                {
-                    MessageBox.Show("Ошибка. Число часов введено некорректно.");
-                    return;
-                }
-                if (Options.Hours < 0)
-                {
-                    MessageBox.Show("Ошибка. Число часов не может быть отрицательным.");
-                    return;
-                }
-                try
-                {
-                    Options.Minutes = double.Parse(MinutesTB.Text);
-                }
-                catch
-                {
-                    MessageBox.Show("Ошибка. Число часов минут некорректно.");
-                    return;
-                }
-                if (Options.Minutes < 0)
-                {
-                    MessageBox.Show("Ошибка. Число минут не может быть отрицательным.");
-                    return;
-                }
-                try
-                {
-                    Options.Seconds = double.Parse(SecondsTB.Text);
-                }
-                catch
-                {
-                    MessageBox.Show("Ошибка. Число секунд введено некорректно.");
-                    return;
-                }
-                if (Options.Seconds < 0)
-                {
-                    MessageBox.Show("Ошибка. Число секунд не может быть отрицательным.");
-                    return;
-                }
-            }
-            parentModel.SetOptions(Options);
-            MessageBox.Show("Настройки сохранены.");
+        public Button GetApplyB() {
+            return ApplyB;
         }
 
-        private void GNGOptionsForm_Load(object sender, EventArgs e)
-        {
-            ShowOptions();
+
+        public TextBox GetWinnerLearningSpeedTB() {
+            return WinnerLearningSpeedTB;
         }
 
-        void ShowOptions()
-        {
-            WinnerLearningSpeedTB.Text = Options.LearningSpeed1.ToString();
-            NeighbourLearningSpeedTB.Text = Options.LearningSpeed2.ToString();
-            MaxAgeTB.Text = Options.MaxAge.ToString();
-            ReplicationPeriodTB.Text = Options.ReplicationPeriod.ToString();
-            MaxNumberOfNeuronsTB.Text = Options.MaxNumberOfNeurons.ToString();
-            ErrorReductionRatioOfMultiplyingNeuronTB.Text = Options.ERRMN.ToString();
-            CommonErrorReductionRationTB.Text = Options.CERR.ToString();
-            ConvergencePrecisionTB.Text = Options.ConvergencePrecision.ToString();
-            if (Options.TimeLimitActivated)
-            {
-                HoursTB.Text = Options.Hours.ToString();
-                MinutesTB.Text = Options.Minutes.ToString();
-                SecondsTB.Text = Options.Seconds.ToString();
+        public TextBox GetNeighbourLearningSpeedTB() {
+            return NeighbourLearningSpeedTB;
+        }
+
+        public TextBox GetMaxAgeTB() {
+            return MaxAgeTB;
+        }
+
+        public TextBox GetReplicationPeriodTB() {
+            return ReplicationPeriodTB;
+        }
+
+        public TextBox GetMaxNumberOfNeuronsTB() {
+            return MaxNumberOfNeuronsTB;
+        }
+
+        public TextBox GetErrorReductionRatioOfMultiplyingNeuronTB() {
+            return ErrorReductionRatioOfMultiplyingNeuronTB;
+        }
+
+        public TextBox GetCommonErrorReductionRationTB() {
+            return CommonErrorReductionRationTB;
+        }
+
+        public TextBox GetConvergencePrecisionTB() {
+            return ConvergencePrecisionTB;
+        }
+
+        public TextBox GetHoursTB() {
+            return HoursTB;
+        }
+
+        public TextBox GetMinutesTB() {
+            return MinutesTB;
+        }
+
+        public TextBox GetSecondsTB() {
+            return SecondsTB;
+        }
+
+        public void ShowOptions(ClusteringOptions clusteringOptions) {
+            WinnerLearningSpeedTB.Text = clusteringOptions.LearningSpeed1.ToString();
+            NeighbourLearningSpeedTB.Text = clusteringOptions.LearningSpeed2.ToString();
+            MaxAgeTB.Text = clusteringOptions.MaxAge.ToString();
+            ReplicationPeriodTB.Text = clusteringOptions.ReplicationPeriod.ToString();
+            MaxNumberOfNeuronsTB.Text = clusteringOptions.MaxNumberOfNeurons.ToString();
+            ErrorReductionRatioOfMultiplyingNeuronTB.Text = clusteringOptions.ERRMN.ToString();
+            CommonErrorReductionRationTB.Text = clusteringOptions.CERR.ToString();
+            ConvergencePrecisionTB.Text = clusteringOptions.ConvergencePrecision.ToString();
+            if (clusteringOptions.TimeLimitActivated) {
+                HoursTB.Text = clusteringOptions.Hours.ToString();
+                MinutesTB.Text = clusteringOptions.Minutes.ToString();
+                SecondsTB.Text = clusteringOptions.Seconds.ToString();
             }
         }
 
     }
+
 }

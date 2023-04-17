@@ -667,6 +667,9 @@ namespace Кластеризация
                     break;
                 case MainModel.ClusteringAlgorithm.GNG:
                     GNGOptionsForm _GNGOptionsForm = new GNGOptionsForm(form, model, form.ApplyEnabled);
+                    GNGOptionsModel _GNGOptionsModel = new GNGOptionsModel(_GNGOptionsForm, model);
+                    GNGOptionsController _GNGOptionsController = new GNGOptionsController(_GNGOptionsForm, _GNGOptionsModel);
+                    _GNGOptionsController.AddEventHandlers();
                     _GNGOptionsForm.ShowDialog();
                     break;
                 case MainModel.ClusteringAlgorithm.KMeans:
