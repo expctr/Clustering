@@ -21,11 +21,12 @@ namespace ClusteringLib
         public double ConvergencePrecision;
 
         public event ProgressDel ProgressChanged;
+
         public event DebugDel debugEvent;
 
         private IClusteringNodeClass clusteringNodeClass;
 
-        private List<ClusteringNeuron> Nodes = new List<ClusteringNeuron>();
+        private List<IClusteringNeuron> Nodes = new List<IClusteringNeuron>();
 
         public bool StopFlag { set { clusteringNodeClass.StopFlag = value; } get { return clusteringNodeClass.StopFlag; } }
         public LearningMode learningMode { set { clusteringNodeClass.learningMode = value; } get { return clusteringNodeClass.learningMode; } }
@@ -77,7 +78,7 @@ namespace ClusteringLib
                 throw new InvalidOperationException("Попытка кластеризовать пустое множество.");
             if (clusteringNodeClass.learningMode == (int)LearningMode.Start) // learningMode == (int)LearningMode.Start
             {
-                Nodes = new List<ClusteringNeuron>();
+                Nodes = new List<IClusteringNeuron>();
                 Nodes.Add(new ClusteringNeuron(clusteringNodeClass.GetItems()[0].GetCoordinates, LearningSpeed)); //Инициализация первого нейрона // Nodes.Add(new ClusteringNeuron(Items[0].GetCoordinates, LearningSpeed)); 
             }
             List<int> IndexesOfActiveNeurons;
@@ -105,7 +106,7 @@ namespace ClusteringLib
                         IndexesOfActiveNeurons.Add(IndOfCurWinner);
                     }
                 }
-                List<ClusteringNeuron> NewNeurons = new List<ClusteringNeuron>();
+                List<IClusteringNeuron> NewNeurons = new List<IClusteringNeuron>();
                 for (int i = 0; i <= Nodes.Count; ++i)
                 {
                     if (IndexesOfActiveNeurons.FindIndex(x => x == i) != -1)
