@@ -20,7 +20,7 @@ namespace Кластеризация
 
         MainForm ParentWinForm;
 
-        MainModel parentModel;
+        public MainModel parentModel;
 
         ClusteringOptions Options;
 
@@ -28,39 +28,25 @@ namespace Кластеризация
         {
             ParentWinForm = parentWinForm;
             this.parentModel = parentModel;
-            Options = parentModel.GetOptions();
+            // Options = parentModel.GetOptions();
             ApplyB.Enabled = ApplyEnabled;
-            ApplyB.Click += ApplyB_Click;
+            // ApplyB.Click += ApplyB_Click;
         }
 
-        private void FORELOptionsForm_Load(object sender, EventArgs e)
+        public void ShowOptions(ClusteringOptions clusteringOptions)
         {
-            ShowOptions();
+            ReachabilityRadiusTB.Text = clusteringOptions.ReachabilityRadius.ToString();
         }
 
-        public void ShowOptions()
+        public Button GetApplyB()
         {
-            ReachabilityRadiusTB.Text = Options.ReachabilityRadius.ToString();
+            return ApplyB;
         }
-
-        private void ApplyB_Click(object sender, EventArgs e)
+        
+        
+        public TextBox GetReachabilityRadiusTB()
         {
-            try
-            {
-                Options.ReachabilityRadius = double.Parse(ReachabilityRadiusTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Радиус достижимости введен некорректно.");
-                return;
-            }
-            if (Options.ReachabilityRadius < 0)
-            {
-                MessageBox.Show("Ошибка. Радиус достижимости не может быть отрицательным.");
-                return;
-            }
-            parentModel.SetOptions(Options);
-            MessageBox.Show("Настройки сохранены.");
+            return ReachabilityRadiusTB;
         }
     }
 }

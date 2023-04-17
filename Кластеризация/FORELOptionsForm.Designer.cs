@@ -83,7 +83,7 @@
             this.Name = "FORELOptionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Настройки";
-            this.Load += new System.EventHandler(this.FORELOptionsForm_Load);
+            // this.Load += new System.EventHandler(this.FORELOptionsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

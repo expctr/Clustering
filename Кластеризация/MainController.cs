@@ -702,6 +702,9 @@ namespace Кластеризация
                 case MainModel.ClusteringAlgorithm.FOREL:
                     FORELOptionsForm _FORELOptionsForm =
                         new FORELOptionsForm(form, model, form.ApplyEnabled);
+                    FORELOptionsModel _FORELOptionsModel = new FORELOptionsModel(_FORELOptionsForm, model);
+                    FORELOptionsController _FORELOptionController = new FORELOptionsController(_FORELOptionsForm, _FORELOptionsModel);
+                    _FORELOptionController.AddEventHandlers();
                     _FORELOptionsForm.ShowDialog();
                     break;
                 case MainModel.ClusteringAlgorithm.MST:
