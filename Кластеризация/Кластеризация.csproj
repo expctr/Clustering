@@ -92,12 +92,14 @@
       <DependentUpon>DrawingForm.cs</DependentUpon>
     </Compile>
     <Compile Include="DrawingModel.cs" />
+    <Compile Include="FORELOptionsController.cs" />
     <Compile Include="FORELOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FORELOptionsForm.Designer.cs">
       <DependentUpon>FORELOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORELOptionsModel.cs" />
     <Compile Include="FullGraphOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
