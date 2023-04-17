@@ -20,10 +20,13 @@ namespace Кластеризация
 
         public MainForm ParentWinForm;
 
-        public MSTOptionsForm(MainForm parentWinForm, bool ApplyEnabled) : this()
+        public MainModel parentModel;
+
+        public MSTOptionsForm(MainForm parentWinForm, MainModel parentModel, bool ApplyEnabled) : this()
         {
             ParentWinForm = parentWinForm;
             // Options = ParentWinForm.GetOptions();
+            this.parentModel = parentModel;
             ApplyB.Enabled = ApplyEnabled;
             // ApplyB.Click += ApplyB_Click;
         }

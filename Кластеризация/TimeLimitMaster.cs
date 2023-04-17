@@ -13,7 +13,7 @@ using ClusteringLib;
 
 namespace Кластеризация
 {
-    class TimeLimitMaster
+    public class TimeLimitMaster
     {
         public bool TimeLimitActivated;
         public double Hours, Minutes, Seconds;

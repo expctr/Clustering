@@ -17,10 +17,10 @@ namespace Кластеризация
 
         public ClusteringOptions Options;
 
-        public KMeansOptionsModel(KMeansOptionsForm form)
+        public KMeansOptionsModel(KMeansOptionsForm form, MainModel mainModel)
         {
             this.form = form;
-            Options = form.ParentWinForm.GetOptions();
+            Options = mainModel.GetOptions();
         }
     }
 }

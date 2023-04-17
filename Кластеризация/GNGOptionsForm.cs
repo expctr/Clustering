@@ -18,12 +18,16 @@ namespace Кластеризация
             InitializeComponent();
         }
         MainForm ParentWinForm;
+
+        MainModel parentModel;
+
         ClusteringOptions Options;
 
-        public GNGOptionsForm(MainForm parentWinForm, bool ApplyEnabled) : this()
+        public GNGOptionsForm(MainForm parentWinForm, MainModel parentModel, bool ApplyEnabled) : this()
         {
             ParentWinForm = parentWinForm;
-            Options = ParentWinForm.GetOptions();
+            this.parentModel = parentModel;
+            Options = parentModel.GetOptions();
             ApplyB.Enabled = ApplyEnabled;
             ApplyB.Click += ApplyB_Click;
         }
@@ -194,7 +198,7 @@ namespace Кластеризация
                     return;
                 }
             }
-            ParentWinForm.SetOptions(Options);
+            parentModel.SetOptions(Options);
             MessageBox.Show("Настройки сохранены.");
         }
 

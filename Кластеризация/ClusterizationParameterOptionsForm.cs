@@ -21,10 +21,13 @@ namespace Кластеризация
 
         public MainForm ParentWinForm;
 
-        public ClusterizationParameterOptionsForm(MainForm parentWinForm, bool ApplyEnabled) : this()
+        public MainModel parentModel;
+
+        public ClusterizationParameterOptionsForm(MainForm parentWinForm, MainModel parentModel, bool ApplyEnabled) : this()
         {
             //SizeChanged += ChooseClusterizationParameterForm_SizeChanged;
             ParentWinForm = parentWinForm;
+            this.parentModel = parentModel;
             //CPOptions =
             //    ParentWinForm.GetClusterizationParameterOptions();
             //OriginalColsNames = ParentWinForm.GetOriginalColsNames();

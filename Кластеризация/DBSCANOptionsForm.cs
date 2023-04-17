@@ -20,9 +20,12 @@ namespace Кластеризация
 
         public MainForm ParentWinForm;
 
-        public DBSCANOptionsForm(MainForm parentWinForm, bool ApplyEnabled) : this()
+        public MainModel parentModel;
+
+        public DBSCANOptionsForm(MainForm parentWinForm, MainModel parentModel, bool ApplyEnabled) : this()
         {
             ParentWinForm = parentWinForm;
+            this.parentModel = parentModel;
             // Options = ParentWinForm.GetOptions();
             ApplyB.Enabled = ApplyEnabled;
             // ApplyB.Click += ApplyB_Click;

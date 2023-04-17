@@ -103,13 +103,13 @@ namespace Кластеризация
                     return;
                 }
             }
-            form.ParentWinForm.SetOptions(model.Options);
+            form.parentModel.SetOptions(model.Options);
             MessageBox.Show("Настройки сохранены.");
         }
 
         private void KMeansOptionsForm_Load(object sender, EventArgs e)
         {
-            model.Options = form.ParentWinForm.GetOptions();
+            model.Options = form.parentModel.GetOptions();
             form.ShowOptions(model.Options);
         }
     }

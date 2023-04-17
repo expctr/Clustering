@@ -16,7 +16,12 @@ namespace Кластеризация
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            MainForm mainForm = new MainForm();
+            MainModel mainModel = new MainModel(mainForm);
+            MainController mainController = new MainController(mainForm, mainModel);
+            mainController.PrepareForm();
+            mainController.AddEventHandlers();
+            Application.Run(mainForm);
         }
     }
 }

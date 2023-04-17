@@ -19,12 +19,16 @@ namespace Кластеризация
         }
 
         MainForm ParentWinForm;
+
+        MainModel parentModel;
+
         ClusteringOptions Options;
 
-        public FullGraphOptionsForm(MainForm parentWinForm, bool ApplyEnabled) : this()
+        public FullGraphOptionsForm(MainForm parentWinForm, MainModel parentModel, bool ApplyEnabled) : this()
         {
             ParentWinForm = parentWinForm;
-            Options = ParentWinForm.GetOptions();
+            this.parentModel = parentModel;
+            Options = parentModel.GetOptions();
             ApplyB.Enabled = ApplyEnabled;
             ApplyB.Click += ApplyB_Click;
         }
@@ -45,7 +49,7 @@ namespace Кластеризация
                 MessageBox.Show("Ошибка. Предельное расстояние должно быть положительным.");
                 return;
             }
-            ParentWinForm.SetOptions(Options);
+            parentModel.SetOptions(Options);
             MessageBox.Show("Настройки сохранены.");
         }
 

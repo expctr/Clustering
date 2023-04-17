@@ -74,7 +74,7 @@ namespace Кластеризация
                 MessageBox.Show("Ошибка. Нельзя сохранить пустой список объектов.");
                 return;
             }
-            form.ParentWinfForm.SetItems(form.grid.GetItems(), new string[] { "X", "Y" });
+            form.parentModel.SetItems(form.grid.GetItems(), new string[] { "X", "Y" });
             MessageBox.Show("Список объектов сохранен.");
         }
 

@@ -17,10 +17,10 @@ namespace Кластеризация
 
         public ClusteringOptions Options;
 
-        public AffinityPropagationOptionsModel(AffinityPropagationOptionsForm form)
+        public AffinityPropagationOptionsModel(AffinityPropagationOptionsForm form, MainModel mainModel)
         {
             this.form = form;
-            Options = form.ParentWinForm.GetOptions();
+            Options = mainModel.GetOptions();
         }
     }
 }

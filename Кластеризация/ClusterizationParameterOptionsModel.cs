@@ -19,11 +19,11 @@ namespace Кластеризация
 
         public ClusteringParameterOptions CPOptions;
 
-        public ClusterizationParameterOptionsModel(ClusterizationParameterOptionsForm form)
+        public ClusterizationParameterOptionsModel(ClusterizationParameterOptionsForm form, MainModel mainModel)
         {
             this.form = form;
-            CPOptions = form.ParentWinForm.GetClusterizationParameterOptions();
-            OriginalColsNames = form.ParentWinForm.GetOriginalColsNames();
+            CPOptions = mainModel.GetClusterizationParameterOptions();
+            OriginalColsNames = mainModel.GetOriginalColsNames();
         }
 
         public int ClusteringParameterIndex(string clusteringParameterName)

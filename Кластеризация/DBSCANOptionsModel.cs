@@ -17,10 +17,10 @@ namespace Кластеризация
 
         public ClusteringOptions Options;
 
-        public DBSCANOptionsModel(DBSCANOptionsForm form)
+        public DBSCANOptionsModel(DBSCANOptionsForm form, ClusteringOptions options)
         {
             this.form = form;
-            Options = form.ParentWinForm.GetOptions();
+            Options = options;
         }
     }
 }

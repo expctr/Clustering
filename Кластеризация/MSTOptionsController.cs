@@ -45,7 +45,7 @@ namespace Кластеризация
                 MessageBox.Show("Ошибка. Число кластеров должно быть положительным.");
                 return;
             }
-            form.ParentWinForm.SetOptions(model.Options);
+            form.parentModel.SetOptions(model.Options);
             MessageBox.Show("Настройки сохранены.");
         }
 

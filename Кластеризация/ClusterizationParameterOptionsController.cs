@@ -77,7 +77,7 @@ namespace Кластеризация
                 }
                 model.CPOptions.DimensionalWeights[ind] = weight;
             }
-            form.ParentWinForm.SetClusterizationParameterOptions(model.CPOptions);
+            form.parentModel.SetClusterizationParameterOptions(model.CPOptions);
             MessageBox.Show("Настройки сохранены.");
         }
 

@@ -17,7 +17,7 @@ namespace Кластеризация
     {
         public MainForm ParentWinfForm;
 
-        List<Item> Items;
+        public MainModel parentModel;
 
         public Grid grid;
 
@@ -26,12 +26,12 @@ namespace Кластеризация
             InitializeComponent();
 
             grid = new Grid(pictureBox1);
-            grid.SetItems(Items);
         }
 
-        public DrawingForm(MainForm parentWinForm) : this()
+        public DrawingForm(MainForm parentWinForm, MainModel parentModel) : this()
         {
             ParentWinfForm = parentWinForm;
+            this.parentModel = parentModel;
         }
 
         public void Show(bool show)

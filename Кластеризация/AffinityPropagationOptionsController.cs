@@ -123,7 +123,7 @@ namespace Кластеризация
                     return;
                 }
             }
-            form.ParentWinForm.SetOptions(model.Options);
+            form.parentModel.SetOptions(model.Options);
             MessageBox.Show("Настройки сохранены.");
         }
     }

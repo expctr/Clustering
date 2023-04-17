@@ -64,7 +64,7 @@ namespace Кластеризация
                 MessageBox.Show("Ошибка. Порог кучности не может быть отрицательным.");
                 return;
             }
-            form.ParentWinForm.SetOptions(model.Options);
+            form.parentModel.SetOptions(model.Options);
             MessageBox.Show("Настройки сохранены.");
         }
     }
