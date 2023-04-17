@@ -14,7 +14,7 @@ namespace ClusteringLib
 {
     public interface IGNGNeuron : IClusteringNode
     {
-        void GetComponent(List<IGNGNeuron> Component, Dictionary<IGNGNeuron, bool> UsedNeurons);
+        void GetComponent(List<GNGNeuron> Component, Dictionary<GNGNeuron, bool> UsedNeurons);
 
         void IncreaseError(Item item);
 
@@ -24,22 +24,22 @@ namespace ClusteringLib
 
         void IncreaseAges();
 
-        void Connect(IGNGNeuron neuron);
+        void Connect(GNGNeuron neuron);
 
         void DeleteOldNeighbours(int maxAge);
 
         bool NoNeighbours { get; }
 
-        IGNGNeuron FindMostIncorrectNeighbour();
+        GNGNeuron FindMostIncorrectNeighbour();
 
         void MultiplyError(double x);
 
-        void PartialConnect(IGNGNeuron neuron);
+        void PartialConnect(GNGNeuron neuron);
 
-        void PartialDisconnect(IGNGNeuron neuron);
+        void PartialDisconnect(GNGNeuron neuron);
 
         double GetError { get; }
 
-        void Disconnect(IGNGNeuron neuron);
+        void Disconnect(GNGNeuron neuron);
     }
 }
