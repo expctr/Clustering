@@ -409,7 +409,7 @@ namespace Кластеризация
             DrawObjectListTSMI.Enabled = false;
             Save_Availability(false);
             ApplyEnabled = false;
-            ClusterizationTSDDB.Enabled = false;
+            ClusterizationTSDDB.Enabled = true;
             ClusterizationStatusL.Text = "Кластеризация выполняется";
         }
 
