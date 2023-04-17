@@ -721,6 +721,9 @@ namespace Кластеризация
                 case MainModel.ClusteringAlgorithm.FullGraph:
                     FullGraphOptionsForm _FullGraphOptionsForm =
                         new FullGraphOptionsForm(form, model, form.ApplyEnabled);
+                    FullGraphOptionsModel _FullGraphOptionsModel = new FullGraphOptionsModel(_FullGraphOptionsForm, model);
+                    FullGraphOptionsController _FullGraphOptionsController = new FullGraphOptionsController(_FullGraphOptionsForm, _FullGraphOptionsModel);
+                    _FullGraphOptionsController.AddEventHandlers();
                     _FullGraphOptionsForm.ShowDialog();
                     break;
             }

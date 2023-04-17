@@ -100,12 +100,14 @@
       <DependentUpon>FORELOptionsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FORELOptionsModel.cs" />
+    <Compile Include="FullGraphOptionsController.cs" />
     <Compile Include="FullGraphOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FullGraphOptionsForm.Designer.cs">
       <DependentUpon>FullGraphOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FullGraphOptionsModel.cs" />
     <Compile Include="GNGOptionsController.cs" />
     <Compile Include="GNGOptionsForm.cs">
       <SubType>Form</SubType>
