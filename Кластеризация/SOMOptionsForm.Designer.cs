@@ -194,7 +194,7 @@
             this.Name = "SOMOptionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Настройки";
-            this.Load += new System.EventHandler(this.SOMOptionsForm_Load);
+            // this.Load += new System.EventHandler(this.SOMOptionsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

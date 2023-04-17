@@ -663,6 +663,9 @@ namespace Кластеризация
             {
                 case MainModel.ClusteringAlgorithm.SOM:
                     SOMOptionsForm _SOMOptionsForm = new SOMOptionsForm(form, model, form.ApplyEnabled);
+                    SOMOptionsModel _SOMOptionsModel = new SOMOptionsModel(_SOMOptionsForm, model);
+                    SOMOptionsController _SOMOptionsController = new SOMOptionsController(_SOMOptionsForm, _SOMOptionsModel);
+                    _SOMOptionsController.AddEventHandlers();
                     _SOMOptionsForm.ShowDialog();
                     break;
                 case MainModel.ClusteringAlgorithm.GNG:
