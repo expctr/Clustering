@@ -682,6 +682,9 @@ namespace Кластеризация
                 case MainModel.ClusteringAlgorithm.Aglomerative:
                     AglomerativeOptionsForm _AglomerativeOptionsForm =
                         new AglomerativeOptionsForm(form, model, form.ApplyEnabled);
+                    AglomerativeOptionsModel aglomerativeOptionsModel = new AglomerativeOptionsModel(_AglomerativeOptionsForm, model.GetOptions());
+                    AglomerativeOptionsController aglomerativeOptionsController = new AglomerativeOptionsController(_AglomerativeOptionsForm, aglomerativeOptionsModel);
+                    aglomerativeOptionsController.AddEventHandlers();
                     _AglomerativeOptionsForm.ShowDialog();
                     break;
                 case MainModel.ClusteringAlgorithm.DBSCAN:

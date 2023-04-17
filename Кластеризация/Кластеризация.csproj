@@ -53,12 +53,14 @@
       <DependentUpon>AffinityPropagationOptionsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="AffinityPropagationOptionsModel.cs" />
+    <Compile Include="AglomerativeOptionsController.cs" />
     <Compile Include="AglomerativeOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AglomerativeOptionsForm.Designer.cs">
       <DependentUpon>AglomerativeOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AglomerativeOptionsModel.cs" />
     <Compile Include="ClusterInfoController.cs" />
     <Compile Include="ClusterInfoForm.cs">
       <SubType>Form</SubType>
