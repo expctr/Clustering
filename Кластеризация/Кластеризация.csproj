@@ -53,12 +53,14 @@
       <DependentUpon>AffinityPropagationOptionsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="AffinityPropagationOptionsModel.cs" />
+    <Compile Include="AglomerativeOptionsController.cs" />
     <Compile Include="AglomerativeOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AglomerativeOptionsForm.Designer.cs">
       <DependentUpon>AglomerativeOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AglomerativeOptionsModel.cs" />
     <Compile Include="ClusterInfoController.cs" />
     <Compile Include="ClusterInfoForm.cs">
       <SubType>Form</SubType>
@@ -100,18 +102,22 @@
       <DependentUpon>FORELOptionsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FORELOptionsModel.cs" />
+    <Compile Include="FullGraphOptionsController.cs" />
     <Compile Include="FullGraphOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FullGraphOptionsForm.Designer.cs">
       <DependentUpon>FullGraphOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FullGraphOptionsModel.cs" />
+    <Compile Include="GNGOptionsController.cs" />
     <Compile Include="GNGOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GNGOptionsForm.Designer.cs">
       <DependentUpon>GNGOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GNGOptionsModel.cs" />
     <Compile Include="Grid.cs" />
     <Compile Include="IGrid.cs" />
     <Compile Include="InfoController.cs" />
@@ -156,12 +162,14 @@
     <Compile Include="ObjectInfoModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SOMOptionsController.cs" />
     <Compile Include="SOMOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SOMOptionsForm.Designer.cs">
       <DependentUpon>SOMOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SOMOptionsModel.cs" />
     <Compile Include="TimeLimitMaster.cs" />
     <Compile Include="VisualizationController.cs" />
     <Compile Include="VisualizationForm.cs">

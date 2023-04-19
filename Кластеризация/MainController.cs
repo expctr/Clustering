@@ -663,10 +663,16 @@ namespace Кластеризация
             {
                 case MainModel.ClusteringAlgorithm.SOM:
                     SOMOptionsForm _SOMOptionsForm = new SOMOptionsForm(form, model, form.ApplyEnabled);
+                    SOMOptionsModel _SOMOptionsModel = new SOMOptionsModel(_SOMOptionsForm, model);
+                    SOMOptionsController _SOMOptionsController = new SOMOptionsController(_SOMOptionsForm, _SOMOptionsModel);
+                    _SOMOptionsController.AddEventHandlers();
                     _SOMOptionsForm.ShowDialog();
                     break;
                 case MainModel.ClusteringAlgorithm.GNG:
                     GNGOptionsForm _GNGOptionsForm = new GNGOptionsForm(form, model, form.ApplyEnabled);
+                    GNGOptionsModel _GNGOptionsModel = new GNGOptionsModel(_GNGOptionsForm, model);
+                    GNGOptionsController _GNGOptionsController = new GNGOptionsController(_GNGOptionsForm, _GNGOptionsModel);
+                    _GNGOptionsController.AddEventHandlers();
                     _GNGOptionsForm.ShowDialog();
                     break;
                 case MainModel.ClusteringAlgorithm.KMeans:
@@ -679,6 +685,9 @@ namespace Кластеризация
                 case MainModel.ClusteringAlgorithm.Aglomerative:
                     AglomerativeOptionsForm _AglomerativeOptionsForm =
                         new AglomerativeOptionsForm(form, model, form.ApplyEnabled);
+                    AglomerativeOptionsModel aglomerativeOptionsModel = new AglomerativeOptionsModel(_AglomerativeOptionsForm, model.GetOptions());
+                    AglomerativeOptionsController aglomerativeOptionsController = new AglomerativeOptionsController(_AglomerativeOptionsForm, aglomerativeOptionsModel);
+                    aglomerativeOptionsController.AddEventHandlers();
                     _AglomerativeOptionsForm.ShowDialog();
                     break;
                 case MainModel.ClusteringAlgorithm.DBSCAN:
@@ -718,6 +727,9 @@ namespace Кластеризация
                 case MainModel.ClusteringAlgorithm.FullGraph:
                     FullGraphOptionsForm _FullGraphOptionsForm =
                         new FullGraphOptionsForm(form, model, form.ApplyEnabled);
+                    FullGraphOptionsModel _FullGraphOptionsModel = new FullGraphOptionsModel(_FullGraphOptionsForm, model);
+                    FullGraphOptionsController _FullGraphOptionsController = new FullGraphOptionsController(_FullGraphOptionsForm, _FullGraphOptionsModel);
+                    _FullGraphOptionsController.AddEventHandlers();
                     _FullGraphOptionsForm.ShowDialog();
                     break;
             }

@@ -20,47 +20,28 @@ namespace Кластеризация
 
         MainForm ParentWinForm;
 
-        MainModel parentModel;
-
-        ClusteringOptions Options;
+        public MainModel parentModel;
 
         public FullGraphOptionsForm(MainForm parentWinForm, MainModel parentModel, bool ApplyEnabled) : this()
         {
             ParentWinForm = parentWinForm;
             this.parentModel = parentModel;
-            Options = parentModel.GetOptions();
+            // Options = parentModel.GetOptions();
             ApplyB.Enabled = ApplyEnabled;
-            ApplyB.Click += ApplyB_Click;
+            // ApplyB.Click += ApplyB_Click;
+        }
+        
+        public Button GetApplyB() {
+            return ApplyB;
         }
 
-        private void ApplyB_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Options.MaxDistance = int.Parse(MaxDistanceTB.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ошибка. Предельное расстояние введено некорректно.");
-                return;
-            }
-            if (Options.MaxDistance < 0)
-            {
-                MessageBox.Show("Ошибка. Предельное расстояние должно быть положительным.");
-                return;
-            }
-            parentModel.SetOptions(Options);
-            MessageBox.Show("Настройки сохранены.");
+        public TextBox GetMaxDistanceTB() {
+            return MaxDistanceTB;
         }
-
-        void ShowOptions()
+        
+        public void ShowOptions(ClusteringOptions clusteringOptions)
         {
-            MaxDistanceTB.Text = Options.MaxDistance.ToString();
-        }
-
-        private void FullGraphOptionsForm_Load(object sender, EventArgs e)
-        {
-            ShowOptions();
+            MaxDistanceTB.Text = clusteringOptions.MaxDistance.ToString();
         }
 
     }
